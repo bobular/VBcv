@@ -40932,9 +40932,10 @@ is_a: VBsp:0003480 ! Anopheles gambiae sensu lato
 
 [Term]
 id: VBsp:0003830
-name: chromosomal form Bamako
+name: Anopheles gambiae chromosomal form Bamako
 alt_id: MIRO:40003830
 def: "A chromosomal form of Anopheles gambiae sensu sticto or Anopheles coluzzii bearing the karyotypes jcu/jcu or jbcu/jcu or jbcu/jbcu." [PMID:10645562]
+synonym: "chromosomal form Bamako" EXACT []
 synonym: "Anopheles gambiae Bamako" EXACT []
 synonym: "Anopheles gambiae s.s. chromosomal form Bamako " EXACT []
 xref: MIRO:40003830
@@ -40942,18 +40943,20 @@ is_a: VBsp:0003480 ! Anopheles gambiae sensu lato
 
 [Term]
 id: VBsp:0003831
-name: chromosomal form Mopti
+name: Anopheles gambiae chromosomal form Mopti
 alt_id: MIRO:40003831
 def: "A chromosomal form of Anopheles gambiae sensu stricto or Anopheles coluzzii bearing the karyotypes +/+ or u/+ or u/u or bc/+ or bc/u or bc/bc." [PMID:10645562]
+synonym: "chromosomal form Mopti" EXACT []
 synonym: "Anopheles gambiae s.s. chromosomal form Mopti" EXACT []
 xref: MIRO:40003831
 is_a: VBsp:0003480 ! Anopheles gambiae sensu lato
 
 [Term]
 id: VBsp:0003832
-name: chromosomal form Savanna
+name: Anopheles gambiae chromosomal form Savanna
 alt_id: MIRO:40003832
 def: "A chromosomal form of Anopheles gambiae sensu stricto or Anopheles coluzzii bearing the karyotype bcu/bcu or cu/bcu or cu/cu or b/bcu or b/cu or b/b or +/bcu or +/cu or +/b." [PMID:10645562]
+synonym: "chromosomal form Savanna" EXACT []
 synonym: "Anopheles gambiae s.s. chromosomal form Savanna" EXACT []
 synonym: "Anopheles gambiae Savanna" EXACT []
 xref: MIRO:40003832
@@ -40961,9 +40964,10 @@ is_a: VBsp:0003480 ! Anopheles gambiae sensu lato
 
 [Term]
 id: VBsp:0003833
-name: chromosomal form Forest
+name: Anopheles gambiae chromosomal form Forest
 alt_id: MIRO:40003833
 def: "A chromosomal form of Anopheles gambiae sensu stricto or Anopheles coluzzii." [PMID:10645562]
+synonym: "chromosomal form Forest" EXACT []
 synonym: "Anopheles gambiae Forest" EXACT []
 synonym: "Anopheles gambiae s.s. chromosomal form Forest" EXACT []
 xref: MIRO:40003833
@@ -40984,9 +40988,10 @@ is_a: VBsp:0003478 ! Anopheles funestus sensu lato
 
 [Term]
 id: VBsp:0003835
-name: chromosomal form Bissau
+name: Anopheles gambiae chromosomal form Bissau
 alt_id: MIRO:40003835
 def: "A chromosomal form of Anopheles gambiae sensu stricto or Anophels coluzzii." [PMID:10645562]
+synonym: "chromosomal form Bissau" EXACT []
 synonym: "Anopheles gambiae s.s. chromosomal form Bissau" EXACT []
 xref: MIRO:40003835
 is_a: VBsp:0003480 ! Anopheles gambiae sensu lato
