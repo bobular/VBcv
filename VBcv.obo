@@ -1139,10 +1139,16 @@ subset: camcur
 is_a: VBcv:0000074 ! egg length
 
 [Term]
+id: VBcv:0000138
+name: Deprecated alt_ids
+comment: This particular ID was used as an alt_id to VBcv:0000139. This term and all child terms should be deprecated.  We create these deprecated terms so that webprotege doesn't assign these old alt_ids to new terms.
+is_a: VBcv:0000000 ! VectorBase CV
+is_obsolete: true
+
+[Term]
 id: VBcv:0000139
 name: 90-100% egg length
 namespace: spatial_qualifier
-alt_id: VBcv:0000138
 def: "90-100% of egg length from the posterior tip (0%) of the egg or pre-gastrula embryo." [FBC:ds]
 comment: Proforma field: GA17-q. Proforma field: GA28b-q. Proforma field: GA29b-q. Proforma field: GAT6-q. Proforma field: GAP5-q.
 subset: camcur
@@ -7150,12 +7156,24 @@ created_by: Topito
 creation_date: 2013-04-30T11:21:29Z
 
 [Term]
+id: VBcv:0000915
+name: Deprecated alt_id
+is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
+
+[Term]
 id: VBcv:0000916
 name: derived from
 is_a: VBcv:0000851 ! ISA Tab column descriptor
 relationship: part_of VBcv:0000854 ! s_samples book descriptor
 created_by: Topito
 creation_date: 2013-04-30T11:21:29Z
+
+[Term]
+id: VBcv:0000917
+name: Deprecated alt_id 2
+is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
 
 [Term]
 id: VBcv:0000918
@@ -7236,6 +7254,36 @@ is_a: VBcv:0000851 ! ISA Tab column descriptor
 relationship: part_of VBcv:0000854 ! s_samples book descriptor
 created_by: Topito
 creation_date: 2013-04-30T11:21:29Z
+
+[Term]
+id: VBcv:0000928
+name: Deprecated alt_id 3
+is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
+
+[Term]
+id: VBcv:0000929
+name: Deprecated alt_id 4
+is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
+
+[Term]
+id: VBcv:0000930
+name: Deprecated alt_id 5
+is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
+
+[Term]
+id: VBcv:0000931
+name: Deprecated alt_id 6
+is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
+
+[Term]
+id: VBcv:0000932
+name: Deprecated alt_id 7
+is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
 
 [Term]
 id: VBcv:0000933
@@ -7433,6 +7481,18 @@ created_by: Topito
 creation_date: 2013-04-30T11:34:53Z
 
 [Term]
+id: VBcv:0000956
+name: Deprecated alt_id 8
+is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
+
+[Term]
+id: VBcv:0000957
+name: Deprecated alt_id 9
+is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
+
+[Term]
 id: VBcv:0000958
 name: Protocol REF
 alt_id: VBcv:0000931
@@ -7443,6 +7503,18 @@ relationship: part_of VBcv:0000856 ! a_species book descriptor
 relationship: part_of VBcv:0000857 ! a_hiseq book descriptor
 created_by: Topito
 creation_date: 2013-04-30T11:34:53Z
+
+[Term]
+id: VBcv:0000959
+name: Deprecated alt_id 10
+is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
+
+[Term]
+id: VBcv:0000960
+name: Deprecated alt_id 11
+is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
 
 [Term]
 id: VBcv:0000961
@@ -7467,6 +7539,12 @@ is_a: VBcv:0000851 ! ISA Tab column descriptor
 relationship: part_of VBcv:0000856 ! a_species book descriptor
 created_by: Topito
 creation_date: 2013-04-30T11:34:53Z
+
+[Term]
+id: VBcv:0000964
+name: Deprecated alt_id 12
+is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
 
 [Term]
 id: VBcv:0000965
@@ -7495,6 +7573,12 @@ created_by: Topito
 creation_date: 2013-04-30T11:37:48Z
 
 [Term]
+id: VBcv:0000967
+name: Deprecated alt_id 13
+is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
+
+[Term]
 id: VBcv:0000968
 name: Performer
 alt_id: VBcv:0000932
@@ -7505,6 +7589,12 @@ relationship: part_of VBcv:0000856 ! a_species book descriptor
 relationship: part_of VBcv:0000857 ! a_hiseq book descriptor
 created_by: Topito
 creation_date: 2013-04-30T11:37:48Z
+
+[Term]
+id: VBcv:0000969
+name: Deprecated alt_id 14
+is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
 
 [Term]
 id: VBcv:0000970
@@ -7671,6 +7761,13 @@ name: not equal to
 is_a: VBcv:0000985 ! equality and relational operator
 created_by: Topito
 creation_date: 2013-07-04T13:28:43Z
+
+[Term]
+id: VBcv:0000992
+name: Test term
+def: "This is a term for testing OBO export - we should delete it or deprecate it" []
+is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
 
 [Term]
 id: VBcv:0000993
@@ -8474,6 +8571,12 @@ xref: NCBITaxon:138537
 is_a: VBsp:0000016 ! Anopheles
 
 [Term]
+id: VBsp:0000066
+name: Deprecated VBsp alt_id 1
+is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
+
+[Term]
 id: VBsp:0000067
 name: Anopheles amhaicus
 alt_id: NCBITaxon:193510
@@ -8484,6 +8587,12 @@ xref: NCBITaxon:193510
 is_a: VBsp:0003480 ! Anopheles gambiae sensu lato
 created_by: Topito
 creation_date: 2013-05-30T22:57:53Z
+
+[Term]
+id: VBsp:0000068
+name: Deprecated VBsp alt_id 2
+is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
 
 [Term]
 id: VBsp:0000070
@@ -40917,7 +41026,6 @@ name: Anopheles gambiae
 alt_id: MIRO:40003829
 alt_id: MIRO:40003836
 alt_id: NCBITaxon:7165
-alt_id: VBsp:0003836
 def: "A member species of the species complex Anopheles gambiae sensu lato." [Walter_Reed:taxonomy]
 synonym: "Anopheles gambiae A" EXACT []
 synonym: "Anopheles gambiae molecular form S" EXACT []
