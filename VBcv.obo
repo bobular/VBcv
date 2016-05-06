@@ -8595,6 +8595,12 @@ is_a: VBcv:0000138 ! Deprecated alt_ids
 is_obsolete: true
 
 [Term]
+id: VBsp:0000069
+name: Anopheles culicifacies B
+def: "A sibling species of the Anopheles culicifacies complex" []
+is_a: VBsp:0002255 ! Anopheles culicifacies sensu lato
+
+[Term]
 id: VBsp:0000070
 name: Nyssorhynchus
 alt_id: MIRO:40000070
@@ -9702,6 +9708,30 @@ def: "A species of subgenus Stethomyia." [Walter_Reed:taxonomy]
 synonym: "Anopheles lewisi" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40000182
 is_a: VBsp:0000177 ! Stethomyia
+
+[Term]
+id: VBsp:0000183
+name: Anopheles culicifacies A
+def: "A sibling species of the Anopheles culicifacies complex" []
+is_a: VBsp:0002255 ! Anopheles culicifacies sensu lato
+
+[Term]
+id: VBsp:0000184
+name: Anopheles culicifacies D
+def: "A sibling species of the Anopheles culicifacies complex" []
+is_a: VBsp:0002255 ! Anopheles culicifacies sensu lato
+
+[Term]
+id: VBsp:0000185
+name: Anopheles culicifacies C
+def: "A sibling species of the Anopheles culicifacies complex" []
+is_a: VBsp:0002255 ! Anopheles culicifacies sensu lato
+
+[Term]
+id: VBsp:0000186
+name: Anopheles culicifacies E
+def: "A sibling species of the Anopheles culicifacies complex" []
+is_a: VBsp:0002255 ! Anopheles culicifacies sensu lato
 
 [Term]
 id: VBsp:0000193
@@ -27281,14 +27311,22 @@ is_a: VBsp:0002217 ! Cellia
 
 [Term]
 id: VBsp:0002255
-name: Anopheles culicifacies
+name: Anopheles culicifacies sensu lato
 alt_id: MIRO:40002255
 alt_id: NCBITaxon:139723
 def: "A species of subgenus Cellia." [Walter_Reed:taxonomy]
+synonym: "Anopheles adenensis" RELATED []
 synonym: "Anopheles adenensis" RELATED [Walter_Reed:taxonomy]
+synonym: "Anopheles culicifacies complex" EXACT []
+synonym: "Anopheles culicifacies s.l." EXACT []
+synonym: "Anopheles culicifacies sl" EXACT []
+synonym: "Anopheles culicifacies species complex" EXACT []
 synonym: "Anopheles indica" RELATED [Walter_Reed:taxonomy]
+synonym: "Anopheles indica" RELATED []
+synonym: "Anopheles listoni" RELATED []
 synonym: "Anopheles listoni" RELATED [Walter_Reed:taxonomy]
 synonym: "Anopheles punjobensis" RELATED [Walter_Reed:taxonomy]
+synonym: "Anopheles punjobensis" RELATED []
 xref: MIRO:40002255
 xref: NCBITaxon:139723
 is_a: VBsp:0002217 ! Cellia
