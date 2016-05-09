@@ -27314,7 +27314,7 @@ id: VBsp:0002255
 name: Anopheles culicifacies sensu lato
 alt_id: MIRO:40002255
 alt_id: NCBITaxon:139723
-def: "A species of subgenus Cellia." [Walter_Reed:taxonomy]
+def: "A species complex of subgenus Cellia." [Walter_Reed:taxonomy]
 synonym: "Anopheles adenensis" RELATED []
 synonym: "Anopheles adenensis" RELATED [Walter_Reed:taxonomy]
 synonym: "Anopheles culicifacies complex" EXACT []
