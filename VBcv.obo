@@ -9734,6 +9734,39 @@ def: "A sibling species of the Anopheles culicifacies complex" []
 is_a: VBsp:0002255 ! Anopheles culicifacies sensu lato
 
 [Term]
+id: VBsp:0000187
+name: Cimicoidea
+def: "Superfamily of the order Hemiptera." []
+xref: NCBITaxon:33355
+is_a: VBsp:0004008 ! Hemiptera
+
+[Term]
+id: VBsp:0000188
+name: Cimicidae
+def: "Family of the superfamily Cimicoidea." []
+xref: NCBITaxon:30078
+is_a: VBsp:0000187 ! Cimicoidea
+created_by: lawson
+
+[Term]
+id: VBsp:0000189
+name: genus Cimex
+alt_id: NCBITaxon:30079
+def: "Genus of the family Cimicidae." []
+xref: NCBITaxon:30079
+is_a: VBsp:0000188 ! Cimicidae
+created_by: lawson
+
+[Term]
+id: VBsp:0000190
+name: Cimex lectularius
+alt_id: NCBITaxon:79782
+def: "Species of the genus Cimex." []
+xref: NCBITaxon:79782
+is_a: VBsp:0000189 ! genus Cimex
+created_by: lawson
+
+[Term]
 id: VBsp:0000193
 name: Bironella obscura
 alt_id: MIRO:40000193
@@ -27314,19 +27347,15 @@ id: VBsp:0002255
 name: Anopheles culicifacies sensu lato
 alt_id: MIRO:40002255
 alt_id: NCBITaxon:139723
-def: "A species complex of subgenus Cellia." [Walter_Reed:taxonomy]
-synonym: "Anopheles adenensis" RELATED []
+def: "A species complex of subgenus Cellia." []
 synonym: "Anopheles adenensis" RELATED [Walter_Reed:taxonomy]
 synonym: "Anopheles culicifacies complex" EXACT []
 synonym: "Anopheles culicifacies s.l." EXACT []
 synonym: "Anopheles culicifacies sl" EXACT []
 synonym: "Anopheles culicifacies species complex" EXACT []
 synonym: "Anopheles indica" RELATED [Walter_Reed:taxonomy]
-synonym: "Anopheles indica" RELATED []
-synonym: "Anopheles listoni" RELATED []
 synonym: "Anopheles listoni" RELATED [Walter_Reed:taxonomy]
 synonym: "Anopheles punjobensis" RELATED [Walter_Reed:taxonomy]
-synonym: "Anopheles punjobensis" RELATED []
 xref: MIRO:40002255
 xref: NCBITaxon:139723
 is_a: VBsp:0002217 ! Cellia
