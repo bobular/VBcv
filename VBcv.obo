@@ -9767,6 +9767,18 @@ is_a: VBsp:0000189 ! genus Cimex
 created_by: lawson
 
 [Term]
+id: VBsp:0000191
+name: Aedes aegypti queenslandensis
+def: "A very pale variety of the globally distributed domestic Ae. aegypti." []
+is_a: VBsp:0000518 ! Aedes aegypti
+
+[Term]
+id: VBsp:0000192
+name: Aedes aegypti aegypti
+def: "Ae. aegypti aegypti (Aaa) is a subspecies of Aedes aegypti. Aaa is predominantly anthropophilic and adapted to the human environment. Adults of Aaa prefer an indoor environments and use artificial water containers for oviposition. Aaa is highly susceptible to dengue and yellow fever virus." []
+is_a: VBsp:0000518 ! Aedes aegypti
+
+[Term]
 id: VBsp:0000193
 name: Bironella obscura
 alt_id: MIRO:40000193
@@ -12146,6 +12158,12 @@ alt_id: MIRO:40000469
 def: "A species of subgenus Neomelaniconion." [Walter_Reed:taxonomy]
 xref: MIRO:40000469
 is_a: VBsp:0000467 ! Neomelaniconion
+
+[Term]
+id: VBsp:0000470
+name: Aedes aegypti formosus
+def: "Ae. aegypti formosus (Aaf) is a subspecies of Aedes aegypti. Aaf which originated from African forest area is believed to be the ancestral species of Ae. aegypti s. l. Aaf prefer an outdoor environment and the forest edge and breed in natural containers such as tree holes, rock pools and plant axils." []
+is_a: VBsp:0000518 ! Aedes aegypti
 
 [Term]
 id: VBsp:0000472
