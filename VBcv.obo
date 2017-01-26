@@ -7833,6 +7833,36 @@ created_by: Topito
 creation_date: 2014-06-06T12:39:46Z
 
 [Term]
+id: VBcv:0001002
+name: subspecies assay result
+synonym: "sibling species assay result" EXACT []
+is_a: VBcv:0000851 ! ISA Tab column descriptor
+
+[Term]
+id: VBcv:0001003
+name: blood meal
+synonym: "blood-meal" EXACT []
+synonym: "bloodmeal" EXACT []
+is_a: VBcv:0000838 ! mosquito descriptor
+
+[Term]
+id: VBcv:0001004
+name: blood meal source
+synonym: "blood-meal source" EXACT []
+synonym: "bloodmeal source" EXACT []
+is_a: VBcv:0000846 ! sample descriptor
+
+[Term]
+id: VBcv:0001005
+name: mixed species
+is_a: VBcv:0001004 ! blood meal source
+
+[Term]
+id: VBcv:0001006
+name: animal
+is_a: VBcv:0001004 ! blood meal source
+
+[Term]
 id: VBcv:0010000
 name: living stock
 is_a: VBcv:0000614 ! stock descriptor
@@ -11320,41 +11350,57 @@ is_a: VBsp:0000267 ! Aedimorphus
 
 [Term]
 id: VBsp:0000372
-name: Aedes vexans
+name: Aedes vexans sensu lato
 alt_id: MIRO:40000372
 alt_id: NCBITaxon:7163
-def: "A species of subgenus Aedimorphus." [Water_Reed:taxonomy]
+def: "A species complex in the subgenus Aedimorphus." []
+synonym: "Aedes arabiensis" RELATED []
 synonym: "Aedes arabiensis" RELATED [Walter_Reed:taxonomy]
+synonym: "Aedes articulatus" RELATED []
 synonym: "Aedes articulatus" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes eruthrosops" RELATED [Walter_Reed:taxonomy]
+synonym: "Aedes eruthrosops" RELATED []
+synonym: "Aedes euochrus" RELATED []
 synonym: "Aedes euochrus" RELATED [Walter_Reed:taxonomy]
+synonym: "Aedes malariae" RELATED []
 synonym: "Aedes malariae" RELATED [Walter_Reed:taxonomy]
+synonym: "Aedes minuta" RELATED []
 synonym: "Aedes minuta" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes montcalmi" RELATED [Walter_Reed:taxonomy]
+synonym: "Aedes montcalmi" RELATED []
+synonym: "Aedes nipponii" RELATED []
 synonym: "Aedes nipponii" RELATED [Walter_Reed:taxonomy]
+synonym: "Aedes parvus" RELATED []
 synonym: "Aedes parvus" RELATED [Walter_Reed:taxonomy]
+synonym: "Aedes Subspecies:" RELATED []
 synonym: "Aedes Subspecies:" RELATED [Walter_Reed:taxonomy]
+synonym: "Aedes sudanensis" RELATED []
 synonym: "Aedes sudanensis" RELATED [Walter_Reed:taxonomy]
+synonym: "Aedes sylvestris" RELATED []
 synonym: "Aedes sylvestris" RELATED [Walter_Reed:taxonomy]
+synonym: "Aedes vexans complex" RELATED []
 xref: MIRO:40000372
 xref: NCBITaxon:7163
 is_a: VBsp:0000267 ! Aedimorphus
 
 [Term]
 id: VBsp:0000373
-name: Aedes arabiensis
+name: Aedes vexans arabiensis
 alt_id: MIRO:40000373
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A subspecies of Aedes vexans sensu lato." []
+synonym: "Aedes arabiensis" RELATED []
 xref: MIRO:40000373
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0000372 ! Aedes vexans sensu lato
 
 [Term]
 id: VBsp:0000374
-name: Aedes nipponii
+name: Aedes vexans nipponii
 alt_id: MIRO:40000374
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A subspecies of Aedes vexans sensu lato." []
+synonym: "Aedes nipponii" RELATED []
 xref: MIRO:40000374
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0000366 ! Aedes tauffliebi
+is_a: VBsp:0000372 ! Aedes vexans sensu lato
 
 [Term]
 id: VBsp:0000375
@@ -12164,6 +12210,12 @@ id: VBsp:0000470
 name: Aedes aegypti formosus
 def: "Ae. aegypti formosus (Aaf) is a subspecies of Aedes aegypti. Aaf which originated from African forest area is believed to be the ancestral species of Ae. aegypti s. l. Aaf prefer an outdoor environment and the forest edge and breed in natural containers such as tree holes, rock pools and plant axils." []
 is_a: VBsp:0000518 ! Aedes aegypti
+
+[Term]
+id: VBsp:0000471
+name: Anopheles culicifacies AD subgroup
+def: "A subgroup of sibling species in the Anopheles culicifacies complex" []
+is_a: VBsp:0002255 ! Anopheles culicifacies sensu lato
 
 [Term]
 id: VBsp:0000472
@@ -13691,12 +13743,24 @@ xref: MIRO:40000644
 is_a: VBsp:0000517 ! Stegomyia
 
 [Term]
+id: VBsp:0000645
+name: Anopheles culicifacies BCE subgroup
+def: "A subgroup of sibling species in the Anopheles culicifacies complex" []
+is_a: VBsp:0002255 ! Anopheles culicifacies sensu lato
+
+[Term]
 id: VBsp:0000646
 name: Aedes daliensis
 alt_id: MIRO:40000646
 def: "A species of genus Aedes." [Walter_Reed:taxonomy]
 xref: MIRO:40000646
 is_a: VBsp:0000253 ! genus Aedes
+
+[Term]
+id: VBsp:0000647
+name: Anopheles fluviatilis S
+def: "Anopheles fluviatilis, one of the major vectors of malaria in India, is a complex of at least three cryptic species provisionally designated as species S, T, and U." []
+is_a: VBsp:0003475 ! Anopheles fluviatilis
 
 [Term]
 id: VBsp:0000648
@@ -13715,6 +13779,12 @@ alt_id: MIRO:40000649
 def: "A species of subgenus Finlaya." [Walter_Reed:taxonomy]
 xref: MIRO:40000649
 is_a: VBsp:0000648 ! Finlaya
+
+[Term]
+id: VBsp:0000650
+name: Anopheles fluviatilis T
+def: "Anopheles fluviatilis, one of the major vectors of malaria in India, is a complex of at least three cryptic species provisionally designated as species S, T, and U." []
+is_a: VBsp:0003475 ! Anopheles fluviatilis
 
 [Term]
 id: VBsp:0000651
@@ -19837,6 +19907,25 @@ xref: MIRO:40001354
 is_a: VBsp:0001344 ! Psorophora
 
 [Term]
+id: VBsp:0001355
+name: Anopheles fluviatilis U
+def: "Anopheles fluviatilis, one of the major vectors of malaria in India, is a complex of at least three cryptic species provisionally designated as species S, T, and U." []
+is_a: VBsp:0003475 ! Anopheles fluviatilis
+
+[Term]
+id: VBsp:0001356
+name: Aedes vexans vexans
+def: "A subspecies of Aedes vexans sensu lato." []
+synonym: "Aedes vexans" RELATED []
+synonym: "aedes vexans senso stricto" RELATED []
+is_a: VBsp:0000372 ! Aedes vexans sensu lato
+
+[Term]
+id: VBsp:0001357
+name: human
+is_a: VBcv:0001004 ! blood meal source
+
+[Term]
 id: VBsp:0001358
 name: genus Sabethes
 alt_id: MIRO:40001358
@@ -20198,6 +20287,12 @@ alt_id: MIRO:40001399
 def: "A species of subgenus Sabethoides." [Walter_Reed:taxonomy]
 xref: MIRO:40001399
 is_a: VBsp:0001396 ! Sabethoides
+
+[Term]
+id: VBsp:0001401
+name: bovine
+def: "The biological subfamily Bovinae includes a diverse group of 10 genera of medium to large-sized ungulates, including domestic cattle, bison, African buffalo, the water buffalo, the yak, and the four-horned and spiral-horned antelopes." []
+is_a: VBcv:0001004 ! blood meal source
 
 [Term]
 id: VBsp:0001402
@@ -21423,6 +21518,11 @@ alt_id: MIRO:40001546
 def: "A species of subgenus Toxorhynchites." [Walter_Reed:taxonomy]
 xref: MIRO:40001546
 is_a: VBsp:0001489 ! Toxorhynchites
+
+[Term]
+id: VBsp:0001547
+name: goat
+is_a: VBcv:0001004 ! blood meal source
 
 [Term]
 id: VBsp:0001548
@@ -24586,6 +24686,11 @@ xref: MIRO:40001924
 is_a: VBsp:0001772 ! genus Wyeomyia
 
 [Term]
+id: VBsp:0001925
+name: cow
+is_a: VBsp:0001401 ! bovine
+
+[Term]
 id: VBsp:0001926
 name: Wyeomyia subcomplosa
 alt_id: MIRO:40001926
@@ -26575,6 +26680,16 @@ synonym: "Trichoprosopon wilsoni" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40002162
 xref: NCBITaxon:704163
 is_a: VBsp:0002156 ! genus Trichoprosopon
+
+[Term]
+id: VBsp:0002163
+name: buffalo
+is_a: VBsp:0001401 ! bovine
+
+[Term]
+id: VBsp:0002164
+name: bison
+is_a: VBsp:0001401 ! bovine
 
 [Term]
 id: VBsp:0002165
