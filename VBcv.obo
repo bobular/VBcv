@@ -6506,7 +6506,7 @@ creation_date: 2012-05-31T10:46:42Z
 [Term]
 id: VBcv:0000830
 name: collection site descriptor
-is_a: VBcv:0000013 ! descriptor
+is_a: VBcv:0001007 ! collection descriptor
 created_by: Topito
 creation_date: 2012-05-31T10:49:46Z
 
@@ -7861,6 +7861,21 @@ is_a: VBcv:0001004 ! blood meal source
 id: VBcv:0001006
 name: animal
 is_a: VBcv:0001004 ! blood meal source
+
+[Term]
+id: VBcv:0001007
+name: collection descriptor
+is_a: VBcv:0000013 ! descriptor
+
+[Term]
+id: VBcv:0001008
+name: collection event descriptor
+is_a: VBcv:0001007 ! collection descriptor
+
+[Term]
+id: VBcv:0001009
+name: collection duration in days
+is_a: VBcv:0001008 ! collection event descriptor
 
 [Term]
 id: VBcv:0010000
