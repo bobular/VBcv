@@ -7878,6 +7878,12 @@ name: collection duration in days
 is_a: VBcv:0001008 ! collection event descriptor
 
 [Term]
+id: VBcv:0001010
+name: Species group
+def: "A potentially arbitrary group of species that a data-submitting group cannot distinguish between.  These may not correspond exactly to a whole taxonomic grouping. Child terms should have VBsp IDs." []
+is_a: VBcv:0000981 ! VectorBase species descriptor
+
+[Term]
 id: VBcv:0001012
 name: male count
 def: "number of male individuals in the sample" []
@@ -30998,48 +31004,87 @@ id: VBsp:0002641
 name: Culex pipiens
 alt_id: MIRO:40002641
 alt_id: NCBITaxon:7175
-def: "A species of subgenus Culex." [Water_Reed:taxonomy]
+def: "A species of subgenus Culex." []
+synonym: "Culex agilis" RELATED []
 synonym: "Culex agilis" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex autogenicus" RELATED []
 synonym: "Culex autogenicus" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex azoriensis" RELATED []
 synonym: "Culex azoriensis" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex berbericus" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex berbericus" RELATED []
+synonym: "Culex bicolor" RELATED []
 synonym: "Culex bicolor" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex bifurcatus" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex bifurcatus" RELATED []
 synonym: "Culex calcitrans" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex calcitrans" RELATED []
+synonym: "Culex calloti" RELATED []
 synonym: "Culex calloti" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex comitatus" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex comitatus" RELATED []
 synonym: "Culex consobrinus" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex consobrinus" RELATED []
 synonym: "Culex dipseticus" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex dipseticus" RELATED []
+synonym: "Culex disjunctus" RELATED []
 synonym: "Culex disjunctus" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex doliorum" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex doliorum" RELATED []
+synonym: "Culex domesticus" RELATED []
 synonym: "Culex domesticus" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex erectus" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex erectus" RELATED []
 synonym: "Culex fasciatus" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex fasciatus" RELATED []
+synonym: "Culex haematophagus" RELATED []
 synonym: "Culex haematophagus" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex longefurcatus" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex longefurcatus" RELATED []
+synonym: "Culex luteus" RELATED []
 synonym: "Culex luteus" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex marginalis" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex marginalis" RELATED []
+synonym: "Culex melanorhinus" RELATED []
 synonym: "Culex melanorhinus" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex meridionalis" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex meridionalis" RELATED []
+synonym: "Culex molestus" RELATED []
 synonym: "Culex molestus" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex osakaensis" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex osakaensis" RELATED []
 synonym: "Culex pallens" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex pallens" RELATED []
 synonym: "Culex pallipes" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex pallipes" RELATED []
 synonym: "Culex phytophagus" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex phytophagus" RELATED []
+synonym: "Culex quasimodestus" RELATED []
 synonym: "Culex quasimodestus" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex rufinus" RELATED []
 synonym: "Culex rufinus" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex rufus" RELATED []
 synonym: "Culex rufus" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex sternopallidus" RELATED []
 synonym: "Culex sternopallidus" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex sternopunctatus" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex sternopunctatus" RELATED []
 synonym: "Culex Subspecies:" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex Subspecies:" RELATED []
 synonym: "Culex thoracicus" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex thoracicus" RELATED []
 synonym: "Culex torridus" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex torridus" RELATED []
 synonym: "Culex trifurcatus" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex trifurcatus" RELATED []
 synonym: "Culex unistriatus" RELATED [Walter_Reed:taxonomy]
+synonym: "Culex unistriatus" RELATED []
+synonym: "Culex varioannulatus" RELATED []
 synonym: "Culex varioannulatus" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40002641
 xref: NCBITaxon:7175
 is_a: VBsp:0002482 ! Culex
+relationship: is_a VBsp:0003238 ! Culex pipiens group (Bartholomay et al.)
 
 [Term]
 id: VBsp:0002642
@@ -31224,11 +31269,13 @@ id: VBsp:0002657
 name: Culex restuans
 alt_id: MIRO:40002657
 alt_id: NCBITaxon:38742
-def: "A species of subgenus Culex." [Walter_Reed:taxonomy]
+def: "A species of subgenus Culex." []
+synonym: "Culex brehmei" RELATED []
 synonym: "Culex brehmei" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40002657
 xref: NCBITaxon:38742
 is_a: VBsp:0002482 ! Culex
+relationship: is_a VBsp:0003238 ! Culex pipiens group (Bartholomay et al.)
 
 [Term]
 id: VBsp:0002658
@@ -31259,10 +31306,11 @@ id: VBsp:0002661
 name: Culex salinarius
 alt_id: MIRO:40002661
 alt_id: NCBITaxon:38743
-def: "A species of subgenus Culex." [Walter_Reed:taxonomy]
+def: "A species of subgenus Culex." []
 xref: MIRO:40002661
 xref: NCBITaxon:38743
 is_a: VBsp:0002482 ! Culex
+relationship: is_a VBsp:0003238 ! Culex pipiens group (Bartholomay et al.)
 
 [Term]
 id: VBsp:0002662
@@ -36248,6 +36296,12 @@ id: VBsp:0003237
 name: Didelphis
 def: "The genus Didelphis, commonly known as large American opossums, are members of the order Didelphimorphia." []
 is_a: VBcv:0001004 ! blood meal source
+
+[Term]
+id: VBsp:0003238
+name: Culex pipiens group (Bartholomay et al.)
+def: "We created the “Culex pipiens group” identifier because of the difficulty in distinguishing female Cx. pipiens and Cx. restuans and Cx. salinarius mosquitoes (Crabtree et al. 1995, Lee and Rowley 2000, Apperson et al. 2002), particularly those specimens from light traps, so those are presented collectively in the database as “Cx. pipiens group.”" []
+is_a: VBcv:0001010 ! Species group
 
 [Term]
 id: VBsp:0003257
