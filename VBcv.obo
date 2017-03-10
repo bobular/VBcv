@@ -7878,6 +7878,24 @@ name: collection duration in days
 is_a: VBcv:0001008 ! collection event descriptor
 
 [Term]
+id: VBcv:0001012
+name: male count
+def: "number of male individuals in the sample" []
+is_a: VBcv:0000983 ! sample size
+
+[Term]
+id: VBcv:0001013
+name: female count
+def: "number of female individuals in the sample" []
+is_a: VBcv:0000983 ! sample size
+
+[Term]
+id: VBcv:0001014
+name: unknown gender count
+def: "number of individuals for which gender/sex can not be determined" []
+is_a: VBcv:0000983 ! sample size
+
+[Term]
 id: VBcv:0010000
 name: living stock
 is_a: VBcv:0000614 ! stock descriptor
@@ -8643,7 +8661,7 @@ is_obsolete: true
 id: VBsp:0000069
 name: Anopheles culicifacies B
 def: "A sibling species of the Anopheles culicifacies complex" []
-is_a: VBsp:0002255 ! Anopheles culicifacies sensu lato
+is_a: VBsp:0004055 ! Anopheles culicifacies BCE subgroup
 
 [Term]
 id: VBsp:0000070
@@ -9761,22 +9779,21 @@ def: "A sibling species of the Anopheles culicifacies complex" []
 is_a: VBsp:0002255 ! Anopheles culicifacies sensu lato
 
 [Term]
-id: VBsp:0000184
-name: Anopheles culicifacies D
-def: "A sibling species of the Anopheles culicifacies complex" []
-is_a: VBsp:0002255 ! Anopheles culicifacies sensu lato
+id: VBsp:0004055
+name: Pig
+is_a: VBcv:0001004 ! blood meal source
 
 [Term]
 id: VBsp:0000185
 name: Anopheles culicifacies C
 def: "A sibling species of the Anopheles culicifacies complex" []
-is_a: VBsp:0002255 ! Anopheles culicifacies sensu lato
+is_a: VBsp:0004055 ! Anopheles culicifacies BCE subgroup
 
 [Term]
 id: VBsp:0000186
 name: Anopheles culicifacies E
 def: "A sibling species of the Anopheles culicifacies complex" []
-is_a: VBsp:0002255 ! Anopheles culicifacies sensu lato
+is_a: VBsp:0004055 ! Anopheles culicifacies BCE subgroup
 
 [Term]
 id: VBsp:0000187
@@ -11387,8 +11404,6 @@ synonym: "Aedes nipponii" RELATED []
 synonym: "Aedes nipponii" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes parvus" RELATED []
 synonym: "Aedes parvus" RELATED [Walter_Reed:taxonomy]
-synonym: "Aedes Subspecies:" RELATED []
-synonym: "Aedes Subspecies:" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes sudanensis" RELATED []
 synonym: "Aedes sudanensis" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes sylvestris" RELATED []
@@ -13758,10 +13773,9 @@ xref: MIRO:40000644
 is_a: VBsp:0000517 ! Stegomyia
 
 [Term]
-id: VBsp:0000645
-name: Anopheles culicifacies BCE subgroup
-def: "A subgroup of sibling species in the Anopheles culicifacies complex" []
-is_a: VBsp:0002255 ! Anopheles culicifacies sensu lato
+id: VBsp:0004054
+name: Dog
+is_a: VBcv:0001004 ! blood meal source
 
 [Term]
 id: VBsp:0000646
@@ -19937,7 +19951,7 @@ is_a: VBsp:0000372 ! Aedes vexans sensu lato
 
 [Term]
 id: VBsp:0001357
-name: human
+name: Human
 is_a: VBcv:0001004 ! blood meal source
 
 [Term]
@@ -20304,8 +20318,14 @@ xref: MIRO:40001399
 is_a: VBsp:0001396 ! Sabethoides
 
 [Term]
+id: VBsp:0001400
+name: Galliformes
+def: "The Galliformes are an order of heavy-bodied ground-feeding birds that includes turkey, grouse, chicken, New World quail and Old World quail, ptarmigan, partridge, pheasant, junglefowl and the Cracidae." []
+is_a: VBcv:0001004 ! blood meal source
+
+[Term]
 id: VBsp:0001401
-name: bovine
+name: Bovine
 def: "The biological subfamily Bovinae includes a diverse group of 10 genera of medium to large-sized ungulates, including domestic cattle, bison, African buffalo, the water buffalo, the yak, and the four-horned and spiral-horned antelopes." []
 is_a: VBcv:0001004 ! blood meal source
 
@@ -21536,7 +21556,7 @@ is_a: VBsp:0001489 ! Toxorhynchites
 
 [Term]
 id: VBsp:0001547
-name: goat
+name: Goat
 is_a: VBcv:0001004 ! blood meal source
 
 [Term]
@@ -24702,8 +24722,8 @@ is_a: VBsp:0001772 ! genus Wyeomyia
 
 [Term]
 id: VBsp:0001925
-name: cow
-is_a: VBsp:0001401 ! bovine
+name: Cow
+is_a: VBsp:0001401 ! Bovine
 
 [Term]
 id: VBsp:0001926
@@ -26698,13 +26718,13 @@ is_a: VBsp:0002156 ! genus Trichoprosopon
 
 [Term]
 id: VBsp:0002163
-name: buffalo
-is_a: VBsp:0001401 ! bovine
+name: Buffalo
+is_a: VBsp:0001401 ! Bovine
 
 [Term]
 id: VBsp:0002164
-name: bison
-is_a: VBsp:0001401 ! bovine
+name: Bison
+is_a: VBsp:0001401 ! Bovine
 
 [Term]
 id: VBsp:0002165
@@ -28972,6 +28992,16 @@ alt_id: MIRO:40002420
 def: "A species of genus Culiseta." [Walter_Reed:taxonomy]
 xref: MIRO:40002420
 is_a: VBsp:0002373 ! genus Culiseta
+
+[Term]
+id: VBsp:0002421
+name: Chicken
+is_a: VBsp:0001400 ! Galliformes
+
+[Term]
+id: VBsp:0002422
+name: Turkey
+is_a: VBsp:0001400 ! Galliformes
 
 [Term]
 id: VBsp:0002423
@@ -36180,6 +36210,22 @@ created_by: maccallr
 creation_date: 2015-01-21T15:42:22Z
 
 [Term]
+id: VBsp:0003232
+name: Grouse
+is_a: VBsp:0001400 ! Galliformes
+
+[Term]
+id: VBsp:0003233
+name: Rodentia
+def: "Rodentia is the largest order of the class Mammalia. Common examples of Rodentia are; mice, rats, hamsters, and guinea pigs" []
+is_a: VBcv:0001004 ! blood meal source
+
+[Term]
+id: VBsp:0003234
+name: Rat
+is_a: VBsp:0003233 ! Rodentia
+
+[Term]
 id: VBsp:0003235
 name: Anopheles coluzzii
 alt_id: MIRO:40003235
@@ -36189,6 +36235,17 @@ synonym: "Anopheles gambiae molecular form M " EXACT []
 synonym: "M form" EXACT []
 xref: MIRO:40003235
 is_a: VBsp:0003480 ! Anopheles gambiae sensu lato
+
+[Term]
+id: VBsp:0003236
+name: Monkey
+is_a: VBcv:0001004 ! blood meal source
+
+[Term]
+id: VBsp:0003237
+name: Didelphis
+def: "The genus Didelphis, commonly known as large American opossums, are members of the order Didelphimorphia." []
+is_a: VBcv:0001004 ! blood meal source
 
 [Term]
 id: VBsp:0003257
@@ -41835,6 +41892,18 @@ xref: NCBITaxon:121221
 is_a: VBsp:0004009 ! Phthiraptera
 created_by: lawson
 creation_date: 2014-09-25T09:15:04Z
+
+[Term]
+id: VBsp:0000184
+name: Anopheles culicifacies D
+def: "A sibling species of the Anopheles culicifacies complex" []
+is_a: VBsp:0000471 ! Anopheles culicifacies AD subgroup
+
+[Term]
+id: VBsp:0000645
+name: Anopheles culicifacies BCE subgroup
+def: "A subgroup of sibling species in the Anopheles culicifacies complex" []
+is_a: VBsp:0002255 ! Anopheles culicifacies sensu lato
 
 [Typedef]
 id: is_a
