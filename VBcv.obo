@@ -9779,9 +9779,10 @@ def: "A sibling species of the Anopheles culicifacies complex" []
 is_a: VBsp:0000471 ! Anopheles culicifacies AD subgroup
 
 [Term]
-id: VBsp:0004055
-name: Pig
-is_a: VBcv:0001004 ! blood meal source
+id: VBsp:0000184
+name: Anopheles culicifacies D
+def: "A sibling species of the Anopheles culicifacies complex" []
+is_a: VBsp:0000471 ! Anopheles culicifacies AD subgroup
 
 [Term]
 id: VBsp:0000185
@@ -13773,9 +13774,10 @@ xref: MIRO:40000644
 is_a: VBsp:0000517 ! Stegomyia
 
 [Term]
-id: VBsp:0004054
-name: Dog
-is_a: VBcv:0001004 ! blood meal source
+id: VBsp:0000645
+name: Anopheles culicifacies BCE subgroup
+def: "A subgroup of sibling species in the Anopheles culicifacies complex" []
+is_a: VBsp:0002255 ! Anopheles culicifacies sensu lato
 
 [Term]
 id: VBsp:0000646
@@ -41894,16 +41896,14 @@ created_by: lawson
 creation_date: 2014-09-25T09:15:04Z
 
 [Term]
-id: VBsp:0000184
-name: Anopheles culicifacies D
-def: "A sibling species of the Anopheles culicifacies complex" []
-is_a: VBsp:0000471 ! Anopheles culicifacies AD subgroup
+id: VBsp:0004054
+name: Dog
+is_a: VBcv:0001004 ! blood meal source
 
 [Term]
-id: VBsp:0000645
-name: Anopheles culicifacies BCE subgroup
-def: "A subgroup of sibling species in the Anopheles culicifacies complex" []
-is_a: VBsp:0002255 ! Anopheles culicifacies sensu lato
+id: VBsp:0004055
+name: Pig
+is_a: VBcv:0001004 ! blood meal source
 
 [Typedef]
 id: is_a
