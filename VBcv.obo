@@ -8661,7 +8661,7 @@ is_obsolete: true
 id: VBsp:0000069
 name: Anopheles culicifacies B
 def: "A sibling species of the Anopheles culicifacies complex" []
-is_a: VBsp:0004055 ! Anopheles culicifacies BCE subgroup
+is_a: VBsp:0000645 ! Anopheles culicifacies BCE subgroup
 
 [Term]
 id: VBsp:0000070
@@ -9776,7 +9776,7 @@ is_a: VBsp:0000177 ! Stethomyia
 id: VBsp:0000183
 name: Anopheles culicifacies A
 def: "A sibling species of the Anopheles culicifacies complex" []
-is_a: VBsp:0002255 ! Anopheles culicifacies sensu lato
+is_a: VBsp:0000471 ! Anopheles culicifacies AD subgroup
 
 [Term]
 id: VBsp:0004055
@@ -9787,13 +9787,13 @@ is_a: VBcv:0001004 ! blood meal source
 id: VBsp:0000185
 name: Anopheles culicifacies C
 def: "A sibling species of the Anopheles culicifacies complex" []
-is_a: VBsp:0004055 ! Anopheles culicifacies BCE subgroup
+is_a: VBsp:0000645 ! Anopheles culicifacies BCE subgroup
 
 [Term]
 id: VBsp:0000186
 name: Anopheles culicifacies E
 def: "A sibling species of the Anopheles culicifacies complex" []
-is_a: VBsp:0004055 ! Anopheles culicifacies BCE subgroup
+is_a: VBsp:0000645 ! Anopheles culicifacies BCE subgroup
 
 [Term]
 id: VBsp:0000187
