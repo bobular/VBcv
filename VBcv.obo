@@ -7884,6 +7884,12 @@ def: "A potentially arbitrary group of species that a data-submitting group cann
 is_a: VBcv:0000981 ! VectorBase species descriptor
 
 [Term]
+id: VBcv:0001011
+name: Study Person ORCID
+is_a: VBcv:0000851 ! ISA Tab column descriptor
+relationship: part_of VBcv:0000980 ! Study Contacts
+
+[Term]
 id: VBcv:0001012
 name: male count
 def: "number of male individuals in the sample" []
@@ -7900,6 +7906,167 @@ id: VBcv:0001014
 name: unknown gender count
 def: "number of individuals for which gender/sex can not be determined" []
 is_a: VBcv:0000983 ! sample size
+
+[Term]
+id: VBcv:0001015
+name: barcode descriptor
+is_a: VBcv:0000013 ! descriptor
+
+[Term]
+id: VBcv:0001016
+name: barcode target locus
+is_a: VBcv:0001015 ! barcode descriptor
+
+[Term]
+id: VBcv:0001017
+name: COI
+def: "Barcode locus cytochrome oxidase subunit I" []
+is_a: VBcv:0001016 ! barcode target locus
+
+[Term]
+id: VBcv:0001018
+name: ND4
+def: "Barcode locus NADH dehydrogenase subunit 4" []
+is_a: VBcv:0001016 ! barcode target locus
+
+[Term]
+id: VBcv:0001019
+name: ITS2
+def: "Barcode locus nuclear ribosomal internal transcribed spacer 2" []
+is_a: VBcv:0001016 ! barcode target locus
+
+[Term]
+id: VBcv:0001020
+name: barcode sequence
+def: "DNA sequence of the amplified barcode locus/region" []
+is_a: VBcv:0001015 ! barcode descriptor
+
+[Term]
+id: VBcv:0001021
+name: barcode sequence length
+def: "Nucleotide length of the amplified barcode sequence" []
+is_a: VBcv:0001015 ! barcode descriptor
+
+[Term]
+id: VBcv:0001022
+name: sequence descriptor
+is_a: VBcv:0000013 ! descriptor
+
+[Term]
+id: VBcv:0001023
+name: INSDC accession
+def: "Accession from the International Nucleotide Sequence Database Collaboration" []
+is_a: VBcv:0001022 ! sequence descriptor
+
+[Term]
+id: VBcv:0001024
+name: oligonucleotide primer set
+def: "oligonucleotide primer set used in a PCR reaction, e.g. amplification of a DNA barcode sequence" []
+is_a: VBcv:0001022 ! sequence descriptor
+
+[Term]
+id: VBcv:0001025
+name: DNA barcode assay
+is_a: VBcv:0000688 ! experiment type
+
+[Term]
+id: VBcv:0001026
+name: primer set COI
+is_a: VBcv:0001024 ! oligonucleotide primer set
+
+[Term]
+id: VBcv:0001027
+name: primer set ND4
+is_a: VBcv:0001024 ! oligonucleotide primer set
+
+[Term]
+id: VBcv:0001028
+name: primer set ITS2
+is_a: VBcv:0001024 ! oligonucleotide primer set
+
+[Term]
+id: VBcv:0001029
+name: Paduan and Ribolla (2008) ND4
+def: "Oligonucleotide primer set for ND4 locus from Paduan and Ribolla (2008) [PMID:18283943]. \nND4F   5'-TGATTGCCTAAGGCTCATGT-3'\nND4R   5'-TTCGGCTTCCTAGTCGTTCAT-3'" []
+is_a: VBcv:0001027 ! primer set ND4
+
+[Term]
+id: VBcv:0001030
+name: Sallum et al. (2002) COI
+def: "Oligonucleotide primer set for COI locus from Sallum et al. (2002).\nFly5IP   5'-GGATTATTAGGATTTATTGT-3'\nFly10IP 5'-GCAAATAATGAAATTGTTCT-3'" []
+is_a: VBcv:0001026 ! primer set COI
+
+[Term]
+id: VBcv:0001031
+name: NCBI Popset accession
+def: "NCBI Popset database accession." []
+is_a: VBcv:0001022 ! sequence descriptor
+
+[Term]
+id: VBcv:0001032
+name: BOLD accession
+def: "Species identifier from the Barcode Of Life Database (BOLD)" []
+is_a: VBcv:0001022 ! sequence descriptor
+
+[Term]
+id: VBcv:0001033
+name: Engdahl et al. (2013) COI.1
+def: "Oligonucleotide primer set for COI locus from Engdahl et al. (2013).\nGB1310_29F   5'-GAAGGAGTTTGATCAGGAATAGT-3'\nTL2-N-3014R  5'-TAATATGGCAGATTAGTGCATTGGA-3'" []
+is_a: VBcv:0001026 ! primer set COI
+
+[Term]
+id: VBcv:0001034
+name: Engdahl et al. (2013) COI.2
+def: "Oligonucleotide primer set for COI locus from Engdahl et al. (2013).\nGB_1358_83F     5'-ACTCAAGAAAGAGGTAAAAAGGAAAC-3'\nGB_1960_1936R 5'-TTCTTTGACCCTATTGGAGGAGGA-3'" []
+is_a: VBcv:0001026 ! primer set COI
+
+[Term]
+id: VBcv:0001035
+name: Engdahl et al. (2013) COI.3
+def: "Oligonucleotide primer set for COI locus from Engdahl et al. (2013).\nGB_1358_83F  5'-ACTCAAGAAAGAGGTAAAAAGGAAAC-3'\nTL2-N-3014R   5'-TAATATGGCAGATTAGTGCATTGGA-3'" []
+is_a: VBcv:0001026 ! primer set COI
+
+[Term]
+id: VBcv:0001036
+name: Engdahl et al. (2013) COI.4
+def: "Oligonucleotide primer set for COI locus from Engdahl et al. (2013).\nLCO1490F          5'-GGTCAACAAATCATAAAGATATTGG-3'\nGB_1960_1936R 5'-TTCTTTGACCCTATTGGAGGAGGA-3'" []
+is_a: VBcv:0001026 ! primer set COI
+
+[Term]
+id: VBcv:0001037
+name: Engdahl et al. (2013) COI.5
+def: "Oligonucleotide primer set for COI locus from Engdahl et al. (2013).\nLCO1490F      5'-GGTCAACAAATCATAAAGATATTGG-3'\nTL2-N-3014R  5'-TAATATGGCAGATTAGTGCATTGGA-3'" []
+is_a: VBcv:0001026 ! primer set COI
+
+[Term]
+id: VBcv:0001038
+name: Batovska et al. (2016) COI.1
+def: "Oligonucleotide primer set for COI locus from Batovska et al. (2016).\nLCO1490 5'-GGTCAACAAATCATAAAGATATTGG-3' (Folmer et al. 1994)\nR‐COI650 5'-TAGCAGAAGTAAAATAAGCTCG-3' (Hemmerter et al. 2007)." []
+is_a: VBcv:0001026 ! primer set COI
+
+[Term]
+id: VBcv:0001039
+name: Batovska et al. (2016) COI.2
+def: "Oligonucleotide primer set for COI locus from Batovska et al. (2016).\nLCO1490 5'-GGTCAACAAATCATAAAGATATTGG-3' (Folmer et al. 1994)\nHCO2198 5'-TAAACTTCAGGGTGACCAAAAAATCA-3' (Folmer et al. 1994)." []
+is_a: VBcv:0001026 ! primer set COI
+
+[Term]
+id: VBcv:0001040
+name: Folmer et al. (1994) COI
+def: "Oligonucleotide primer set for COI locus from Folmer et al. (1994).\nLCO1490 5'-GGTCAACAAATCATAAAGATATTGG-3'\nHCO2198 5'-TAAACTTCAGGGTGACCAAAAAATCA-3'" []
+is_a: VBcv:0001026 ! primer set COI
+
+[Term]
+id: VBcv:0001041
+name: Feng et al. (2017) COI
+def: "Oligonucleotide primer set for COI locus from Feng et al. (2017). \nAns-Fwd 5'-GGTCAACAAATCATAAAGATATTG-3'\nAns-Rev  5'-AAACTTCAGGGTGACCAAAAAATC-3'" []
+is_a: VBcv:0001026 ! primer set COI
+
+[Term]
+id: VBcv:0001042
+name: partially-fed
+namespace: environmental_qualifier
+is_a: VBcv:0000692 ! feeding state qualifier
 
 [Term]
 id: VBcv:0010000
@@ -11393,27 +11560,16 @@ name: Aedes vexans sensu lato
 alt_id: MIRO:40000372
 alt_id: NCBITaxon:7163
 def: "A species complex in the subgenus Aedimorphus." []
-synonym: "Aedes arabiensis" RELATED []
 synonym: "Aedes arabiensis" RELATED [Walter_Reed:taxonomy]
-synonym: "Aedes articulatus" RELATED []
 synonym: "Aedes articulatus" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes eruthrosops" RELATED [Walter_Reed:taxonomy]
-synonym: "Aedes eruthrosops" RELATED []
-synonym: "Aedes euochrus" RELATED []
 synonym: "Aedes euochrus" RELATED [Walter_Reed:taxonomy]
-synonym: "Aedes malariae" RELATED []
 synonym: "Aedes malariae" RELATED [Walter_Reed:taxonomy]
-synonym: "Aedes minuta" RELATED []
 synonym: "Aedes minuta" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes montcalmi" RELATED [Walter_Reed:taxonomy]
-synonym: "Aedes montcalmi" RELATED []
-synonym: "Aedes nipponii" RELATED []
 synonym: "Aedes nipponii" RELATED [Walter_Reed:taxonomy]
-synonym: "Aedes parvus" RELATED []
 synonym: "Aedes parvus" RELATED [Walter_Reed:taxonomy]
-synonym: "Aedes sudanensis" RELATED []
 synonym: "Aedes sudanensis" RELATED [Walter_Reed:taxonomy]
-synonym: "Aedes sylvestris" RELATED []
 synonym: "Aedes sylvestris" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes vexans complex" RELATED []
 xref: MIRO:40000372
@@ -27744,10 +27900,12 @@ name: Anopheles farauti
 alt_id: MIRO:40002278
 alt_id: NCBITaxon:69004
 def: "A species of subgenus Cellia." [Walter_Reed:taxonomy]
+synonym: "Anopheles farauti No. 1" EXACT []
+synonym: "Anopheles farauti sensu stricto" EXACT []
 synonym: "Anopheles moluccensis" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40002278
 xref: NCBITaxon:69004
-is_a: VBsp:0002217 ! Cellia
+is_a: VBsp:0003239 ! Anopheles farauti sensu lato
 
 [Term]
 id: VBsp:0002279
@@ -31004,82 +31162,44 @@ id: VBsp:0002641
 name: Culex pipiens
 alt_id: MIRO:40002641
 alt_id: NCBITaxon:7175
-def: "A species of subgenus Culex." []
-synonym: "Culex agilis" RELATED []
+def: "A species of subgenus Culex." [Water_Reed:taxonomy]
 synonym: "Culex agilis" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex autogenicus" RELATED []
 synonym: "Culex autogenicus" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex azoriensis" RELATED []
 synonym: "Culex azoriensis" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex berbericus" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex berbericus" RELATED []
-synonym: "Culex bicolor" RELATED []
 synonym: "Culex bicolor" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex bifurcatus" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex bifurcatus" RELATED []
 synonym: "Culex calcitrans" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex calcitrans" RELATED []
-synonym: "Culex calloti" RELATED []
 synonym: "Culex calloti" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex comitatus" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex comitatus" RELATED []
 synonym: "Culex consobrinus" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex consobrinus" RELATED []
 synonym: "Culex dipseticus" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex dipseticus" RELATED []
-synonym: "Culex disjunctus" RELATED []
 synonym: "Culex disjunctus" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex doliorum" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex doliorum" RELATED []
-synonym: "Culex domesticus" RELATED []
 synonym: "Culex domesticus" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex erectus" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex erectus" RELATED []
 synonym: "Culex fasciatus" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex fasciatus" RELATED []
-synonym: "Culex haematophagus" RELATED []
 synonym: "Culex haematophagus" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex longefurcatus" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex longefurcatus" RELATED []
-synonym: "Culex luteus" RELATED []
 synonym: "Culex luteus" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex marginalis" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex marginalis" RELATED []
-synonym: "Culex melanorhinus" RELATED []
 synonym: "Culex melanorhinus" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex meridionalis" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex meridionalis" RELATED []
-synonym: "Culex molestus" RELATED []
 synonym: "Culex molestus" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex osakaensis" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex osakaensis" RELATED []
 synonym: "Culex pallens" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex pallens" RELATED []
 synonym: "Culex pallipes" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex pallipes" RELATED []
 synonym: "Culex phytophagus" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex phytophagus" RELATED []
-synonym: "Culex quasimodestus" RELATED []
 synonym: "Culex quasimodestus" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex rufinus" RELATED []
 synonym: "Culex rufinus" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex rufus" RELATED []
 synonym: "Culex rufus" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex sternopallidus" RELATED []
 synonym: "Culex sternopallidus" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex sternopunctatus" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex sternopunctatus" RELATED []
 synonym: "Culex Subspecies:" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex Subspecies:" RELATED []
 synonym: "Culex thoracicus" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex thoracicus" RELATED []
 synonym: "Culex torridus" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex torridus" RELATED []
 synonym: "Culex trifurcatus" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex trifurcatus" RELATED []
 synonym: "Culex unistriatus" RELATED [Walter_Reed:taxonomy]
-synonym: "Culex unistriatus" RELATED []
-synonym: "Culex varioannulatus" RELATED []
 synonym: "Culex varioannulatus" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40002641
 xref: NCBITaxon:7175
@@ -31269,8 +31389,7 @@ id: VBsp:0002657
 name: Culex restuans
 alt_id: MIRO:40002657
 alt_id: NCBITaxon:38742
-def: "A species of subgenus Culex." []
-synonym: "Culex brehmei" RELATED []
+def: "A species of subgenus Culex." [Walter_Reed:taxonomy]
 synonym: "Culex brehmei" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40002657
 xref: NCBITaxon:38742
@@ -31306,7 +31425,7 @@ id: VBsp:0002661
 name: Culex salinarius
 alt_id: MIRO:40002661
 alt_id: NCBITaxon:38743
-def: "A species of subgenus Culex." []
+def: "A species of subgenus Culex." [Walter_Reed:taxonomy]
 xref: MIRO:40002661
 xref: NCBITaxon:38743
 is_a: VBsp:0002482 ! Culex
@@ -36304,6 +36423,43 @@ def: "We created the “Culex pipiens group” identifier because of the difficu
 is_a: VBcv:0001010 ! Species group
 
 [Term]
+id: VBsp:0003239
+name: Anopheles farauti sensu lato
+def: "A species complex of subgenus Cellia." []
+synonym: "Anopheles farauti s.l." EXACT []
+is_a: VBsp:0002217 ! Cellia
+
+[Term]
+id: VBsp:0003240
+name: Anopheles farauti No. 4
+alt_id: NCBITaxon:59191
+def: "A species of subgenus Cellia." []
+xref: NCBITaxon:59191
+is_a: VBsp:0003239 ! Anopheles farauti sensu lato
+
+[Term]
+id: VBsp:0003241
+name: Anopheles farauti No. 5
+alt_id: NCBITaxon:59192
+def: "A species of subgenus Cellia." []
+xref: NCBITaxon:59192
+is_a: VBsp:0003239 ! Anopheles farauti sensu lato
+
+[Term]
+id: VBsp:0003242
+name: Anopheles farauti No. 6
+alt_id: NCBITaxon:59193
+def: "A species of subgenus Cellia." []
+xref: NCBITaxon:59193
+is_a: VBsp:0003239 ! Anopheles farauti sensu lato
+
+[Term]
+id: VBsp:0003243
+name: Anopheles farauti No. 8
+def: "A species of subgenus Cellia." []
+is_a: VBsp:0003239 ! Anopheles farauti sensu lato
+
+[Term]
 id: VBsp:0003257
 name: genus Heamogogus
 alt_id: MIRO:40003257
@@ -40700,9 +40856,10 @@ name: Anopheles hinesorum
 alt_id: MIRO:40003748
 alt_id: NCBITaxon:59189
 def: "A species of subgenus Cellia." [Walter_Reed:taxonomy]
+synonym: "Anopheles farauti No. 2" EXACT []
 xref: MIRO:40003748
 xref: NCBITaxon:59189
-is_a: VBsp:0002217 ! Cellia
+is_a: VBsp:0003239 ! Anopheles farauti sensu lato
 
 [Term]
 id: VBsp:0003749
@@ -40710,9 +40867,10 @@ name: Anopheles torresiensis
 alt_id: MIRO:40003749
 alt_id: NCBITaxon:59190
 def: "A species of subgenus Cellia." [Walter_Reed:taxonomy]
+synonym: "Anopheles farauti No. 3" EXACT []
 xref: MIRO:40003749
 xref: NCBITaxon:59190
-is_a: VBsp:0002217 ! Cellia
+is_a: VBsp:0003239 ! Anopheles farauti sensu lato
 
 [Term]
 id: VBsp:0003750
@@ -40777,9 +40935,10 @@ name: Anopheles irenicus
 alt_id: MIRO:40003757
 alt_id: NCBITaxon:59194
 def: "A species of subgenus Cellia." [Walter_Reed:taxonomy]
+synonym: "Anopheles farauti No. 7" EXACT []
 xref: MIRO:40003757
 xref: NCBITaxon:59194
-is_a: VBsp:0002217 ! Cellia
+is_a: VBsp:0003239 ! Anopheles farauti sensu lato
 
 [Term]
 id: VBsp:0003758
