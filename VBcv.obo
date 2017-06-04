@@ -8490,12 +8490,12 @@ id: VBsp:0000032
 name: Anopheles atroparvus
 alt_id: MIRO:40000032
 alt_id: NCBITaxon:41427
-def: "A species of subgenus Anopheles." [Walter_Reed:taxonomy]
+def: "A sibling species of the Anopheles maculipennis complex." [Walter_Reed:taxonomy]
 synonym: "Anopheles cambournaci" RELATED [Walter_Reed:taxonomy]
 synonym: "Anopheles fallax" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40000032
 xref: NCBITaxon:41427
-is_a: VBsp:0000016 ! Anopheles
+is_a: VBsp:0003838 ! Anopheles maculipennis sensu lato
 
 [Term]
 id: VBsp:0000033
@@ -8607,10 +8607,10 @@ id: VBsp:0000044
 name: Anopheles beklemishevi
 alt_id: MIRO:40000044
 alt_id: NCBITaxon:210816
-def: "A species of subgenus Anopheles." [Walter_Reed:taxonomy]
+def: "A sibling species of the Anopheles maculipennis complex." [Walter_Reed:taxonomy]
 xref: MIRO:40000044
 xref: NCBITaxon:210816
-is_a: VBsp:0000016 ! Anopheles
+is_a: VBsp:0003838 ! Anopheles maculipennis sensu lato
 
 [Term]
 id: VBsp:0000045
@@ -9303,12 +9303,12 @@ id: VBsp:0000120
 name: Anopheles labranchiae
 alt_id: MIRO:40000120
 alt_id: NCBITaxon:41428
-def: "A species of subgenus Anopheles." [Walter_Reed:taxonomy]
+def: "A sibling species of the Anopheles maculipennis complex." [Walter_Reed:taxonomy]
 synonym: "Anopheles pergusae" RELATED [Walter_Reed:taxonomy]
 synonym: "Anopheles sicaulti" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40000120
 xref: NCBITaxon:41428
-is_a: VBsp:0000016 ! Anopheles
+is_a: VBsp:0003838 ! Anopheles maculipennis sensu lato
 
 [Term]
 id: VBsp:0000121
@@ -9395,13 +9395,13 @@ id: VBsp:0000129
 name: Anopheles maculipennis
 alt_id: MIRO:40000129
 alt_id: NCBITaxon:41429
-def: "A species of subgenus Anopheles." [Walter_Reed:taxonomy]
+def: "A sibling species of the Anopheles maculipennis complex." [Walter_Reed:taxonomy]
 synonym: "Anopheles alexandraeschingarevi" RELATED [Walter_Reed:taxonomy]
 synonym: "Anopheles basilii" RELATED [Walter_Reed:taxonomy]
 synonym: "Anopheles typicus" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40000129
 xref: NCBITaxon:41429
-is_a: VBsp:0000016 ! Anopheles
+is_a: VBsp:0003838 ! Anopheles maculipennis sensu lato
 
 [Term]
 id: VBsp:0000130
@@ -9436,12 +9436,12 @@ id: VBsp:0000133
 name: Anopheles martinius
 alt_id: MIRO:40000133
 alt_id: NCBITaxon:73142
-def: "A species of subgenus Anopheles." [Walter_Reed:taxonomy]
+def: "A sibling species of the Anopheles maculipennis complex." [Walter_Reed:taxonomy]
 synonym: "Anopheles elutior" RELATED [Walter_Reed:taxonomy]
 synonym: "Anopheles relictus" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40000133
 xref: NCBITaxon:73142
-is_a: VBsp:0000016 ! Anopheles
+is_a: VBsp:0003838 ! Anopheles maculipennis sensu lato
 
 [Term]
 id: VBsp:0000134
@@ -9480,11 +9480,11 @@ id: VBsp:0000137
 name: Anopheles melanoon
 alt_id: MIRO:40000137
 alt_id: NCBITaxon:73143
-def: "A species of subgenus Anopheles." [Walter_Reed:taxonomy]
+def: "A sibling species of the Anopheles maculipennis complex." [Walter_Reed:taxonomy]
 synonym: "Anopheles subalpinus" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40000137
 xref: NCBITaxon:73143
-is_a: VBsp:0000016 ! Anopheles
+is_a: VBsp:0003838 ! Anopheles maculipennis sensu lato
 
 [Term]
 id: VBsp:0000138
@@ -9499,10 +9499,11 @@ id: VBsp:0000139
 name: Anopheles messeae
 alt_id: MIRO:40000139
 alt_id: NCBITaxon:41430
-def: "A species of subgenus Anopheles." [Walter_Reed:taxonomy]
+def: "A sibling species of the Anopheles maculipennis complex." [Walter_Reed:taxonomy]
 xref: MIRO:40000139
 xref: NCBITaxon:41430
-is_a: VBsp:0000016 ! Anopheles
+is_a: VBsp:0003838 ! Anopheles maculipennis sensu lato
+is_a: VBsp:0003840 ! Anopheles daciae/messeae group (Brugman et al.)
 
 [Term]
 id: VBsp:0000140
@@ -17148,6 +17149,7 @@ def: "A species of subgenus Ochlerotatus." [Walter_Reed:taxonomy]
 synonym: "Aedes maculosa" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes salinus" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes terriei" RELATED [Walter_Reed:taxonomy]
+synonym: "Ochlerotatus detritus" EXACT []
 xref: MIRO:40001021
 is_a: VBsp:0000960 ! Ochlerotatus
 
@@ -36460,6 +36462,72 @@ def: "A species of subgenus Cellia." []
 is_a: VBsp:0003239 ! Anopheles farauti sensu lato
 
 [Term]
+id: VBsp:0003244
+name: Sheep
+is_a: VBcv:0001004 ! blood meal source
+
+[Term]
+id: VBsp:0003245
+name: Bird
+is_a: VBcv:0001004 ! blood meal source
+
+[Term]
+id: VBsp:0003246
+name: Barn Swallow
+is_a: VBsp:0003245 ! Bird
+
+[Term]
+id: VBsp:0003247
+name: Blackbird
+is_a: VBsp:0003245 ! Bird
+
+[Term]
+id: VBsp:0003248
+name: Eurasian Skylark
+is_a: VBsp:0003245 ! Bird
+
+[Term]
+id: VBsp:0003249
+name: Brown Rat
+is_a: VBsp:0003233 ! Rodentia
+
+[Term]
+id: VBsp:0003250
+name: Dark-breasted Barn Owl
+is_a: VBsp:0003245 ! Bird
+
+[Term]
+id: VBsp:0003251
+name: Leporidae
+def: "Leporidae is a family of mammals that include rabbits and hares, over 60 species in all. The Latin word Leporidae means \"those that resemble lepus\" (hare)." []
+is_a: VBcv:0001004 ! blood meal source
+
+[Term]
+id: VBsp:0003252
+name: European Hare
+is_a: VBsp:0003251 ! Leporidae
+
+[Term]
+id: VBsp:0003253
+name: European Rabbit
+is_a: VBsp:0003251 ! Leporidae
+
+[Term]
+id: VBsp:0003254
+name: European Starling
+is_a: VBsp:0003245 ! Bird
+
+[Term]
+id: VBsp:0003255
+name: Grey Heron
+is_a: VBsp:0003245 ! Bird
+
+[Term]
+id: VBsp:0003256
+name: House Sparrow
+is_a: VBsp:0003245 ! Bird
+
+[Term]
 id: VBsp:0003257
 name: genus Heamogogus
 alt_id: MIRO:40003257
@@ -37184,6 +37252,11 @@ alt_id: MIRO:40003341
 def: "Linnean taxonomic species." [Walter_Reed:taxonomy]
 xref: MIRO:40003341
 is_a: VBsp:0003336 ! genus Isostomyia
+
+[Term]
+id: VBsp:0003342
+name: Long-eared Owl
+is_a: VBsp:0003245 ! Bird
 
 [Term]
 id: VBsp:0003343
@@ -38089,11 +38162,11 @@ id: VBsp:0003445
 name: Anopheles sacharovi
 alt_id: MIRO:40003445
 alt_id: NCBITaxon:72408
-def: "A species of subgenus Anopheles." [Walter_Reed:taxonomy]
+def: "A sibling species of the Anopheles maculipennis complex." [Walter_Reed:taxonomy]
 synonym: "Anopheles elutus" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40003445
 xref: NCBITaxon:72408
-is_a: VBsp:0000016 ! Anopheles
+is_a: VBsp:0003838 ! Anopheles maculipennis sensu lato
 
 [Term]
 id: VBsp:0003446
@@ -40353,6 +40426,11 @@ xref: MIRO:40003684
 is_a: VBsp:0001301 ! genus Orthopodomyia
 
 [Term]
+id: VBsp:0003685
+name: Meadow Pitpit
+is_a: VBsp:0003245 ! Bird
+
+[Term]
 id: VBsp:0003686
 name: Topomyia irianensis
 alt_id: MIRO:40003686
@@ -40502,10 +40580,10 @@ id: VBsp:0003704
 name: Anopheles persiensis
 alt_id: MIRO:40003704
 alt_id: NCBITaxon:208662
-def: "A species of subgenus Anopheles." [Walter_Reed:taxonomy]
+def: "A sibling species of the Anopheles maculipennis complex." [Walter_Reed:taxonomy]
 xref: MIRO:40003704
 xref: NCBITaxon:208662
-is_a: VBsp:0000016 ! Anopheles
+is_a: VBsp:0003838 ! Anopheles maculipennis sensu lato
 
 [Term]
 id: VBsp:0003705
@@ -40687,6 +40765,11 @@ def: "A species of subgenus Levua." [Walter_Reed:taxonomy]
 synonym: "Aedes suvae" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40003726
 is_a: VBsp:0003694 ! Levua
+
+[Term]
+id: VBsp:0003727
+name: Mute Swan
+is_a: VBsp:0003245 ! Bird
 
 [Term]
 id: VBsp:0003728
@@ -41010,10 +41093,11 @@ id: VBsp:0003766
 name: Anopheles daciae
 alt_id: MIRO:40003766
 alt_id: NCBITaxon:281737
-def: "A species of subgenus Anopheles." [Walter_Reed:taxonomy]
+def: "A sibling species of the Anopheles maculipennis complex." [Walter_Reed:taxonomy]
 xref: MIRO:40003766
 xref: NCBITaxon:281737
-is_a: VBsp:0000016 ! Anopheles
+is_a: VBsp:0003838 ! Anopheles maculipennis sensu lato
+is_a: VBsp:0003840 ! Anopheles daciae/messeae group (Brugman et al.)
 
 [Term]
 id: VBsp:0003767
@@ -41299,6 +41383,11 @@ xref: MIRO:40003801
 is_a: VBsp:0001928 ! Pseudoficalbia
 
 [Term]
+id: VBsp:0003802
+name: Stock Dove
+is_a: VBsp:0003245 ! Bird
+
+[Term]
 id: VBsp:0003803
 name: Topomyia yanbareroides
 alt_id: MIRO:40003803
@@ -41427,6 +41516,11 @@ def: "A family of superfamily Culicoidea." [Walter_Reed:taxonomy]
 synonym: "mosquito" EXACT []
 xref: MIRO:40003818
 is_a: VBsp:0004003 ! Diptera
+
+[Term]
+id: VBsp:0003819
+name: Wood Pigeon
+is_a: VBsp:0003245 ! Bird
 
 [Term]
 id: VBsp:0003820
@@ -41591,6 +41685,36 @@ synonym: "Anopheles gambiae s.s. chromosomal form Bissau" EXACT []
 synonym: "chromosomal form Bissau" EXACT []
 xref: MIRO:40003835
 is_a: VBsp:0003480 ! Anopheles gambiae sensu lato
+
+[Term]
+id: VBsp:0003836
+name: Yellow Wagtail
+namespace: VBsp:0003836
+is_a: VBsp:0003245 ! Bird
+
+[Term]
+id: VBsp:0003837
+name: Vertebrate
+def: "an animal of a large group distinguished by the possession of a backbone or spinal column, including mammals, birds, reptiles, amphibians, and fishes." []
+is_a: VBcv:0001004 ! blood meal source
+
+[Term]
+id: VBsp:0003838
+name: Anopheles maculipennis sensu lato
+def: "The Anopheles maculipennis complex comprises several sibling species including major vectors of malaria parasites of historic Europe." []
+is_a: VBsp:0000016 ! Anopheles
+
+[Term]
+id: VBsp:0003839
+name: Anopheles artemievi
+def: "A sibling species of the Anopheles maculipennis complex." []
+is_a: VBsp:0003838 ! Anopheles maculipennis sensu lato
+
+[Term]
+id: VBsp:0003840
+name: Anopheles daciae/messeae group (Brugman et al.)
+def: "Anopheles daciae and Anopheles messeae were indishtinguable in the study bt Brugman et al. 2017, 'Blood-feeding patterns of native mosquitoes and insights into their potential role as pathogen vectors in the Thames estuary region of the United Kingdom'." []
+is_a: VBcv:0001010 ! Species group
 
 [Term]
 id: VBsp:0004000
