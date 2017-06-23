@@ -29988,10 +29988,10 @@ id: VBsp:0002515
 name: Culex australicus
 alt_id: MIRO:40002515
 alt_id: NCBITaxon:260110
-def: "A species of subgenus Culex." [Walter_Reed:taxonomy]
+def: "A member species of the Culex pipiens complex." [Walter_Reed:taxonomy]
 xref: MIRO:40002515
 xref: NCBITaxon:260110
-is_a: VBsp:0002482 ! Culex
+is_a: VBsp:0003841 ! Culex pipiens complex
 
 [Term]
 id: VBsp:0002516
@@ -31164,7 +31164,7 @@ id: VBsp:0002641
 name: Culex pipiens
 alt_id: MIRO:40002641
 alt_id: NCBITaxon:7175
-def: "A species of subgenus Culex." [Water_Reed:taxonomy]
+def: "A member species of the Culex pipiens complex." [Water_Reed:taxonomy]
 synonym: "Culex agilis" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex autogenicus" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex azoriensis" RELATED [Walter_Reed:taxonomy]
@@ -31205,7 +31205,7 @@ synonym: "Culex unistriatus" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex varioannulatus" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40002641
 xref: NCBITaxon:7175
-is_a: VBsp:0002482 ! Culex
+is_a: VBsp:0003841 ! Culex pipiens complex
 relationship: is_a VBsp:0003238 ! Culex pipiens group (Bartholomay et al.)
 
 [Term]
@@ -31323,7 +31323,7 @@ id: VBsp:0002654
 name: Culex quinquefasciatus
 alt_id: MIRO:40002654
 alt_id: NCBITaxon:7176
-def: "A species of subgenus Culex." [Water_Reed:taxonomy]
+def: "A member species of the Culex pipiens complex." [Water_Reed:taxonomy]
 synonym: "Culex acer" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex aestuans" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex aikenii" RELATED [Walter_Reed:taxonomy]
@@ -31366,7 +31366,7 @@ synonym: "Culex trilineatus" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex zeltneri" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40002654
 xref: NCBITaxon:7176
-is_a: VBsp:0002482 ! Culex
+is_a: VBsp:0003841 ! Culex pipiens complex
 
 [Term]
 id: VBsp:0002655
@@ -41715,6 +41715,29 @@ id: VBsp:0003840
 name: Anopheles daciae/messeae group (Brugman et al.)
 def: "Anopheles daciae and Anopheles messeae were indishtinguable in the study bt Brugman et al. 2017, 'Blood-feeding patterns of native mosquitoes and insights into their potential role as pathogen vectors in the Thames estuary region of the United Kingdom'." []
 is_a: VBcv:0001010 ! Species group
+
+[Term]
+id: VBsp:0003841
+name: Culex pipiens complex
+is_a: VBsp:0002482 ! Culex
+
+[Term]
+id: VBsp:0003842
+name: Culex pipiens molestus
+def: "A subspecies of Culex pipiens." []
+is_a: VBsp:0002641 ! Culex pipiens
+
+[Term]
+id: VBsp:0003843
+name: Culex pipiens pallens
+def: "A subspecies of Culex pipiens." []
+is_a: VBsp:0002641 ! Culex pipiens
+
+[Term]
+id: VBsp:0003844
+name: Culex pipiens pipiens
+def: "A subspecies of Culex pipiens." []
+is_a: VBsp:0002641 ! Culex pipiens
 
 [Term]
 id: VBsp:0004000
