@@ -8069,6 +8069,13 @@ namespace: environmental_qualifier
 is_a: VBcv:0000692 ! feeding state qualifier
 
 [Term]
+id: VBcv:0001043
+name: blood-fed twice
+namespace: environmental_qualifier
+namespace: VBcv:0001043
+is_a: VBcv:0000693 ! blood-fed
+
+[Term]
 id: VBcv:0010000
 name: living stock
 is_a: VBcv:0000614 ! stock descriptor
@@ -41738,6 +41745,12 @@ id: VBsp:0003844
 name: Culex pipiens pipiens
 def: "A subspecies of Culex pipiens." []
 is_a: VBsp:0002641 ! Culex pipiens
+
+[Term]
+id: VBsp:0003845
+name: Anopheles gambiae x Anopheles coluzzii
+def: "A hybrid species of Anopheles gambiae and Anopheles coluzzii" []
+is_a: VBsp:0003480 ! Anopheles gambiae sensu lato
 
 [Term]
 id: VBsp:0004000
