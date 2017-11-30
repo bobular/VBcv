@@ -8076,6 +8076,21 @@ namespace: VBcv:0001043
 is_a: VBcv:0000693 ! blood-fed
 
 [Term]
+id: VBcv:0001044
+name: Cow and Human
+is_a: VBcv:0001005 ! mixed species
+
+[Term]
+id: VBcv:0001045
+name: Cow and Pig
+is_a: VBcv:0001005 ! mixed species
+
+[Term]
+id: VBcv:0001046
+name: Cow and Goat
+is_a: VBcv:0001005 ! mixed species
+
+[Term]
 id: VBcv:0010000
 name: living stock
 is_a: VBcv:0000614 ! stock descriptor
@@ -8579,10 +8594,10 @@ is_a: VBsp:0000016 ! Anopheles
 
 [Term]
 id: VBsp:0000041
-name: Anopheles barbirostris
+name: Anopheles barbirostris sensu lato
 alt_id: MIRO:40000041
 alt_id: NCBITaxon:112267
-def: "A species of subgenus Anopheles." [Walter_Reed:taxonomy]
+def: "A species group of subgenus Anopheles." [Walter_Reed:taxonomy]
 synonym: "Anopheles innominata" RELATED [Walter_Reed:taxonomy]
 synonym: "Anopheles martini" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40000041
@@ -16903,9 +16918,9 @@ is_a: VBsp:0000960 ! Ochlerotatus
 
 [Term]
 id: VBsp:0000996
-name: Aedes canadensis
+name: Aedes canadensis complex
 alt_id: MIRO:40000996
-def: "A species of subgenus Ochlerotatus." [Walter_Reed:taxonomy]
+def: "A species complex of subgenus Ochlerotatus." [Walter_Reed:taxonomy]
 synonym: "Aedes mathesoni" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes nivitarsis" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes Subspecies:" RELATED [Walter_Reed:taxonomy]
@@ -31212,8 +31227,8 @@ synonym: "Culex unistriatus" RELATED [Walter_Reed:taxonomy]
 synonym: "Culex varioannulatus" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40002641
 xref: NCBITaxon:7175
+is_a: VBsp:0003238 ! Culex pipiens group (Bartholomay et al.)
 is_a: VBsp:0003841 ! Culex pipiens complex
-relationship: is_a VBsp:0003238 ! Culex pipiens group (Bartholomay et al.)
 
 [Term]
 id: VBsp:0002642
@@ -31403,7 +31418,8 @@ synonym: "Culex brehmei" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40002657
 xref: NCBITaxon:38742
 is_a: VBsp:0002482 ! Culex
-relationship: is_a VBsp:0003238 ! Culex pipiens group (Bartholomay et al.)
+is_a: VBsp:0003238 ! Culex pipiens group (Bartholomay et al.)
+is_a: VBsp:0003847 ! Culex pipiens morphological group
 
 [Term]
 id: VBsp:0002658
@@ -31438,7 +31454,8 @@ def: "A species of subgenus Culex." [Walter_Reed:taxonomy]
 xref: MIRO:40002661
 xref: NCBITaxon:38743
 is_a: VBsp:0002482 ! Culex
-relationship: is_a VBsp:0003238 ! Culex pipiens group (Bartholomay et al.)
+is_a: VBsp:0003238 ! Culex pipiens group (Bartholomay et al.)
+is_a: VBsp:0003847 ! Culex pipiens morphological group
 
 [Term]
 id: VBsp:0002662
@@ -38901,7 +38918,7 @@ is_a: VBsp:0002217 ! Cellia
 
 [Term]
 id: VBsp:0003525
-name: Anopheles maculatus
+name: Anopheles maculatus sensu lato
 alt_id: MIRO:40003525
 alt_id: NCBITaxon:74869
 def: "A species of subgenus Cellia." [Walter_Reed:taxonomy]
@@ -39016,7 +39033,7 @@ is_a: VBsp:0002217 ! Cellia
 
 [Term]
 id: VBsp:0003537
-name: Anopheles minimus
+name: Anopheles minimus sensu lato
 alt_id: MIRO:40003537
 alt_id: NCBITaxon:112268
 def: "A species of subgenus Cellia." [Walter_Reed:taxonomy]
@@ -39163,10 +39180,10 @@ is_a: VBsp:0002217 ! Cellia
 
 [Term]
 id: VBsp:0003552
-name: Anopheles nivipes
+name: Anopheles nivipes sensu lato
 alt_id: MIRO:40003552
 alt_id: NCBITaxon:74871
-def: "A species of subgenus Cellia." [Walter_Reed:taxonomy]
+def: "A species group of subgenus Cellia." [Walter_Reed:taxonomy]
 xref: MIRO:40003552
 xref: NCBITaxon:74871
 is_a: VBsp:0002217 ! Cellia
@@ -39528,7 +39545,7 @@ alt_id: NCBITaxon:142886
 def: "A species of subgenus Cellia." [Walter_Reed:taxonomy]
 xref: MIRO:40003589
 xref: NCBITaxon:142886
-is_a: VBsp:0002217 ! Cellia
+is_a: VBsp:0003525 ! Anopheles maculatus sensu lato
 
 [Term]
 id: VBsp:0003590
@@ -41726,7 +41743,7 @@ is_a: VBcv:0001010 ! Species group
 [Term]
 id: VBsp:0003841
 name: Culex pipiens complex
-is_a: VBsp:0002482 ! Culex
+is_a: VBsp:0003847 ! Culex pipiens morphological group
 
 [Term]
 id: VBsp:0003842
@@ -41751,6 +41768,200 @@ id: VBsp:0003845
 name: Anopheles gambiae x Anopheles coluzzii
 def: "A hybrid species of Anopheles gambiae and Anopheles coluzzii" []
 is_a: VBsp:0003480 ! Anopheles gambiae sensu lato
+
+[Term]
+id: VBsp:0003846
+name: Aedes canadensis
+def: "A subspecies of the Aedes canadensis complex" []
+is_a: VBsp:0000996 ! Aedes canadensis complex
+created_by: Sakelly
+
+[Term]
+id: VBsp:0003847
+name: Culex pipiens morphological group
+def: "Moprphologically indistinguishable group" []
+is_a: VBsp:0002482 ! Culex
+
+[Term]
+id: VBsp:0003848
+name: Anopheles nivipes
+def: "A subspecies of the species group Anopheles nivipes sensu lato" []
+is_a: VBsp:0003552 ! Anopheles nivipes sensu lato
+
+[Term]
+id: VBsp:0003849
+name: Frog
+def: "A tailless amphibian with a short squat body, moist smooth skin, and very long hind legs for leaping." []
+is_a: VBcv:0001004 ! blood meal source
+
+[Term]
+id: VBsp:0003850
+name: Anopheles barbirostris CLADE III
+def: "A cryptic species of Anopheles barbirostris." []
+is_a: VBsp:0000041 ! Anopheles barbirostris sensu lato
+
+[Term]
+id: VBsp:0003851
+name: genus Stomoxys
+def: "Genus of the tribe Stomoxyini." [NCBI:taxonomy]
+xref: NCBITaxon:35569
+is_a: VBsp:0003852 ! Stomoxyini
+
+[Term]
+id: VBsp:0003852
+name: Stomoxyini
+def: "Tribe of the subfamily Muscinae." [NCBI:taxonomy]
+xref: NCBITaxon:43911
+is_a: VBsp:0004022 ! Muscinae
+created_by: lawson
+creation_date: 2017-11-27
+
+[Term]
+id: VBsp:0003853
+name: Stomoxys calcitrans
+def: "Species of the genus Stomoxys." [NCBI:taxonomy]
+xref: NCBITaxon:35570
+is_a: VBsp:0003851 ! genus Stomoxys
+created_by: lawson
+creation_date: 2017-11-27
+
+[Term]
+id: VBsp:0003854
+name: Astigmata
+def: "An order of the subclass Acari." [NCBI:taxonomy]
+xref: NCBITaxon:6951
+is_a: VBsp:0004040 ! Acari
+created_by: lawson
+creation_date: 2017-11-27
+
+[Term]
+id: VBsp:0003855
+name: Sarcoptoidea
+def: "Superfamily of the order Astigmata." [NCBI:taxonomy]
+xref: NCBITaxon:83158
+is_a: VBsp:0003854 ! Astigmata
+created_by: lawson
+creation_date: 2017-11-27
+
+[Term]
+id: VBsp:0003856
+name: Sarcoptidae
+def: "Family of the superfamily Sarcoptoidea." [NCBI:taxonomy]
+xref: NCBITaxon:52281
+is_a: VBsp:0003855 ! Sarcoptoidea
+created_by: lawson
+creation_date: 2017-11-27
+
+[Term]
+id: VBsp:0003857
+name: Sarcoptinae
+def: "Sub-family of the family Sarcoptidae." [NCBI:taxonomy]
+xref: NCBITaxon:474019
+is_a: VBsp:0003856 ! Sarcoptidae
+created_by: lawson
+creation_date: 2017-11-27
+
+[Term]
+id: VBsp:0003858
+name: Anopheles saeungae
+def: "A subspecies of the species complex Anopheles barbirostris." []
+is_a: VBsp:0000041 ! Anopheles barbirostris sensu lato
+
+[Term]
+id: VBsp:0003859
+name: genus Sarcoptes
+def: "Genus of the subfamily Sarcoptinae." [NCBI:taxonomy]
+xref: NCBITaxon:52282
+is_a: VBsp:0003857 ! Sarcoptinae
+created_by: lawson
+creation_date: 2017-11-27
+
+[Term]
+id: VBsp:0003860
+name: Sarcoptes scabiei
+def: "Species of the genus Sarcoptes." [NCBI:taxonomy]
+xref: NCBITaxon:52283
+is_a: VBsp:0003859 ! genus Sarcoptes
+created_by: lawson
+creation_date: 2017-11-27
+
+[Term]
+id: VBsp:0003861
+name: Mollusca
+def: "A phylum of the Kingdom Metazoa." [NCBI:taxonomy]
+xref: NCBITaxon:6447
+is_a: VBcv:0000981 ! VectorBase species descriptor
+created_by: lawson
+creation_date: 2017-11-27
+
+[Term]
+id: VBsp:0003862
+name: Gastropoda
+def: "A class of the phylum Mollusca." [NCBI:taxonomy]
+xref: NCBITaxon:6448
+is_a: VBsp:0003861 ! Mollusca
+created_by: lawson
+creation_date: 2017-11-27
+
+[Term]
+id: VBsp:0003863
+name: Planorboidea
+def: "A superfamily of the class Gastropoda." [NCBI:taxonomy]
+xref: NCBITaxon:977780
+is_a: VBsp:0003862 ! Gastropoda
+created_by: lawson
+creation_date: 2017-11-27
+
+[Term]
+id: VBsp:0003864
+name: Planorbidae
+def: "A family of the superfamily Planorboidea." [NCBI:taxonomy]
+xref: NCBITaxon:6524
+is_a: VBsp:0003863 ! Planorboidea
+created_by: lawson
+creation_date: 2017-11-27
+
+[Term]
+id: VBsp:0003865
+name: genus Biomphalaria
+def: "A genus of the family Planorbidae." [NCBI:taxonomy]
+xref: NCBITaxon:6525
+is_a: VBsp:0003864 ! Planorbidae
+created_by: lawson
+creation_date: 2017-11-27
+
+[Term]
+id: VBsp:0003866
+name: Biomphalaria glabrata
+def: "A species of the genus Biomphalaria." [NCBI:taxonomy]
+xref: NCBITaxon:6526
+is_a: VBsp:0003865 ! genus Biomphalaria
+created_by: lawson
+creation_date: 2017-11-27
+
+[Term]
+id: VBsp:0003867
+name: Anopheles wejchoochotei
+def: "A subspecies of the species complex Anopheles barbirostris." []
+is_a: VBsp:0000041 ! Anopheles barbirostris sensu lato
+
+[Term]
+id: VBsp:0003868
+name: Anopheles rampae
+def: "A sibling species of the Anopheles maculatus complex." []
+is_a: VBsp:0003525 ! Anopheles maculatus sensu lato
+
+[Term]
+id: VBsp:0003869
+name: Anopheles maculatus
+def: "A subspecies of species complex Anopheles maculatus" []
+is_a: VBsp:0003525 ! Anopheles maculatus sensu lato
+
+[Term]
+id: VBsp:0003870
+name: Anopheles minimus
+def: "A subspecies of the species complex Anopheles minimus." []
+is_a: VBsp:0003537 ! Anopheles minimus sensu lato
 
 [Term]
 id: VBsp:0004000
