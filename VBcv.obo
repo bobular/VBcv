@@ -8091,6 +8091,12 @@ name: Cow and Goat
 is_a: VBcv:0001005 ! mixed species
 
 [Term]
+id: VBcv:0001047
+name: data deposited
+namespace: pub_type
+is_a: VBcv:0000189 ! publication class
+
+[Term]
 id: VBcv:0010000
 name: living stock
 is_a: VBcv:0000614 ! stock descriptor
@@ -8886,10 +8892,10 @@ is_a: VBsp:0000070 ! Nyssorhynchus
 
 [Term]
 id: VBsp:0000072
-name: Anopheles crucians
+name: Anopheles crucians complex
 alt_id: MIRO:40000072
 alt_id: NCBITaxon:869064
-def: "A species of subgenus Anopheles." [Walter_Reed:taxonomy]
+def: "A species complex of subgenus Anopheles." [Walter_Reed:taxonomy]
 xref: MIRO:40000072
 xref: NCBITaxon:869064
 is_a: VBsp:0000016 ! Anopheles
@@ -14930,10 +14936,10 @@ is_a: VBsp:0000648 ! Finlaya
 
 [Term]
 id: VBsp:0000761
-name: Aedes japonicus
+name: Aedes japonicus complex
 alt_id: MIRO:40000761
 alt_id: NCBITaxon:140438
-def: "A species of subgenus Finlaya." [Water_Reed:taxonomy]
+def: "A species complex of subgenus Finlaya." [Water_Reed:taxonomy]
 synonym: "Aedes amamiensis" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes bisanensis" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes eucleptes" RELATED [Walter_Reed:taxonomy]
@@ -16929,9 +16935,9 @@ is_a: VBsp:0000960 ! Ochlerotatus
 
 [Term]
 id: VBsp:0000997
-name: Aedes mathesoni
+name: Aedes mathesoni complex
 alt_id: MIRO:40000997
-def: "A species of subgenus Ochlerotatus." [Walter_Reed:taxonomy]
+def: "A species complex of subgenus Ochlerotatus." [Walter_Reed:taxonomy]
 xref: MIRO:40000997
 is_a: VBsp:0000960 ! Ochlerotatus
 
@@ -18199,17 +18205,17 @@ is_a: VBsp:0000960 ! Ochlerotatus
 
 [Term]
 id: VBsp:0001139
-name: Aedes spencerii
+name: Aedes spencerii complex
 alt_id: MIRO:40001139
-def: "A species of subgenus Ochlerotatus." [Walter_Reed:taxonomy]
+def: "A species complex of subgenus Ochlerotatus." [Walter_Reed:taxonomy]
 xref: MIRO:40001139
 is_a: VBsp:0000960 ! Ochlerotatus
 
 [Term]
 id: VBsp:0001140
-name: Aedes idahoensis
+name: Aedes idahoensis complex
 alt_id: MIRO:40001140
-def: "A species of subgenus Ochlerotatus." [Walter_Reed:taxonomy]
+def: "A species complex of subgenus Ochlerotatus." [Walter_Reed:taxonomy]
 xref: MIRO:40001140
 is_a: VBsp:0000960 ! Ochlerotatus
 
@@ -21196,19 +21202,19 @@ is_a: VBsp:0001471 ! Lynchiella
 
 [Term]
 id: VBsp:0001484
-name: Toxorhynchites rutilus
+name: Toxorhynchites rutilus complex
 alt_id: MIRO:40001484
 alt_id: NCBITaxon:53553
-def: "A species of subgenus Lynchiella." [Walter_Reed:taxonomy]
+def: "A species complex of subgenus Lynchiella." [Walter_Reed:taxonomy]
 xref: MIRO:40001484
 xref: NCBITaxon:53553
 is_a: VBsp:0001471 ! Lynchiella
 
 [Term]
 id: VBsp:0001485
-name: Toxorhynchites septentrionalis
+name: Toxorhynchites septentrionalis complex
 alt_id: MIRO:40001485
-def: "A species of subgenus Lynchiella." [Walter_Reed:taxonomy]
+def: "A species complex of subgenus Lynchiella." [Walter_Reed:taxonomy]
 synonym: "Toxorhynchites herrickii" RELATED [Walter_Reed:taxonomy]
 synonym: "Toxorhynchites of:" RELATED [Walter_Reed:taxonomy]
 synonym: "Toxorhynchites rutilus" RELATED [Walter_Reed:taxonomy]
@@ -24975,18 +24981,18 @@ is_a: VBsp:0001928 ! Pseudoficalbia
 
 [Term]
 id: VBsp:0001933
-name: Uranotaenia anhydor
+name: Uranotaenia anhydor complex
 alt_id: MIRO:40001933
 alt_id: NCBITaxon:1206294
-def: "A species of subgenus Pseudoficalbia." [Walter_Reed:taxonomy]
+def: "A species complex of subgenus Pseudoficalbia." [Walter_Reed:taxonomy]
 xref: MIRO:40001933
 is_a: VBsp:0001928 ! Pseudoficalbia
 
 [Term]
 id: VBsp:0001934
-name: Uranotaenia syntheta
+name: Uranotaenia syntheta complex
 alt_id: MIRO:40001934
-def: "A species of subgenus Pseudoficalbia." [Walter_Reed:taxonomy]
+def: "A species complex of subgenus Pseudoficalbia." [Walter_Reed:taxonomy]
 xref: MIRO:40001934
 is_a: VBsp:0001928 ! Pseudoficalbia
 
@@ -41962,6 +41968,66 @@ id: VBsp:0003870
 name: Anopheles minimus
 def: "A subspecies of the species complex Anopheles minimus." []
 is_a: VBsp:0003537 ! Anopheles minimus sensu lato
+
+[Term]
+id: VBsp:0003871
+name: Aedes mathesoni
+def: "A subspecies of species complex Aedes mathesoni" []
+is_a: VBsp:0000997 ! Aedes mathesoni complex
+
+[Term]
+id: VBsp:0003872
+name: Aedes japonicus
+def: "A subspecies of the species complex Aedes japonicus" []
+is_a: VBsp:0000761 ! Aedes japonicus complex
+
+[Term]
+id: VBsp:0003873
+name: Aedes idahoensis
+def: "A subspecies of species complex Aedes idahoensis" []
+is_a: VBsp:0001140 ! Aedes idahoensis complex
+
+[Term]
+id: VBsp:0003874
+name: Aedes spencerii
+def: "A subspecies of species complex Aedes spencerii" []
+is_a: VBsp:0001139 ! Aedes spencerii complex
+
+[Term]
+id: VBsp:0003875
+name: Aedes togoi
+def: "A species of subgenus Ochlerotatus." []
+is_a: VBsp:0000960 ! Ochlerotatus
+
+[Term]
+id: VBsp:0003876
+name: Aedes crucians
+namespace: A subspecies of species complex Anopheles crucians
+is_a: VBsp:0000072 ! Anopheles crucians complex
+
+[Term]
+id: VBsp:0003877
+name: Toxorhynchites rutilus
+def: "A subspecies of species complex Toxorhynchites rutilus" []
+is_a: VBsp:0001484 ! Toxorhynchites rutilus complex
+
+[Term]
+id: VBsp:0003878
+name: Toxorhynchites septentrionalis
+def: "A subspecies of species complex Toxorhynchites septentrionalis" []
+is_a: VBsp:0001485 ! Toxorhynchites septentrionalis complex
+
+[Term]
+id: VBsp:0003879
+name: Uranotaenia anhydor
+def: "A subspecies of species complex Uranotaenia anhydor" []
+is_a: VBsp:0001933 ! Uranotaenia anhydor complex
+
+[Term]
+id: VBsp:0003880
+name: Uranotaenia syntheta
+def: "A subspecies of the complex Uranotaenia syntheta" []
+is_a: VBsp:0002024 ! Uranotaenia tsaratananae
 
 [Term]
 id: VBsp:0004000
