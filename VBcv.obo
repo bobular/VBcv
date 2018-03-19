@@ -16755,7 +16755,7 @@ name: Aedes atlanticus
 alt_id: MIRO:40000976
 def: "A species of subgenus Ochlerotatus." [Walter_Reed:taxonomy]
 xref: MIRO:40000976
-is_a: VBsp:0000960 ! Ochlerotatus
+is_a: VBsp:0003892 ! Aedes atlanticus-tormentor morphological group
 
 [Term]
 id: VBsp:0000977
@@ -18376,7 +18376,7 @@ name: Aedes tormentor
 alt_id: MIRO:40001157
 def: "A species of subgenus Ochlerotatus." [Walter_Reed:taxonomy]
 xref: MIRO:40001157
-is_a: VBsp:0000960 ! Ochlerotatus
+is_a: VBsp:0003892 ! Aedes atlanticus-tormentor morphological group
 
 [Term]
 id: VBsp:0001158
@@ -38252,10 +38252,10 @@ is_a: VBsp:0000016 ! Anopheles
 
 [Term]
 id: VBsp:0003452
-name: Anopheles sinensis
+name: Anopheles sinensis sensu lato
 alt_id: MIRO:40003452
 alt_id: NCBITaxon:74873
-def: "A species of subgenus Anopheles." [Walter_Reed:taxonomy]
+def: "A species complex of subgenus Anopheles." [Walter_Reed:taxonomy]
 synonym: "Anopheles esoensis" RELATED [Walter_Reed:taxonomy]
 synonym: "Anopheles plumiger" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40003452
@@ -42030,6 +42030,183 @@ def: "A subspecies of the complex Uranotaenia syntheta" []
 is_a: VBsp:0002024 ! Uranotaenia tsaratananae
 
 [Term]
+id: VBsp:0003881
+name: genus Sergentomyia
+def: "Genus of the subfamily Phlebotominae." [NCBI:taxonomy]
+xref: NCBITaxon:59720
+is_a: VBsp:0004026 ! Phlebotominae
+created_by: lawson
+
+[Term]
+id: VBsp:0003882
+name: Sergentomyia dentata
+def: "Species of the genus Sergentomyia." [NCBI:taxonomy]
+xref: NCBITaxon:85763
+is_a: VBsp:0003881 ! genus Sergentomyia
+created_by: lawson
+
+[Term]
+id: VBsp:0003883
+name: Sergentomyia minuta
+def: "Species of the genus Sergentomyia." [NCBI:taxonomy]
+xref: NCBITaxon:59271
+is_a: VBsp:0003881 ! genus Sergentomyia
+created_by: lawson
+
+[Term]
+id: VBsp:0003884
+name: Phlebotomus alexandri
+def: "Species of the genus Phlebotomus." [NCBI:taxonomy]
+xref: NCBITaxon:94477
+is_a: VBsp:0003901 ! Transphlebotomus
+created_by: lawson
+
+[Term]
+id: VBsp:0003885
+name: Phlebotomus similis
+def: "Species of the genus Phlebotomus." [NCBI:taxonomy]
+xref: NCBITaxon:132724
+is_a: VBsp:0003901 ! Transphlebotomus
+created_by: lawson
+
+[Term]
+id: VBsp:0003886
+name: Phlebotomus simici
+def: "Species of the genus Phlebotomus." [NCBI:taxonomy]
+xref: NCBITaxon:94475
+is_a: VBsp:0003899 ! Adlerius
+created_by: lawson
+
+[Term]
+id: VBsp:0003887
+name: Phlebotomus perniciosus
+def: "Species of the genus Phlebotomus." [NCBI:taxonomy]
+xref: NCBITaxon:13204
+is_a: VBsp:0003898 ! Larroussius
+created_by: lawson
+
+[Term]
+id: VBsp:0003888
+name: Phlebotomus tobbi
+def: "Species of the genus Phlebotomus." [NCBI:taxonomy]
+xref: NCBITaxon:33402
+is_a: VBsp:0003898 ! Larroussius
+created_by: lawson
+
+[Term]
+id: VBsp:0003889
+name: Phlebotomus neglectus
+def: "Species of the genus Phlebotomus." [NCBI:taxonomy]
+xref: NCBITaxon:85758
+is_a: VBsp:0003898 ! Larroussius
+created_by: lawson
+
+[Term]
+id: VBsp:0003890
+name: Phlebotomus perfiliewi sensu lato
+def: "Species of the genus Phlebotomus." [NCBI:taxonomy]
+xref: NCBITaxon:59275
+is_a: VBsp:0003898 ! Larroussius
+created_by: lawson
+
+[Term]
+id: VBsp:0003891
+name: Culex opisthopus
+def: "A species of subgenus Culex." [Walter_Reed:taxonomy]
+is_a: VBsp:0002482 ! Culex
+created_by: lawson
+
+[Term]
+id: VBsp:0003892
+name: Aedes atlanticus-tormentor morphological group
+def: "Moprphologically indistinguishable group" []
+is_a: VBsp:0000960 ! Ochlerotatus
+created_by: lawson
+
+[Term]
+id: VBsp:0003893
+name: Anopheles sinensis
+def: "A subspecies of species complex Anopheles sinensis sensu lato" []
+is_a: VBsp:0003452 ! Anopheles sinensis sensu lato
+
+[Term]
+id: VBsp:0003894
+name: Sergentomyia fallax
+def: "Species of the genus Sergentomyia." [NCBI:taxonomy]
+xref: NCBITaxon:94478
+is_a: VBsp:0003881 ! genus Sergentomyia
+created_by: lawson
+
+[Term]
+id: VBsp:0003895
+name: Sergentomyia theodori
+def: "Species of the genus Sergentomyia." [NCBI:taxonomy]
+is_a: VBsp:0003881 ! genus Sergentomyia
+created_by: lawson
+
+[Term]
+id: VBsp:0003896
+name: Phlebotomus galilaeus
+def: "Species of the genus Phlebotomus." [NCBI:taxonomy]
+xref: NCBITaxon:1411916
+is_a: VBsp:0003898 ! Larroussius
+created_by: lawson
+
+[Term]
+id: VBsp:0003897
+name: Phlebotomus sergenti
+def: "Species of the genus Phlebotomus." [NCBI:taxonomy]
+xref: NCBITaxon:85759
+is_a: VBsp:0003901 ! Transphlebotomus
+created_by: lawson
+
+[Term]
+id: VBsp:0003898
+name: Larroussius
+def: "A subgenus of the genus Phlebotomus." [NCBI:taxonomy]
+xref: NCBITaxon:59268
+is_a: VBsp:0004029 ! genus Phlebotomus
+created_by: lawson
+
+[Term]
+id: VBsp:0003899
+name: Adlerius
+def: "A subgenus of the genus Phlebotomus." [NCBI:taxonomy]
+xref: NCBITaxon:252618
+is_a: VBsp:0004029 ! genus Phlebotomus
+created_by: lawson
+
+[Term]
+id: VBsp:0003900
+name: Paraphlebotomus
+def: "A subgenus of the genus Phlebotomus." [NCBI:taxonomy]
+xref: NCBITaxon:59269
+is_a: VBsp:0004029 ! genus Phlebotomus
+created_by: lawson
+
+[Term]
+id: VBsp:0003901
+name: Transphlebotomus
+def: "A subgenus of the genus Phlebotomus." [NCBI:taxonomy]
+xref: NCBITaxon:262964
+is_a: VBsp:0004029 ! genus Phlebotomus
+created_by: lawson
+
+[Term]
+id: VBsp:0003902
+name: Phlebotomus
+def: "A subgenus of the genus Phlebotomus." [NCBI:taxonomy]
+xref: NCBITaxon:44556
+is_a: VBsp:0004029 ! genus Phlebotomus
+created_by: lawson
+
+[Term]
+id: VBsp:0003999
+name: Culex pipiens pipiens x Culex pipiens molestus
+def: "A hybrid species of Culex pipiens pipiens and Culex pipiens molestus" []
+is_a: VBsp:0002641 ! Culex pipiens
+
+[Term]
 id: VBsp:0004000
 name: Arthropoda
 alt_id: NCBITaxon:6656
@@ -42324,7 +42501,7 @@ id: VBsp:0004030
 name: Phlebotomus papatasi
 def: "Species of the genus Phlebotomus." [NCBI:taxonomy]
 xref: NCBITaxon:29031
-is_a: VBsp:0004029 ! genus Phlebotomus
+is_a: VBsp:0003902 ! Phlebotomus
 created_by: lawson
 creation_date: 2014-09-25T08:04:34Z
 
