@@ -42002,7 +42002,7 @@ is_a: VBsp:0000960 ! Ochlerotatus
 [Term]
 id: VBsp:0003876
 name: Aedes crucians
-namespace: A subspecies of species complex Anopheles crucians
+def: "A subspecies of species complex Anopheles crucians" []
 is_a: VBsp:0000072 ! Anopheles crucians complex
 
 [Term]
