@@ -7500,6 +7500,16 @@ name: data deposited
 is_a: VBcv:0000189 ! publication class
 
 [Term]
+id: VBcv:0001048
+name: unknown sex
+is_a: VBcv:0000332 ! sex qualifier
+
+[Term]
+id: VBcv:0001049
+name: unknown
+is_a: VBcv:0001004 ! blood meal source
+
+[Term]
 id: VBcv:0010000
 name: living stock
 is_a: VBcv:0000614 ! stock descriptor
