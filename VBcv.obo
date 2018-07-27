@@ -10136,9 +10136,9 @@ is_a: VBsp:0000267 ! Aedimorphus
 id: VBsp:0000270
 name: Aedes adami
 alt_id: MIRO:40000270
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000270
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000271
@@ -10197,10 +10197,10 @@ is_a: VBsp:0000267 ! Aedimorphus
 id: VBsp:0000277
 name: Aedes argenteopunctatus
 alt_id: MIRO:40000277
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 synonym: "Aedes quinquepunctata" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40000277
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000278
@@ -10230,9 +10230,9 @@ is_a: VBsp:0000267 ! Aedimorphus
 id: VBsp:0000281
 name: Aedes bedfordi
 alt_id: MIRO:40000281
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000281
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000282
@@ -10286,9 +10286,9 @@ is_a: VBsp:0000267 ! Aedimorphus
 id: VBsp:0000288
 name: Aedes chamboni
 alt_id: MIRO:40000288
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000288
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000289
@@ -10348,9 +10348,9 @@ is_a: VBsp:0000267 ! Aedimorphus
 id: VBsp:0000295
 name: Aedes dialloi
 alt_id: MIRO:40000295
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000295
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000296
@@ -10400,17 +10400,17 @@ is_a: VBsp:0000267 ! Aedimorphus
 id: VBsp:0000301
 name: Aedes falabreguesi
 alt_id: MIRO:40000301
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000301
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000302
 name: Aedes filicis
 alt_id: MIRO:40000302
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000302
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000303
@@ -10449,9 +10449,9 @@ is_a: VBsp:0000267 ! Aedimorphus
 id: VBsp:0000307
 name: Aedes grenieri
 alt_id: MIRO:40000307
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000307
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000308
@@ -10492,28 +10492,28 @@ is_a: VBsp:0000267 ! Aedimorphus
 id: VBsp:0000312
 name: Aedes hopkinsi
 alt_id: MIRO:40000312
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000312
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000313
 name: Aedes insolens
 alt_id: MIRO:40000313
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000313
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000314
 name: Aedes irritans
 alt_id: MIRO:40000314
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 synonym: "Aedes albotaeniatus" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes confusus" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes senegalensis" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40000314
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000315
@@ -10568,9 +10568,9 @@ is_a: VBsp:0000267 ! Aedimorphus
 id: VBsp:0000321
 name: Aedes lokojoensis
 alt_id: MIRO:40000321
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000321
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000322
@@ -10584,9 +10584,9 @@ is_a: VBsp:0000267 ! Aedimorphus
 id: VBsp:0000323
 name: Aedes lottei
 alt_id: MIRO:40000323
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000323
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000324
@@ -10643,33 +10643,33 @@ is_a: VBsp:0000267 ! Aedimorphus
 id: VBsp:0000330
 name: Aedes microstictus
 alt_id: MIRO:40000330
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000330
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000331
 name: Aedes minutus
 alt_id: MIRO:40000331
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000331
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000332
 name: Aedes mixtus
 alt_id: MIRO:40000332
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000332
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000333
 name: Aedes mutilus
 alt_id: MIRO:40000333
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000333
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000334
@@ -10709,9 +10709,9 @@ is_a: VBsp:0000267 ! Aedimorphus
 id: VBsp:0000338
 name: Aedes nyounae
 alt_id: MIRO:40000338
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000338
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000339
@@ -10777,9 +10777,9 @@ is_a: VBsp:0000267 ! Aedimorphus
 id: VBsp:0000346
 name: Aedes phyllolabis
 alt_id: MIRO:40000346
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000346
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000347
@@ -10794,9 +10794,9 @@ is_a: VBsp:0000267 ! Aedimorphus
 id: VBsp:0000348
 name: Aedes pseudotarsalis
 alt_id: MIRO:40000348
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000348
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000349
@@ -10818,10 +10818,10 @@ is_a: VBsp:0000267 ! Aedimorphus
 id: VBsp:0000351
 name: Aedes punctothoracis
 alt_id: MIRO:40000351
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 synonym: "Aedes punctithorax" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40000351
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000352
@@ -10835,9 +10835,9 @@ is_a: VBsp:0000267 ! Aedimorphus
 id: VBsp:0000353
 name: Aedes reali
 alt_id: MIRO:40000353
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000353
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000354
@@ -10884,9 +10884,9 @@ is_a: VBsp:0000267 ! Aedimorphus
 id: VBsp:0000359
 name: Aedes smithburni
 alt_id: MIRO:40000359
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000359
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000360
@@ -10937,7 +10937,7 @@ is_a: VBsp:0000267 ! Aedimorphus
 id: VBsp:0000365
 name: Aedes tarsalis
 alt_id: MIRO:40000365
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 synonym: "Aedes africana" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes biannulata" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes bipunctata" RELATED [Walter_Reed:taxonomy]
@@ -10945,7 +10945,7 @@ synonym: "Aedes neobiannulatus" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes sudanensis" RELATED [Walter_Reed:taxonomy]
 synonym: "Aedes uniannulata" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40000365
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000366
@@ -10992,9 +10992,9 @@ is_a: VBsp:0000267 ! Aedimorphus
 id: VBsp:0000371
 name: Aedes veeniae
 alt_id: MIRO:40000371
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000371
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000372
@@ -11041,9 +11041,9 @@ is_a: VBsp:0000372 ! Aedes vexans sensu lato
 id: VBsp:0000375
 name: Aedes wendyae
 alt_id: MIRO:40000375
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000375
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000376
@@ -11057,17 +11057,17 @@ is_a: VBsp:0000267 ! Aedimorphus
 id: VBsp:0000377
 name: Aedes yangambiensis
 alt_id: MIRO:40000377
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000377
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000378
 name: Aedes yvonneae
 alt_id: MIRO:40000378
-def: "A species of subgenus Aedimorphus." [Walter_Reed:taxonomy]
+def: "A species of subgenus Catageiomyia." [Walter_Reed:taxonomy]
 xref: MIRO:40000378
-is_a: VBsp:0000267 ! Aedimorphus
+is_a: VBsp:0003903 ! Catageiomyia
 
 [Term]
 id: VBsp:0000379
@@ -41611,6 +41611,12 @@ def: "A subgenus of the genus Phlebotomus." [NCBI:taxonomy]
 xref: NCBITaxon:44556
 is_a: VBsp:0004029 ! genus Phlebotomus
 created_by: lawson
+
+[Term]
+id: VBsp:0003903
+name: Catageiomyia
+def: "A subgenus of genus Aedes." []
+is_a: VBsp:0000253 ! genus Aedes
 
 [Term]
 id: VBsp:0003999
