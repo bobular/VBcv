@@ -7655,6 +7655,108 @@ def: "Internal project prop type\n\nA cvterm used internally within Chado to sto
 is_a: VBcv:0001061 ! extra attributes
 
 [Term]
+id: VBcv:0001076
+name: project tag
+is_a: VBcv:0000843 ! project descriptor
+
+[Term]
+id: VBcv:0001077
+name: funding source
+is_a: VBcv:0001076 ! project tag
+
+[Term]
+id: VBcv:0001078
+name: NIH
+def: "United States of America National Institutes of Health" []
+is_a: VBcv:0001077 ! funding source
+
+[Term]
+id: VBcv:0001079
+name: NIAID
+def: "National Institute of Allergy and Infectious Diseases" []
+is_a: VBcv:0001078 ! NIH
+
+[Term]
+id: VBcv:0001080
+name: ICEMR
+def: "International Centers of Excellence for Malaria Research" []
+is_a: VBcv:0001079 ! NIAID
+
+[Term]
+id: VBcv:0001081
+name: organisation
+is_a: VBcv:0001076 ! project tag
+
+[Term]
+id: VBcv:0001082
+name: mosquito abatement district
+def: "A state-funded organisation that monitors vector and nuisance species, removes standing water, and deploys insecticides and other control measures." []
+synonym: "mosquito control district" EXACT []
+synonym: "vector control district" BROAD []
+is_a: VBcv:0001081 ! organisation
+
+[Term]
+id: VBcv:0001083
+name: academic institution
+is_a: VBcv:0001081 ! organisation
+
+[Term]
+id: VBcv:0001084
+name: project type
+is_a: VBcv:0001076 ! project tag
+
+[Term]
+id: VBcv:0001085
+name: abundance
+synonym: "surveillance" EXACT []
+is_a: VBcv:0001084 ! project type
+
+[Term]
+id: VBcv:0001086
+name: insecticide resistance
+is_a: VBcv:0001084 ! project type
+
+[Term]
+id: VBcv:0001087
+name: insecticide resistance phenotyping
+is_a: VBcv:0001086 ! insecticide resistance
+
+[Term]
+id: VBcv:0001088
+name: insecticide resistance genotyping
+is_a: VBcv:0001086 ! insecticide resistance
+
+[Term]
+id: VBcv:0001089
+name: genomic variation
+is_a: VBcv:0001084 ! project type
+
+[Term]
+id: VBcv:0001090
+name: whole genome sequencing
+is_a: VBcv:0001089 ! genomic variation
+
+[Term]
+id: VBcv:0001091
+name: SNP-chip
+is_a: VBcv:0001089 ! genomic variation
+
+[Term]
+id: VBcv:0001092
+name: Orange County Florida Mosquito Control
+is_a: VBcv:0001082 ! mosquito abatement district
+
+[Term]
+id: VBcv:0001093
+name: South Walton County Mosquito Control
+is_a: VBcv:0001082 ! mosquito abatement district
+
+[Term]
+id: VBcv:0001094
+name: Iowa State Mosquito Surveillance
+is_a: VBcv:0001083 ! academic institution
+
+[Term]
 id: VBcv:0010000
 name: living stock
 is_a: VBcv:0000614 ! stock descriptor
