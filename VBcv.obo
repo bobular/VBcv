@@ -7757,6 +7757,12 @@ name: Iowa State Mosquito Surveillance
 is_a: VBcv:0001083 ! academic institution
 
 [Term]
+id: VBcv:0001095
+name: project tags
+def: "This is just the term to identify the Chado \"multiprop\" that holds the project tag terms (which are children of VBcv:0001076)" []
+is_a: VBcv:0001058 ! Bio::Chado::VBPopBio descriptor
+
+[Term]
 id: VBcv:0010000
 name: living stock
 is_a: VBcv:0000614 ! stock descriptor
