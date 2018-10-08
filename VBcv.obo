@@ -7667,19 +7667,19 @@ is_a: VBcv:0001076 ! project tag
 [Term]
 id: VBcv:0001078
 name: NIH
-def: "United States of America National Institutes of Health" []
+synonym: "United States of America National Institutes of Health" EXACT []
 is_a: VBcv:0001077 ! funding source
 
 [Term]
 id: VBcv:0001079
 name: NIAID
-def: "National Institute of Allergy and Infectious Diseases" []
+synonym: "National Institute of Allergy and Infectious Diseases" EXACT []
 is_a: VBcv:0001078 ! NIH
 
 [Term]
 id: VBcv:0001080
 name: ICEMR
-def: "International Centers of Excellence for Malaria Research" []
+synonym: "International Centers of Excellence for Malaria Research" EXACT []
 is_a: VBcv:0001079 ! NIAID
 
 [Term]
@@ -7748,7 +7748,7 @@ is_a: VBcv:0001082 ! mosquito abatement district
 
 [Term]
 id: VBcv:0001093
-name: South Walton County Mosquito Control
+name: South Walton County Florida Mosquito Control
 is_a: VBcv:0001082 ! mosquito abatement district
 
 [Term]
@@ -7761,6 +7761,21 @@ id: VBcv:0001095
 name: project tags
 def: "This is just the term to identify the Chado \"multiprop\" that holds the project tag terms (which are children of VBcv:0001076)" []
 is_a: VBcv:0001058 ! Bio::Chado::VBPopBio descriptor
+
+[Term]
+id: VBcv:0001096
+name: Manatee County Florida Mosquito Control
+is_a: VBcv:0001082 ! mosquito abatement district
+
+[Term]
+id: VBcv:0001097
+name: Hernando County Florida Mosquito Control
+is_a: VBcv:0001082 ! mosquito abatement district
+
+[Term]
+id: VBcv:0001098
+name: Collier County Florida Mosquito Control
+is_a: VBcv:0001082 ! mosquito abatement district
 
 [Term]
 id: VBcv:0010000
