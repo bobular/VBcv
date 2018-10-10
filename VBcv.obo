@@ -7778,6 +7778,22 @@ name: Collier County Florida Mosquito Control
 is_a: VBcv:0001082 ! mosquito abatement district
 
 [Term]
+id: VBcv:0001099
+name: usage license
+is_a: VBcv:0001076 ! project tag
+
+[Term]
+id: VBcv:0001100
+name: CC BY-NC
+synonym: "Creative Commons Attribution Non Commercial" BROAD []
+is_a: VBcv:0001099 ! usage license
+
+[Term]
+id: VBcv:0001101
+name: Biogents Mosquito Surveillance
+is_a: VBcv:0001085 ! abundance
+
+[Term]
 id: VBcv:0010000
 name: living stock
 is_a: VBcv:0000614 ! stock descriptor
