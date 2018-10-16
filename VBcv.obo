@@ -7794,6 +7794,26 @@ name: Biogents Mosquito Surveillance
 is_a: VBcv:0001085 ! abundance
 
 [Term]
+id: VBcv:0001102
+name: health department/district
+is_a: VBcv:0001081 ! organisation
+
+[Term]
+id: VBcv:0001103
+name: Southern Nevada Health District
+is_a: VBcv:0001102 ! health department/district
+
+[Term]
+id: VBcv:0001104
+name: Marion County Public Health Department, Indiana
+is_a: VBcv:0001102 ! health department/district
+
+[Term]
+id: VBcv:0001105
+name: Anastasia Mosquito Control District, Florida
+is_a: VBcv:0001082 ! mosquito abatement district
+
+[Term]
 id: VBcv:0010000
 name: living stock
 is_a: VBcv:0000614 ! stock descriptor
