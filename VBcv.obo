@@ -7786,7 +7786,7 @@ is_a: VBcv:0001076 ! project tag
 id: VBcv:0001100
 name: CC BY-NC
 synonym: "Creative Commons Attribution Non Commercial" BROAD []
-is_a: VBcv:0001099 ! usage license
+is_a: VBcv:0001106 ! Creative Commons
 
 [Term]
 id: VBcv:0001101
@@ -7812,6 +7812,17 @@ is_a: VBcv:0001102 ! health department/district
 id: VBcv:0001105
 name: Anastasia Mosquito Control District, Florida
 is_a: VBcv:0001082 ! mosquito abatement district
+
+[Term]
+id: VBcv:0001106
+name: Creative Commons
+is_a: VBcv:0001099 ! usage license
+
+[Term]
+id: VBcv:0001107
+name: CC BY
+synonym: "Creative Commons Attribution" BROAD []
+is_a: VBcv:0001106 ! Creative Commons
 
 [Term]
 id: VBcv:0010000
