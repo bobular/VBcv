@@ -7739,7 +7739,6 @@ is_a: VBcv:0001089 ! genomic variation
 [Term]
 id: VBcv:0001091
 name: SNP-chip
-synonym: "SNP microarray" EXACT []
 is_a: VBcv:0001089 ! genomic variation
 
 [Term]
@@ -7792,7 +7791,7 @@ is_a: VBcv:0001106 ! Creative Commons
 [Term]
 id: VBcv:0001101
 name: Biogents Mosquito Surveillance
-is_a: VBcv:0001108 ! smart trapping
+is_a: VBcv:0001085 ! abundance
 
 [Term]
 id: VBcv:0001102
@@ -7824,19 +7823,6 @@ id: VBcv:0001107
 name: CC BY
 synonym: "Creative Commons Attribution" BROAD []
 is_a: VBcv:0001106 ! Creative Commons
-
-[Term]
-id: VBcv:0001108
-name: smart trapping
-synonym: "automated surveillance" EXACT []
-synonym: "smart trap" EXACT []
-is_a: VBcv:0001085 ! abundance
-
-[Term]
-id: VBcv:0001109
-name: microsatellites
-synonym: "microsatellite length polymorphism analysis" EXACT []
-is_a: VBcv:0001089 ! genomic variation
 
 [Term]
 id: VBcv:0010000
