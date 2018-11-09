@@ -9269,11 +9269,11 @@ id: VBsp:0000139
 name: Anopheles messeae
 alt_id: MIRO:40000139
 alt_id: NCBITaxon:41430
-def: "A sibling species of the Anopheles maculipennis complex." [Walter_Reed:taxonomy]
+def: "A sibling species of the Anopheles messeae/daciae morphological group." [Walter_Reed:taxonomy]
 xref: MIRO:40000139
 xref: NCBITaxon:41430
-is_a: VBsp:0003838 ! Anopheles maculipennis sensu lato
 is_a: VBsp:0003840 ! Anopheles daciae/messeae group (Brugman et al.)
+is_a: VBsp:0003914 ! Anopheles messeae/daciae morphological group
 
 [Term]
 id: VBsp:0000140
@@ -36195,6 +36195,7 @@ id: VBsp:0003238
 name: Culex pipiens group (Bartholomay et al.)
 def: "We created the “Culex pipiens group” identifier because of the difficulty in distinguishing female Cx. pipiens and Cx. restuans and Cx. salinarius mosquitoes (Crabtree et al. 1995, Lee and Rowley 2000, Apperson et al. 2002), particularly those specimens from light traps, so those are presented collectively in the database as “Cx. pipiens group.”" []
 is_a: VBcv:0001010 ! Species group
+is_obsolete: true
 
 [Term]
 id: VBsp:0003239
@@ -40865,11 +40866,11 @@ id: VBsp:0003766
 name: Anopheles daciae
 alt_id: MIRO:40003766
 alt_id: NCBITaxon:281737
-def: "A sibling species of the Anopheles maculipennis complex." [Walter_Reed:taxonomy]
+def: "A sibling species of the Anopheles messeae/daciae morphological group." [Walter_Reed:taxonomy]
 xref: MIRO:40003766
 xref: NCBITaxon:281737
-is_a: VBsp:0003838 ! Anopheles maculipennis sensu lato
 is_a: VBsp:0003840 ! Anopheles daciae/messeae group (Brugman et al.)
+is_a: VBsp:0003914 ! Anopheles messeae/daciae morphological group
 
 [Term]
 id: VBsp:0003767
@@ -41486,6 +41487,7 @@ id: VBsp:0003840
 name: Anopheles daciae/messeae group (Brugman et al.)
 def: "Anopheles daciae and Anopheles messeae were indishtinguable in the study bt Brugman et al. 2017, 'Blood-feeding patterns of native mosquitoes and insights into their potential role as pathogen vectors in the Thames estuary region of the United Kingdom'." []
 is_a: VBcv:0001010 ! Species group
+is_obsolete: true
 
 [Term]
 id: VBsp:0003841
@@ -42006,6 +42008,12 @@ id: VBsp:0003913
 name: Green Anole
 synonym: "Anolis carolinensis" EXACT []
 is_a: VBcv:0001006 ! animal
+
+[Term]
+id: VBsp:0003914
+name: Anopheles messeae/daciae morphological group
+def: "The Anopheles messeae/daciae morphological group comprises morphologically similar sibling species." []
+is_a: VBsp:0003838 ! Anopheles maculipennis sensu lato
 
 [Term]
 id: VBsp:0003999
