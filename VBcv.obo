@@ -7519,6 +7519,7 @@ id: VBcv:0001051
 name: % > p99
 def: "The percent of samples that have activity greater than the 99th percentile of the control." []
 is_a: VBcv:0001050 ! relative activity qualifier
+is_obsolete: true
 
 [Term]
 id: VBcv:0001052
@@ -7837,6 +7838,29 @@ id: VBcv:0001109
 name: microsatellites
 synonym: "microsatellite length polymorphism analysis" EXACT []
 is_a: VBcv:0001089 ! genomic variation
+
+[Term]
+id: VBcv:0001110
+name: relative enzyme activity
+def: "Quantitative activity of an enzyme expressed relative to that of a control sample, such as a laboratory strain." []
+is_a: VBcv:0000702 ! quantitative qualifier
+
+[Term]
+id: VBcv:0001111
+name: fraction greater than 99th percentile activity
+def: "The fraction of individuals exhibiting higher activity than the 99th percentile of the control insects." []
+is_a: VBcv:0001110 ! relative enzyme activity
+
+[Term]
+id: VBcv:0001112
+name: reference enzyme activity
+def: "Quantitative activity of an enzyme expressed by a control sample, such as a laboratory strain." []
+is_a: VBcv:0000702 ! quantitative qualifier
+
+[Term]
+id: VBcv:0001113
+name: reference sample
+is_a: VBcv:0000846 ! sample descriptor
 
 [Term]
 id: VBcv:0010000
