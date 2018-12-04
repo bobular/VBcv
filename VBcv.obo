@@ -7776,7 +7776,7 @@ is_a: VBcv:0001082 ! mosquito abatement district
 
 [Term]
 id: VBcv:0001098
-name: Collier County Florida Mosquito Control
+name: Collier Mosquito Control District
 is_a: VBcv:0001082 ! mosquito abatement district
 
 [Term]
