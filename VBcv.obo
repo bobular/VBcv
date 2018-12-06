@@ -7863,6 +7863,18 @@ name: reference sample
 is_a: VBcv:0000846 ! sample descriptor
 
 [Term]
+id: VBcv:0001114
+name: academic network
+is_a: VBcv:0001081 ! organisation
+
+[Term]
+id: VBcv:0001115
+name: The Worldwide Insecticide resistance Network
+synonym: "WIN" EXACT []
+synonym: "Worldwide Insecticide resistance Network" EXACT []
+is_a: VBcv:0001114 ! academic network
+
+[Term]
 id: VBcv:0010000
 name: living stock
 is_a: VBcv:0000614 ! stock descriptor
