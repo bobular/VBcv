@@ -7481,17 +7481,17 @@ is_a: VBcv:0000693 ! blood-fed
 
 [Term]
 id: VBcv:0001044
-name: Cow and Human
+name: cow and human
 is_a: VBcv:0001005 ! mixed species
 
 [Term]
 id: VBcv:0001045
-name: Cow and Pig
+name: cow and pig
 is_a: VBcv:0001005 ! mixed species
 
 [Term]
 id: VBcv:0001046
-name: Cow and Goat
+name: cow and goat
 is_a: VBcv:0001005 ! mixed species
 
 [Term]
@@ -7847,7 +7847,7 @@ is_a: VBcv:0000702 ! quantitative qualifier
 
 [Term]
 id: VBcv:0001111
-name: fraction greater than 99th percentile activity
+name: fraction greater than 99th percentile reference activity
 def: "The fraction of individuals exhibiting higher activity than the 99th percentile of the control insects." []
 is_a: VBcv:0001110 ! relative enzyme activity
 
@@ -7873,6 +7873,17 @@ name: The Worldwide Insecticide resistance Network
 synonym: "WIN" EXACT []
 synonym: "Worldwide Insecticide resistance Network" EXACT []
 is_a: VBcv:0001114 ! academic network
+
+[Term]
+id: VBcv:0001116
+name: log2(mean sample activity / mean reference strain activity)
+is_a: VBcv:0001110 ! relative enzyme activity
+
+[Term]
+id: VBcv:0003922
+name: Ashfaq et al. (2014) COI
+def: "Oligonucleotide primer set for COI locus from Ashfaq (2014).\nCocktail of the following primers:\nLepF1 5'-ATTCAACCAATCATAAAGATATTGG-3'\nLCO1490 5'-GGTCAACAAATCATAAAGATATTGG-3'  \nLepR1 5'-TAAACTTCTGGATGTCCAAAAAATCA-3'\nHCO2198 5'-TAAACTTCAGGGTGACCAAAAAATCA-3'" []
+is_a: VBcv:0001026 ! primer set COI
 
 [Term]
 id: VBcv:0010000
@@ -9418,12 +9429,12 @@ id: VBsp:0000151
 name: Anopheles albitarsis
 alt_id: MIRO:40000151
 alt_id: NCBITaxon:58236
-def: "A species of subgenus Nyssorhynchus." [Walter_Reed:taxonomy]
+def: "A subspecies of the Anopheles albitarsis complex." [Walter_Reed:taxonomy]
 synonym: "Anopheles imperfectus" RELATED [Walter_Reed:taxonomy]
 synonym: "Anopheles limai" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40000151
 xref: NCBITaxon:58236
-is_a: VBsp:0000070 ! Nyssorhynchus
+is_a: VBsp:0003915 ! Anopheles albitarsis complex
 
 [Term]
 id: VBsp:0000152
@@ -9473,10 +9484,10 @@ id: VBsp:0000156
 name: Anopheles deaneorum
 alt_id: MIRO:40000156
 alt_id: NCBITaxon:58243
-def: "A species of subgenus Nyssorhynchus." [Walter_Reed:taxonomy]
+def: "A subspecies of the Anopheles albitarsis complex ." [Walter_Reed:taxonomy]
 xref: MIRO:40000156
 xref: NCBITaxon:58243
-is_a: VBsp:0000070 ! Nyssorhynchus
+is_a: VBsp:0003915 ! Anopheles albitarsis complex
 
 [Term]
 id: VBsp:0000157
@@ -9547,11 +9558,11 @@ id: VBsp:0000163
 name: Anopheles marajoara
 alt_id: MIRO:40000163
 alt_id: NCBITaxon:58244
-def: "A species of subgenus Nyssorhynchus." [Walter_Reed:taxonomy]
+def: "A subspecies of the Anopheles albitarsis complex." [Walter_Reed:taxonomy]
 synonym: "Anopheles domesticus" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40000163
 xref: NCBITaxon:58244
-is_a: VBsp:0000070 ! Nyssorhynchus
+is_a: VBsp:0003915 ! Anopheles albitarsis complex
 
 [Term]
 id: VBsp:0000164
@@ -9682,7 +9693,7 @@ synonym: "Anopheles davisi" RELATED [Walter_Reed:taxonomy]
 synonym: "Anopheles perezi" RELATED [Walter_Reed:taxonomy]
 xref: MIRO:40000175
 xref: NCBITaxon:58253
-is_a: VBsp:0000070 ! Nyssorhynchus
+is_a: VBsp:0003916 ! Anopheles triannulatus complex
 
 [Term]
 id: VBsp:0000176
@@ -19923,7 +19934,7 @@ is_a: VBsp:0000372 ! Aedes vexans sensu lato
 
 [Term]
 id: VBsp:0001357
-name: Human
+name: human
 is_a: VBcv:0001004 ! blood meal source
 
 [Term]
@@ -20291,15 +20302,15 @@ is_a: VBsp:0001396 ! Sabethoides
 
 [Term]
 id: VBsp:0001400
-name: Galliformes
+name: galliformes
 def: "The Galliformes are an order of heavy-bodied ground-feeding birds that includes turkey, grouse, chicken, New World quail and Old World quail, ptarmigan, partridge, pheasant, junglefowl and the Cracidae." []
 is_a: VBcv:0001004 ! blood meal source
 
 [Term]
 id: VBsp:0001401
-name: Bovine
+name: bovine
 def: "The biological subfamily Bovinae includes a diverse group of 10 genera of medium to large-sized ungulates, including domestic cattle, bison, African buffalo, the water buffalo, the yak, and the four-horned and spiral-horned antelopes." []
-is_a: VBcv:0001004 ! blood meal source
+is_a: VBsp:0003921 ! ungulate
 
 [Term]
 id: VBsp:0001402
@@ -21528,8 +21539,8 @@ is_a: VBsp:0001489 ! Toxorhynchites
 
 [Term]
 id: VBsp:0001547
-name: Goat
-is_a: VBcv:0001004 ! blood meal source
+name: goat
+is_a: VBsp:0003921 ! ungulate
 
 [Term]
 id: VBsp:0001548
@@ -24694,8 +24705,8 @@ is_a: VBsp:0001772 ! genus Wyeomyia
 
 [Term]
 id: VBsp:0001925
-name: Cow
-is_a: VBsp:0001401 ! Bovine
+name: cow
+is_a: VBsp:0001401 ! bovine
 
 [Term]
 id: VBsp:0001926
@@ -26690,13 +26701,13 @@ is_a: VBsp:0002156 ! genus Trichoprosopon
 
 [Term]
 id: VBsp:0002163
-name: Buffalo
-is_a: VBsp:0001401 ! Bovine
+name: buffalo
+is_a: VBsp:0001401 ! bovine
 
 [Term]
 id: VBsp:0002164
-name: Bison
-is_a: VBsp:0001401 ! Bovine
+name: bison
+is_a: VBsp:0001401 ! bovine
 
 [Term]
 id: VBsp:0002165
@@ -28969,13 +28980,13 @@ is_a: VBsp:0002373 ! genus Culiseta
 
 [Term]
 id: VBsp:0002421
-name: Chicken
-is_a: VBsp:0001400 ! Galliformes
+name: chicken
+is_a: VBsp:0001400 ! galliformes
 
 [Term]
 id: VBsp:0002422
-name: Turkey
-is_a: VBsp:0001400 ! Galliformes
+name: turkey
+is_a: VBsp:0001400 ! galliformes
 
 [Term]
 id: VBsp:0002423
@@ -36190,19 +36201,19 @@ creation_date: 2015-01-21T15:42:22Z
 
 [Term]
 id: VBsp:0003232
-name: Grouse
-is_a: VBsp:0001400 ! Galliformes
+name: grouse
+is_a: VBsp:0001400 ! galliformes
 
 [Term]
 id: VBsp:0003233
-name: Rodentia
+name: rodentia
 def: "Rodentia is the largest order of the class Mammalia. Common examples of Rodentia are; mice, rats, hamsters, and guinea pigs" []
 is_a: VBcv:0001004 ! blood meal source
 
 [Term]
 id: VBsp:0003234
-name: Rat
-is_a: VBsp:0003233 ! Rodentia
+name: rat
+is_a: VBsp:0003233 ! rodentia
 
 [Term]
 id: VBsp:0003235
@@ -36217,12 +36228,12 @@ is_a: VBsp:0003480 ! Anopheles gambiae sensu lato
 
 [Term]
 id: VBsp:0003236
-name: Monkey
+name: monkey
 is_a: VBcv:0001004 ! blood meal source
 
 [Term]
 id: VBsp:0003237
-name: Didelphis
+name: didelphis
 def: "The genus Didelphis, commonly known as large American opossums, are members of the order Didelphimorphia." []
 is_a: VBcv:0001004 ! blood meal source
 
@@ -36272,69 +36283,69 @@ is_a: VBsp:0003239 ! Anopheles farauti sensu lato
 
 [Term]
 id: VBsp:0003244
-name: Sheep
-is_a: VBcv:0001004 ! blood meal source
+name: sheep
+is_a: VBsp:0003925 ! ovine
 
 [Term]
 id: VBsp:0003245
-name: Bird
+name: bird
 is_a: VBcv:0001004 ! blood meal source
 
 [Term]
 id: VBsp:0003246
-name: Barn Swallow
-is_a: VBsp:0003245 ! Bird
+name: barn swallow
+is_a: VBsp:0003245 ! bird
 
 [Term]
 id: VBsp:0003247
-name: Blackbird
-is_a: VBsp:0003245 ! Bird
+name: blackbird
+is_a: VBsp:0003245 ! bird
 
 [Term]
 id: VBsp:0003248
-name: Eurasian Skylark
-is_a: VBsp:0003245 ! Bird
+name: eurasian skylark
+is_a: VBsp:0003245 ! bird
 
 [Term]
 id: VBsp:0003249
-name: Brown Rat
-is_a: VBsp:0003233 ! Rodentia
+name: brown rat
+is_a: VBsp:0003233 ! rodentia
 
 [Term]
 id: VBsp:0003250
-name: Dark-breasted Barn Owl
-is_a: VBsp:0003245 ! Bird
+name: dark-breasted barn owl
+is_a: VBsp:0003245 ! bird
 
 [Term]
 id: VBsp:0003251
-name: Leporidae
+name: leporidae
 def: "Leporidae is a family of mammals that include rabbits and hares, over 60 species in all. The Latin word Leporidae means \"those that resemble lepus\" (hare)." []
 is_a: VBcv:0001004 ! blood meal source
 
 [Term]
 id: VBsp:0003252
-name: European Hare
-is_a: VBsp:0003251 ! Leporidae
+name: european hare
+is_a: VBsp:0003251 ! leporidae
 
 [Term]
 id: VBsp:0003253
-name: European Rabbit
-is_a: VBsp:0003251 ! Leporidae
+name: european rabbit
+is_a: VBsp:0003251 ! leporidae
 
 [Term]
 id: VBsp:0003254
-name: European Starling
-is_a: VBsp:0003245 ! Bird
+name: european starling
+is_a: VBsp:0003245 ! bird
 
 [Term]
 id: VBsp:0003255
-name: Grey Heron
-is_a: VBsp:0003245 ! Bird
+name: grey heron
+is_a: VBsp:0003245 ! bird
 
 [Term]
 id: VBsp:0003256
-name: House Sparrow
-is_a: VBsp:0003245 ! Bird
+name: house sparrow
+is_a: VBsp:0003245 ! bird
 
 [Term]
 id: VBsp:0003257
@@ -37064,8 +37075,8 @@ is_a: VBsp:0003336 ! genus Isostomyia
 
 [Term]
 id: VBsp:0003342
-name: Long-eared Owl
-is_a: VBsp:0003245 ! Bird
+name: long-eared owl
+is_a: VBsp:0003245 ! bird
 
 [Term]
 id: VBsp:0003343
@@ -40236,8 +40247,8 @@ is_a: VBsp:0001301 ! genus Orthopodomyia
 
 [Term]
 id: VBsp:0003685
-name: Meadow Pitpit
-is_a: VBsp:0003245 ! Bird
+name: meadow pitpit
+is_a: VBsp:0003245 ! bird
 
 [Term]
 id: VBsp:0003686
@@ -40577,8 +40588,8 @@ is_a: VBsp:0003694 ! Levua
 
 [Term]
 id: VBsp:0003727
-name: Mute Swan
-is_a: VBsp:0003245 ! Bird
+name: mute swan
+is_a: VBsp:0003245 ! bird
 
 [Term]
 id: VBsp:0003728
@@ -40777,9 +40788,9 @@ id: VBsp:0003751
 name: Anopheles halophylus
 alt_id: MIRO:40003751
 alt_id: NCBITaxon:1049720
-def: "A species of subgenus Nyssorhynchus." [Walter_Reed:taxonomy]
+def: "A subspecies of the Anopheles triannulatus complex." [Walter_Reed:taxonomy]
 xref: MIRO:40003751
-is_a: VBsp:0000070 ! Nyssorhynchus
+is_a: VBsp:0003916 ! Anopheles triannulatus complex
 
 [Term]
 id: VBsp:0003752
@@ -41193,8 +41204,8 @@ is_a: VBsp:0001928 ! Pseudoficalbia
 
 [Term]
 id: VBsp:0003802
-name: Stock Dove
-is_a: VBsp:0003245 ! Bird
+name: stock dove
+is_a: VBsp:0003245 ! bird
 
 [Term]
 id: VBsp:0003803
@@ -41328,8 +41339,8 @@ is_a: VBsp:0004003 ! Diptera
 
 [Term]
 id: VBsp:0003819
-name: Wood Pigeon
-is_a: VBsp:0003245 ! Bird
+name: wood pigeon
+is_a: VBsp:0003245 ! bird
 
 [Term]
 id: VBsp:0003820
@@ -41497,12 +41508,12 @@ is_a: VBsp:0003480 ! Anopheles gambiae sensu lato
 
 [Term]
 id: VBsp:0003836
-name: Yellow Wagtail
-is_a: VBsp:0003245 ! Bird
+name: yellow wagtail
+is_a: VBsp:0003245 ! bird
 
 [Term]
 id: VBsp:0003837
-name: Vertebrate
+name: vertebrate
 def: "an animal of a large group distinguished by the possession of a backbone or spinal column, including mammals, birds, reptiles, amphibians, and fishes." []
 is_a: VBcv:0001004 ! blood meal source
 
@@ -41575,7 +41586,7 @@ is_a: VBsp:0003552 ! Anopheles nivipes sensu lato
 
 [Term]
 id: VBsp:0003849
-name: Anura
+name: anura
 def: "A frog is any member of a diverse and largely carnivorous group of short-bodied, tailless amphibians composing the order Anura." []
 is_a: VBcv:0001004 ! blood meal source
 
@@ -41756,7 +41767,7 @@ is_a: VBsp:0000997 ! Aedes mathesoni complex
 
 [Term]
 id: VBsp:0003872
-name: Aedes japonicus
+name: Aedes japonicus japonicus
 def: "A subspecies of the species complex Aedes japonicus" []
 is_a: VBsp:0000761 ! Aedes japonicus complex
 
@@ -41780,7 +41791,7 @@ is_a: VBsp:0000960 ! Ochlerotatus
 
 [Term]
 id: VBsp:0003876
-name: Aedes crucians
+name: Anopheles crucians
 def: "A subspecies of species complex Anopheles crucians" []
 is_a: VBsp:0000072 ! Anopheles crucians complex
 
@@ -41987,61 +41998,61 @@ is_a: VBsp:0000253 ! genus Aedes
 
 [Term]
 id: VBsp:0003904
-name: Green Heron
+name: green heron
 synonym: "Butorides virescens" EXACT []
-is_a: VBsp:0003245 ! Bird
+is_a: VBsp:0003245 ! bird
 
 [Term]
 id: VBsp:0003905
-name: Black-crowned Night Heron
+name: black-crowned night heron
 synonym: "Nycticorax nycticorax" EXACT []
-is_a: VBsp:0003245 ! Bird
+is_a: VBsp:0003245 ! bird
 
 [Term]
 id: VBsp:0003906
-name: Northern Cardinal
+name: northern cardinal
 synonym: "Cardinalis cardinalis" EXACT []
-is_a: VBsp:0003245 ! Bird
+is_a: VBsp:0003245 ! bird
 
 [Term]
 id: VBsp:0003907
-name: Marsh Rabbit
+name: marsh rabbit
 synonym: "Sylvilagus palustis" EXACT []
-is_a: VBsp:0003251 ! Leporidae
+is_a: VBsp:0003251 ! leporidae
 
 [Term]
 id: VBsp:0003908
-name: Cingulata
+name: cingulata
 def: "Part of the superorder Xenarthra, is an order of armored New World placental mammals. Dasypodids and chlamyphorids, the armadillos, are the only surviving families in the order." []
 is_a: VBcv:0001006 ! animal
 
 [Term]
 id: VBsp:0003909
-name: 9 Banded Armadillo
+name: 9 banded armadillo
 synonym: "Dasypus novemcinctus" EXACT []
-is_a: VBsp:0003908 ! Cingulata
+is_a: VBsp:0003908 ! cingulata
 
 [Term]
 id: VBsp:0003910
-name: American Green Tree Frog
+name: american green tree frog
 synonym: "Hyla cinerea" EXACT []
-is_a: VBsp:0003849 ! Anura
+is_a: VBsp:0003849 ! anura
 
 [Term]
 id: VBsp:0003911
-name: Pine Woods Tree Frog
+name: pine woods tree frog
 synonym: "Hyla femoralis" EXACT []
-is_a: VBsp:0003849 ! Anura
+is_a: VBsp:0003849 ! anura
 
 [Term]
 id: VBsp:0003912
-name: White Tailed Deer
+name: white tailed deer
 synonym: "Odocoileus virginianus" EXACT []
-is_a: VBcv:0001006 ! animal
+is_a: VBsp:0003921 ! ungulate
 
 [Term]
 id: VBsp:0003913
-name: Green Anole
+name: green anole
 synonym: "Anolis carolinensis" EXACT []
 is_a: VBcv:0001006 ! animal
 
@@ -42050,6 +42061,230 @@ id: VBsp:0003914
 name: Anopheles messeae/daciae morphological group
 def: "The Anopheles messeae/daciae morphological group comprises morphologically similar sibling species." []
 is_a: VBsp:0003838 ! Anopheles maculipennis sensu lato
+
+[Term]
+id: VBsp:0003915
+name: Anopheles albitarsis complex
+def: "A species complex of subgenus Nyssorhynchus." []
+is_a: VBsp:0000070 ! Nyssorhynchus
+
+[Term]
+id: VBsp:0003916
+name: Anopheles triannulatus complex
+def: "A species complex of subgenus Nyssorhynchus." []
+is_a: VBsp:0000070 ! Nyssorhynchus
+
+[Term]
+id: VBsp:0003917
+name: genus Collessius
+alt_id: NCBITaxon:1245380
+def: "A genus of Aedini." []
+is_a: VBsp:0003661 ! Aedini
+
+[Term]
+id: VBsp:0003918
+name: Collessius pseudotaeniatus
+alt_id: NCBItaxon:1529933
+def: "A species of genus Collessius." []
+is_a: VBsp:0003917 ! genus Collessius
+
+[Term]
+id: VBsp:0003919
+name: genus Phagomyia
+alt_id: NCBITaxon:1245386
+def: "A genus of Aedini." []
+is_a: VBsp:0003661 ! Aedini
+
+[Term]
+id: VBsp:0003920
+name: Phagomyia cogilli
+alt_id: NCBItaxon:1529942
+def: "A species of genus Phagomyia." []
+is_a: VBsp:0003919 ! genus Phagomyia
+
+[Term]
+id: VBsp:0003921
+name: ungulate
+def: "Ungulates are any members of a diverse group of primarily large mammals that includes odd-toed ungulates such as horses and rhinoceroses, and even-toed ungulates such as cattle, pigs, giraffes, camels, deer, and hippopotamuses." []
+is_a: VBcv:0001004 ! blood meal source
+
+[Term]
+id: VBsp:0003922
+name: horse
+is_a: VBsp:0003926 ! equine
+
+[Term]
+id: VBsp:0003923
+name: marsupial
+def: "Marsupials are any members of the mammalian infraclass Marsupialia. All extant marsupials are endemic to Australasia and the Americas. A distinctive characteristic common to these species is that most of the young are carried in a pouch." []
+is_a: VBcv:0001004 ! blood meal source
+
+[Term]
+id: VBsp:0003924
+name: cat
+is_a: VBcv:0001004 ! blood meal source
+
+[Term]
+id: VBsp:0003925
+name: ovine
+is_a: VBsp:0003921 ! ungulate
+
+[Term]
+id: VBsp:0003926
+name: equine
+is_a: VBsp:0003921 ! ungulate
+
+[Term]
+id: VBsp:0003927
+name: javan rusa
+def: "Native deer to Java." []
+is_a: VBsp:0003921 ! ungulate
+
+[Term]
+id: VBsp:0003928
+name: little wattlebird
+is_a: VBsp:0003245 ! bird
+
+[Term]
+id: VBsp:0003929
+name: nankeen night heron
+is_a: VBsp:0003245 ! bird
+
+[Term]
+id: VBsp:0003930
+name: new holland honeyeater
+is_a: VBsp:0003245 ! bird
+
+[Term]
+id: VBsp:0003931
+name: noisy miner
+is_a: VBsp:0003245 ! bird
+
+[Term]
+id: VBsp:0003932
+name: rainbow lorikeet
+is_a: VBsp:0003245 ! bird
+
+[Term]
+id: VBsp:0003933
+name: canidae
+is_a: VBcv:0001006 ! animal
+
+[Term]
+id: VBsp:0003934
+name: red fox
+is_a: VBsp:0003933 ! canidae
+
+[Term]
+id: VBsp:0003935
+name: red wattlebird
+is_a: VBsp:0003245 ! bird
+
+[Term]
+id: VBsp:0003936
+name: rock dove
+is_a: VBsp:0003245 ! bird
+
+[Term]
+id: VBsp:0003937
+name: striated pardalote
+is_a: VBsp:0003245 ! bird
+
+[Term]
+id: VBsp:0003938
+name: white-plumed honeyeater
+is_a: VBsp:0003245 ! bird
+
+[Term]
+id: VBsp:0003939
+name: Aedes japonicus shintienensis
+def: "A subspecies of the species complex Aedes japonicus" []
+is_a: VBsp:0000761 ! Aedes japonicus complex
+
+[Term]
+id: VBsp:0003940
+name: Aedes japonicus yaeyamensis
+def: "A subspecies of the species complex Aedes japonicus" []
+is_a: VBsp:0000761 ! Aedes japonicus complex
+
+[Term]
+id: VBsp:0003941
+name: Aedes japonicus amamiensis
+def: "A subspecies of the species complex Aedes japonicus" []
+is_a: VBsp:0000761 ! Aedes japonicus complex
+
+[Term]
+id: VBsp:0003942
+name: brushtail possum
+is_a: VBsp:0003923 ! marsupial
+
+[Term]
+id: VBsp:0003943
+name: australian magpie
+is_a: VBsp:0003245 ! bird
+
+[Term]
+id: VBsp:0003944
+name: asian house rat
+is_a: VBsp:0003233 ! rodentia
+
+[Term]
+id: VBsp:0003945
+name: Adelaide rosella
+is_a: VBsp:0003245 ! bird
+
+[Term]
+id: VBsp:0003946
+name: cockatiel
+is_a: VBsp:0003245 ! bird
+
+[Term]
+id: VBsp:0003947
+name: Nematocera
+def: "A suborder of the Diptera order." []
+is_a: VBsp:0004003 ! Diptera
+
+[Term]
+id: VBsp:0003948
+name: Culicomorpha
+def: "The Culicomorpha are an infraorder of Nematocera." []
+is_a: VBsp:0003947 ! Nematocera
+
+[Term]
+id: VBsp:0003949
+name: Chironomoidea
+def: "The Chironomoidea are a superfamily within the order Diptera, suborder Nematocera, infraorder Culicomorpha." []
+is_a: VBsp:0003948 ! Culicomorpha
+
+[Term]
+id: VBsp:0003950
+name: Ceratopogonidae
+def: "Ceratopogonidae is a family of flies commonly known as no-see-ums, or biting midges, generally 1-3 mm in length." []
+is_a: VBsp:0003949 ! Chironomoidea
+
+[Term]
+id: VBsp:0003951
+name: Ceratopogoninae
+def: "A subfamily of Ceratopogonidae." []
+is_a: VBsp:0003950 ! Ceratopogonidae
+
+[Term]
+id: VBsp:0003952
+name: Culicoidini
+def: "The Culicoidini is a tribe of biting midges." []
+is_a: VBsp:0003951 ! Ceratopogoninae
+
+[Term]
+id: VBsp:0003953
+name: Culicoides
+def: "Culicoides is a genus of biting midges in the family Ceratopogonidae." []
+is_a: VBsp:0003952 ! Culicoidini
+
+[Term]
+id: VBsp:0003954
+name: Chironomidae
+def: "The Chironomidae comprise a family of nematoceran flies with a global distribution. They are closely related to the Ceratopogonidae, Simuliidae, and Thaumaleidae." []
+is_a: VBsp:0003949 ! Chironomoidea
 
 [Term]
 id: VBsp:0003999
@@ -42103,7 +42338,7 @@ name: Simuliidae
 alt_id: NCBITaxon:7190
 def: "A family of the order Diptera." [NCBI:taxonomy]
 xref: NCBITaxon:7190
-is_a: VBsp:0004003 ! Diptera
+is_a: VBsp:0003949 ! Chironomoidea
 created_by: lawson
 creation_date: 2014-09-25T02:36:59Z
 
@@ -42575,13 +42810,13 @@ creation_date: 2014-09-25T09:15:04Z
 
 [Term]
 id: VBsp:0004054
-name: Dog
-is_a: VBcv:0001004 ! blood meal source
+name: dog
+is_a: VBsp:0003933 ! canidae
 
 [Term]
 id: VBsp:0004055
-name: Pig
-is_a: VBcv:0001004 ! blood meal source
+name: pig
+is_a: VBsp:0003921 ! ungulate
 
 [Typedef]
 id: is_a
