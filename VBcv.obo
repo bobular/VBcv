@@ -7880,6 +7880,21 @@ name: log2(mean sample activity / mean reference strain activity)
 is_a: VBcv:0001110 ! relative enzyme activity
 
 [Term]
+id: VBcv:0001117
+name: Salt Lake City Mosquito Abatement District
+is_a: VBcv:0001082 ! mosquito abatement district
+
+[Term]
+id: VBcv:0001118
+name: Cass County Vector Control District
+is_a: VBcv:0001082 ! mosquito abatement district
+
+[Term]
+id: VBcv:0001119
+name: Toledo Area Sanitary District
+is_a: VBcv:0001082 ! mosquito abatement district
+
+[Term]
 id: VBcv:0003922
 name: Ashfaq et al. (2014) COI
 def: "Oligonucleotide primer set for COI locus from Ashfaq (2014).\nCocktail of the following primers:\nLepF1 5'-ATTCAACCAATCATAAAGATATTGG-3'\nLCO1490 5'-GGTCAACAAATCATAAAGATATTGG-3'  \nLepR1 5'-TAAACTTCTGGATGTCCAAAAAATCA-3'\nHCO2198 5'-TAAACTTCAGGGTGACCAAAAAATCA-3'" []
