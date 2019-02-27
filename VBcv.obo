@@ -7911,6 +7911,11 @@ def: "number of traps deployed" []
 is_a: VBcv:0001008 ! collection event descriptor
 
 [Term]
+id: VBcv:0001123
+name: viral surveillance
+is_a: VBcv:0001084 ! project type
+
+[Term]
 id: VBcv:0003922
 name: Ashfaq et al. (2014) COI
 def: "Oligonucleotide primer set for COI locus from Ashfaq (2014).\nCocktail of the following primers:\nLepF1 5'-ATTCAACCAATCATAAAGATATTGG-3'\nLCO1490 5'-GGTCAACAAATCATAAAGATATTGG-3'  \nLepR1 5'-TAAACTTCTGGATGTCCAAAAAATCA-3'\nHCO2198 5'-TAAACTTCAGGGTGACCAAAAAATCA-3'" []
