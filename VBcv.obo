@@ -7916,6 +7916,16 @@ name: viral surveillance
 is_a: VBcv:0001084 ! project type
 
 [Term]
+id: VBcv:0001124
+name: log2(median sample activity / median reference strain activity)
+is_a: VBcv:0001110 ! relative enzyme activity
+
+[Term]
+id: VBcv:0001125
+name: Entomology Group, Pirbright
+is_a: VBcv:0001083 ! academic institution
+
+[Term]
 id: VBcv:0003922
 name: Ashfaq et al. (2014) COI
 def: "Oligonucleotide primer set for COI locus from Ashfaq (2014).\nCocktail of the following primers:\nLepF1 5'-ATTCAACCAATCATAAAGATATTGG-3'\nLCO1490 5'-GGTCAACAAATCATAAAGATATTGG-3'  \nLepR1 5'-TAAACTTCTGGATGTCCAAAAAATCA-3'\nHCO2198 5'-TAAACTTCAGGGTGACCAAAAAATCA-3'" []
@@ -42321,6 +42331,70 @@ id: VBsp:0003954
 name: Chironomidae
 def: "The Chironomidae comprise a family of nematoceran flies with a global distribution. They are closely related to the Ceratopogonidae, Simuliidae, and Thaumaleidae." []
 is_a: VBsp:0003949 ! Chironomoidea
+
+[Term]
+id: VBsp:0003955
+name: subgenus Avaritia
+def: "Remmia is a subgenus of biting midges in the genus Culicoides." []
+is_a: VBsp:0003953 ! Culicoides
+
+[Term]
+id: VBsp:0003956
+name: subgenus Remmia
+def: "Remmia is a subgenus of biting midges in the genus Culicoides." []
+is_a: VBsp:0003953 ! Culicoides
+
+[Term]
+id: VBsp:0003957
+name: subgenus Synhelea
+def: "Synhelea is a subgenus of biting midges in the genus Culicoides." []
+is_a: VBsp:0003953 ! Culicoides
+
+[Term]
+id: VBsp:0003958
+name: subgenus Monoculicoides
+def: "Monoculicoides is a subgenus of biting midges in the genus Culicoides." []
+is_a: VBsp:0003953 ! Culicoides
+
+[Term]
+id: VBsp:0003959
+name: Culicoides pulicaris
+is_a: VBsp:0003966 ! Culicoides pulicaris group
+
+[Term]
+id: VBsp:0003960
+name: Culicoides punctatus
+is_a: VBsp:0003966 ! Culicoides pulicaris group
+
+[Term]
+id: VBsp:0003961
+name: Culicoides impunctatus
+is_a: VBsp:0003958 ! subgenus Monoculicoides
+
+[Term]
+id: VBsp:0003962
+name: Culicoides dewulfi
+is_a: VBsp:0003955 ! subgenus Avaritia
+
+[Term]
+id: VBsp:0003963
+name: Culicoides chiopterus
+is_a: VBsp:0003955 ! subgenus Avaritia
+
+[Term]
+id: VBsp:0003964
+name: Culicoides obsoletus
+is_a: VBsp:0003955 ! subgenus Avaritia
+
+[Term]
+id: VBsp:0003965
+name: Culicoides scoticus
+is_a: VBsp:0003955 ! subgenus Avaritia
+
+[Term]
+id: VBsp:0003966
+name: Culicoides pulicaris group
+is_a: VBsp:0003958 ! subgenus Monoculicoides
 
 [Term]
 id: VBsp:0003999
