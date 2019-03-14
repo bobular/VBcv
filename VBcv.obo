@@ -7797,18 +7797,18 @@ is_a: VBcv:0001108 ! smart trapping
 
 [Term]
 id: VBcv:0001102
-name: health department/district
+name: government health or environmental agency
 is_a: VBcv:0001081 ! organisation
 
 [Term]
 id: VBcv:0001103
 name: Southern Nevada Health District
-is_a: VBcv:0001102 ! health department/district
+is_a: VBcv:0001102 ! government health or environmental agency
 
 [Term]
 id: VBcv:0001104
 name: Marion County Public Health Department, Indiana
-is_a: VBcv:0001102 ! health department/district
+is_a: VBcv:0001102 ! government health or environmental agency
 
 [Term]
 id: VBcv:0001105
@@ -7924,6 +7924,21 @@ is_a: VBcv:0001110 ! relative enzyme activity
 id: VBcv:0001125
 name: Entomology Group, Pirbright
 is_a: VBcv:0001083 ! academic institution
+
+[Term]
+id: VBcv:0001126
+name: unequivocal
+is_a: VBcv:0000811 ! qualitative qualifier
+
+[Term]
+id: VBcv:0001127
+name: equivocal
+is_a: VBcv:0000811 ! qualitative qualifier
+
+[Term]
+id: VBcv:0001128
+name: Rhode Island Department of Environmental Management
+is_a: VBcv:0001102 ! government health or environmental agency
 
 [Term]
 id: VBcv:0003922
