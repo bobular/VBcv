@@ -7941,6 +7941,18 @@ name: Rhode Island Department of Environmental Management
 is_a: VBcv:0001102 ! government health or environmental agency
 
 [Term]
+id: VBcv:0001129
+name: Collection site ADM1
+def: "Collection site administrative region level 1" []
+is_a: VBcv:0000851 ! ISA Tab column descriptor
+
+[Term]
+id: VBcv:0001130
+name: Collection site ADM2
+def: "Collection site admainistrative region level 1" []
+is_a: VBcv:0000851 ! ISA Tab column descriptor
+
+[Term]
 id: VBcv:0003922
 name: Ashfaq et al. (2014) COI
 def: "Oligonucleotide primer set for COI locus from Ashfaq (2014).\nCocktail of the following primers:\nLepF1 5'-ATTCAACCAATCATAAAGATATTGG-3'\nLCO1490 5'-GGTCAACAAATCATAAAGATATTGG-3'  \nLepR1 5'-TAAACTTCTGGATGTCCAAAAAATCA-3'\nHCO2198 5'-TAAACTTCAGGGTGACCAAAAAATCA-3'" []
