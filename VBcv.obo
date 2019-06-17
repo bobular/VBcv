@@ -7953,6 +7953,46 @@ def: "Collection site admainistrative region level 1" []
 is_a: VBcv:0000851 ! ISA Tab column descriptor
 
 [Term]
+id: VBcv:0001131
+name: City of Suffolk Mosquito Control
+is_a: VBcv:0001082 ! mosquito abatement district
+
+[Term]
+id: VBcv:0001132
+name: Lee County Mosquito Control
+is_a: VBcv:0001082 ! mosquito abatement district
+
+[Term]
+id: VBcv:0001133
+name: Desplaines Valley Mosquito Abatement
+is_a: VBcv:0001082 ! mosquito abatement district
+
+[Term]
+id: VBcv:0001134
+name: Maryland Department of Agriculture
+is_a: VBcv:0001102 ! government health or environmental agency
+
+[Term]
+id: VBcv:0001135
+name: Montana State Mosquito Surveillance
+is_a: VBcv:0001083 ! academic institution
+
+[Term]
+id: VBcv:0001136
+name: Hamilton County Health Department
+is_a: VBcv:0001102 ! government health or environmental agency
+
+[Term]
+id: VBcv:0001137
+name: Franklin County Public Health
+is_a: VBcv:0001102 ! government health or environmental agency
+
+[Term]
+id: VBcv:0001138
+name: Tarrant County Public Health Department
+is_a: VBcv:0001102 ! government health or environmental agency
+
+[Term]
 id: VBcv:0003922
 name: Ashfaq et al. (2014) COI
 def: "Oligonucleotide primer set for COI locus from Ashfaq (2014).\nCocktail of the following primers:\nLepF1 5'-ATTCAACCAATCATAAAGATATTGG-3'\nLCO1490 5'-GGTCAACAAATCATAAAGATATTGG-3'  \nLepR1 5'-TAAACTTCTGGATGTCCAAAAAATCA-3'\nHCO2198 5'-TAAACTTCAGGGTGACCAAAAAATCA-3'" []
@@ -20008,6 +20048,7 @@ is_a: VBsp:0000372 ! Aedes vexans sensu lato
 [Term]
 id: VBsp:0001357
 name: human
+synonym: "Homo sapiens" EXACT []
 is_a: VBcv:0001004 ! blood meal source
 
 [Term]
@@ -36382,7 +36423,8 @@ is_a: VBsp:0003245 ! bird
 [Term]
 id: VBsp:0003249
 name: brown rat
-is_a: VBsp:0003233 ! rodentia
+synonym: "Rattus norvegicus" EXACT []
+is_a: VBsp:0003234 ! rat
 
 [Term]
 id: VBsp:0003250
@@ -42127,7 +42169,7 @@ is_a: VBsp:0003921 ! ungulate
 id: VBsp:0003913
 name: green anole
 synonym: "Anolis carolinensis" EXACT []
-is_a: VBcv:0001006 ! animal
+is_a: VBsp:0003984 ! reptilia
 
 [Term]
 id: VBsp:0003914
@@ -42299,7 +42341,7 @@ is_a: VBsp:0003245 ! bird
 [Term]
 id: VBsp:0003944
 name: asian house rat
-is_a: VBsp:0003233 ! rodentia
+is_a: VBsp:0003234 ! rat
 
 [Term]
 id: VBsp:0003945
@@ -42422,6 +42464,134 @@ is_a: VBsp:0003955 ! subgenus Avaritia
 id: VBsp:0003966
 name: Culicoides pulicaris group
 is_a: VBsp:0003958 ! subgenus Monoculicoides
+
+[Term]
+id: VBsp:0003967
+name: Aedes fulvus pallens
+is_a: VBsp:0000254 ! Aedes
+
+[Term]
+id: VBsp:0003968
+name: common opossum
+synonym: "Didelphis marsupialis" EXACT []
+is_a: VBsp:0003237 ! didelphis
+
+[Term]
+id: VBsp:0003969
+name: budgerigar parakeet
+is_a: VBsp:0003245 ! bird
+
+[Term]
+id: VBsp:0003970
+name: eared dove
+is_a: VBsp:0003245 ! bird
+
+[Term]
+id: VBsp:0003971
+name: brown thrasher
+is_a: VBsp:0003245 ! bird
+
+[Term]
+id: VBsp:0003972
+name: curve-billed thrasher
+is_a: VBsp:0003245 ! bird
+
+[Term]
+id: VBsp:0003973
+name: black-faced grassquit
+is_a: VBsp:0003245 ! bird
+
+[Term]
+id: VBsp:0003974
+name: Blackpoll warbler
+is_a: VBsp:0003245 ! bird
+
+[Term]
+id: VBsp:0003975
+name: lesser Antillean bullfinch
+is_a: VBsp:0003245 ! bird
+
+[Term]
+id: VBsp:0003976
+name: bananaquit
+is_a: VBsp:0003245 ! bird
+
+[Term]
+id: VBsp:0003977
+name: black rat
+synonym: "Rattus rattus" EXACT []
+is_a: VBsp:0003234 ! rat
+
+[Term]
+id: VBsp:0003978
+name: green iguana
+is_a: VBcv:0001006 ! animal
+
+[Term]
+id: VBsp:0003979
+name: small indian mongoose
+is_a: VBcv:0001006 ! animal
+
+[Term]
+id: VBsp:0003980
+name: hispid cotton rat
+def: "The hispid cotton rat (Sigmodon hispidus) is a rodent species long thought to occur in parts of South America, Central America, and southern North America." []
+synonym: "Sigmodon hispidus" EXACT []
+is_a: VBsp:0003234 ! rat
+
+[Term]
+id: VBsp:0003981
+name: Phlebotomus mascittii
+is_a: VBsp:0003901 ! Transphlebotomus
+
+[Term]
+id: VBsp:0003982
+name: cotton mouse
+def: "The cotton mouse (Peromyscus gossypinus) is a species of rodent in the family Cricetidae found in the woodlands of the Southeastern United States." []
+synonym: "Peromyscus gossypinus" EXACT []
+is_a: VBsp:0003234 ! rat
+
+[Term]
+id: VBsp:0003983
+name: marsh rice rat
+def: "The marsh rice rat (Oryzomys palustris) is a semiaquatic North American rodent in the family Cricetidae. It usually occurs in wetland habitats, such as swamps and salt marshes." []
+synonym: "Oryzomys palustris" EXACT []
+is_a: VBsp:0003234 ! rat
+
+[Term]
+id: VBsp:0003984
+name: reptilia
+is_a: VBcv:0001006 ! animal
+
+[Term]
+id: VBsp:0003985
+name: brown anole
+synonym: "Anolis sagrei" EXACT []
+is_a: VBsp:0003984 ! reptilia
+
+[Term]
+id: VBsp:0003986
+name: racoon
+synonym: "Procyon lotor" EXACT []
+is_a: VBcv:0001006 ! animal
+
+[Term]
+id: VBsp:0003987
+name: eastern wood rat
+synonym: "Neotoma floridana" EXACT []
+is_a: VBsp:0003234 ! rat
+
+[Term]
+id: VBsp:0003988
+name: eastern cottontail
+synonym: "Sylvilagus floridanus" EXACT []
+is_a: VBsp:0003251 ! leporidae
+
+[Term]
+id: VBsp:0003989
+name: north american river otter
+synonym: "Lontra canadensis" EXACT []
+is_a: VBcv:0001006 ! animal
 
 [Term]
 id: VBsp:0003999
