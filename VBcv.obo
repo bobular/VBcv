@@ -7993,6 +7993,98 @@ name: Tarrant County Public Health Department
 is_a: VBcv:0001102 ! government health or environmental agency
 
 [Term]
+id: VBcv:0001139
+name: geolocation provenance
+def: "Field heading for collection site coordinates provenance information (e.g. direct from submitters or infered by curators). Children of this term are to be used as values." []
+is_a: VBcv:0000696 ! geolocation descriptor
+
+[Term]
+id: VBcv:0001140
+name: geolocation precision
+def: "Field heading used to describe the precision of the collection site location coordinates. This may be just precise or fuzzy/obfuscated, or we may have more options. Children of this term should be used as values." []
+is_a: VBcv:0000696 ! geolocation descriptor
+
+[Term]
+id: VBcv:0001141
+name: inferred by curator
+def: "The location coordinates were determined by the curator, e.g. by finding a midpoint on a map, or using a geo-lookup service." []
+synonym: "IC" BROAD []
+is_a: VBcv:0001139 ! geolocation provenance
+
+[Term]
+id: VBcv:0001142
+name: provided by author
+def: "The location coordinates were provided by the author or data submitter" []
+synonym: "IA" BROAD []
+is_a: VBcv:0001139 ! geolocation provenance
+
+[Term]
+id: VBcv:0001143
+name: extracted from publication
+def: "Location coordinates are provided in the publication" []
+synonym: "IP" BROAD []
+is_a: VBcv:0001139 ! geolocation provenance
+
+[Term]
+id: VBcv:0001144
+name: 0 decimal places or better precision
+def: "1.0 decimal degree, 111.32 km at the equator" []
+is_a: VBcv:0001140 ! geolocation precision
+
+[Term]
+id: VBcv:0001145
+name: 1 decimal place or better precision
+def: "0.1 decimal degrees,   11.13 km at the equator" []
+is_a: VBcv:0001144 ! 0 decimal places or better precision
+
+[Term]
+id: VBcv:0001146
+name: 2 decimal places or better precision
+def: "0.01 decimal degrees,   1.11 km at the equator" []
+is_a: VBcv:0001145 ! 1 decimal place or better precision
+
+[Term]
+id: VBcv:0001147
+name: 3 decimal places or better precision
+def: "0.001 decimal degrees,  111.32 m at the equator" []
+is_a: VBcv:0001146 ! 2 decimal places or better precision
+
+[Term]
+id: VBcv:0001148
+name: 4 decimal places or better precision
+def: "0.0001 decimal degrees,  11.13 m at the equator" []
+is_a: VBcv:0001147 ! 3 decimal places or better precision
+
+[Term]
+id: VBcv:0001149
+name: 5 decimal places or better precision
+def: "0.00001 decimal degrees,  1.11 m at the equator" []
+is_a: VBcv:0001148 ! 4 decimal places or better precision
+
+[Term]
+id: VBcv:0001150
+name: 6 decimal places precision
+def: "0.000001 decimal degrees,  11.13 cm at the equator" []
+is_a: VBcv:0001149 ! 5 decimal places or better precision
+
+[Term]
+id: VBcv:0001151
+name: geolocation accuracy
+is_a: VBcv:0000696 ! geolocation descriptor
+
+[Term]
+id: VBcv:0001152
+name: accurate
+def: "Geolocations that have been determined by on-site GPS readings.\n\n(Even if they have been stored with reduced precision for obfuscation purposes.)" []
+is_a: VBcv:0001151 ! geolocation accuracy
+
+[Term]
+id: VBcv:0001153
+name: inaccurate
+def: "Geolocations that have been determined by guesswork or geocoding" []
+is_a: VBcv:0001151 ! geolocation accuracy
+
+[Term]
 id: VBcv:0003922
 name: Ashfaq et al. (2014) COI
 def: "Oligonucleotide primer set for COI locus from Ashfaq (2014).\nCocktail of the following primers:\nLepF1 5'-ATTCAACCAATCATAAAGATATTGG-3'\nLCO1490 5'-GGTCAACAAATCATAAAGATATTGG-3'  \nLepR1 5'-TAAACTTCTGGATGTCCAAAAAATCA-3'\nHCO2198 5'-TAAACTTCAGGGTGACCAAAAAATCA-3'" []
