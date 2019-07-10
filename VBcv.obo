@@ -8085,6 +8085,13 @@ def: "Geolocations that have been determined by guesswork or geocoding" []
 is_a: VBcv:0001151 ! geolocation accuracy
 
 [Term]
+id: VBcv:0001154
+name: The WorldWide Antimalarial Resistance Network
+synonym: "WorldWide Antimalarial Resistance Network" EXACT []
+synonym: "WWARN" EXACT []
+is_a: VBcv:0001114 ! academic network
+
+[Term]
 id: VBcv:0003922
 name: Ashfaq et al. (2014) COI
 def: "Oligonucleotide primer set for COI locus from Ashfaq (2014).\nCocktail of the following primers:\nLepF1 5'-ATTCAACCAATCATAAAGATATTGG-3'\nLCO1490 5'-GGTCAACAAATCATAAAGATATTGG-3'  \nLepR1 5'-TAAACTTCTGGATGTCCAAAAAATCA-3'\nHCO2198 5'-TAAACTTCAGGGTGACCAAAAAATCA-3'" []
@@ -42684,6 +42691,12 @@ id: VBsp:0003989
 name: north american river otter
 synonym: "Lontra canadensis" EXACT []
 is_a: VBcv:0001006 ! animal
+
+[Term]
+id: VBsp:0003990
+name: Plasmodium falciparum
+def: "Plasmodium falciparum is a unicellular protozoan parasite of humans, and the deadliest species of Plasmodium that cause malaria in humans. It is transmitted through the bite of a female Anopheles mosquito." []
+is_a: VBcv:0000981 ! VectorBase species descriptor
 
 [Term]
 id: VBsp:0003999
