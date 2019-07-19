@@ -8006,22 +8006,16 @@ is_a: VBcv:0000696 ! geolocation descriptor
 
 [Term]
 id: VBcv:0001141
-name: inferred by curator
+name: estimated by curator
 def: "The location coordinates were determined by the curator, e.g. by finding a midpoint on a map, or using a geo-lookup service." []
 synonym: "IC" BROAD []
-is_a: VBcv:0001139 ! geolocation provenance
-
-[Term]
-id: VBcv:0001142
-name: provided by author
-def: "The location coordinates were provided by the author or data submitter" []
-synonym: "IA" BROAD []
+synonym: "inferred by curator" BROAD []
 is_a: VBcv:0001139 ! geolocation provenance
 
 [Term]
 id: VBcv:0001143
-name: extracted from publication
-def: "Location coordinates are provided in the publication" []
+name: provided
+def: "Geolocation provided in publication or by data submitter" []
 synonym: "IP" BROAD []
 is_a: VBcv:0001139 ! geolocation provenance
 
@@ -8068,28 +8062,41 @@ def: "0.000001 decimal degrees,  11.13 cm at the equator" []
 is_a: VBcv:0001149 ! 5 decimal places or better precision
 
 [Term]
-id: VBcv:0001151
-name: geolocation accuracy
-is_a: VBcv:0000696 ! geolocation descriptor
-
-[Term]
-id: VBcv:0001152
-name: accurate
-def: "Geolocations that have been determined by on-site GPS readings.\n\n(Even if they have been stored with reduced precision for obfuscation purposes.)" []
-is_a: VBcv:0001151 ! geolocation accuracy
-
-[Term]
-id: VBcv:0001153
-name: inaccurate
-def: "Geolocations that have been determined by guesswork or geocoding" []
-is_a: VBcv:0001151 ! geolocation accuracy
-
-[Term]
 id: VBcv:0001154
 name: The WorldWide Antimalarial Resistance Network
 synonym: "WorldWide Antimalarial Resistance Network" EXACT []
 synonym: "WWARN" EXACT []
 is_a: VBcv:0001114 ! academic network
+
+[Term]
+id: VBcv:0001155
+name: provided and obfuscated
+def: "Geolocation coordinates have been obfuscated by decimal point truncation, arbitrarily or algorithmically picking the center of a village or administrative region, or by another method." []
+is_a: VBcv:0001143 ! provided
+
+[Term]
+id: VBcv:0001156
+name: estimated from country information or better
+def: "Geolocation estimated by curator using country information. Usually this means an arbitrary or centroid location within that country, or the results of a geocoding service." []
+is_a: VBcv:0001141 ! estimated by curator
+
+[Term]
+id: VBcv:0001157
+name: estimated from administrative region 1 information or better
+def: "Geolocation estimated by curator using GADM administrative region level 1 information. Usually this means an arbitrary or centroid location within that region, or the results of a geocoding service." []
+is_a: VBcv:0001156 ! estimated from country information or better
+
+[Term]
+id: VBcv:0001158
+name: estimated from administrative region 2 information or better
+def: "Geolocation estimated by curator using GADM administrative region level 2 information. Usually this means an arbitrary or centroid location within that region, or the results of a geocoding service." []
+is_a: VBcv:0001157 ! estimated from administrative region 1 information or better
+
+[Term]
+id: VBcv:0001159
+name: estimated from street address/local landmark information
+def: "Geolocation estimated by curator using a local landmark or street address information. Usually this will be the result of a geocoding service." []
+is_a: VBcv:0001158 ! estimated from administrative region 2 information or better
 
 [Term]
 id: VBcv:0003922
