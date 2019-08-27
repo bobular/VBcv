@@ -8013,9 +8013,14 @@ synonym: "inferred by curator" BROAD []
 is_a: VBcv:0001139 ! geolocation provenance
 
 [Term]
+id: VBcv:0001142
+name: North Dakota Department of Health
+is_a: VBcv:0001102 ! government health or environmental agency
+
+[Term]
 id: VBcv:0001143
 name: provided
-def: "Geolocation provided in publication or by data submitter" []
+def: "As provided in publication or by data submitter" []
 synonym: "IP" BROAD []
 is_a: VBcv:0001139 ! geolocation provenance
 
