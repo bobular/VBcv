@@ -41762,16 +41762,16 @@ is_a: VBsp:0003653 ! Culicinae
 
 [Term]
 id: VBsp:0003829
-name: Anopheles gambiae
+name: Anopheles gambiae sensu stricto
 alt_id: MIRO:40003829
 alt_id: MIRO:40003836
 alt_id: NCBITaxon:7165
 def: "A member species of the species complex Anopheles gambiae sensu lato." [Walter_Reed:taxonomy]
+synonym: "Anopheles gambiae" EXACT []
 synonym: "Anopheles gambiae A" EXACT []
 synonym: "Anopheles gambiae molecular form S" EXACT []
 synonym: "Anopheles gambiae S form " EXACT []
 synonym: "Anopheles gambiae s.s." EXACT []
-synonym: "Anopheles gambiae sensu stricto" EXACT []
 synonym: "Anopheles gambiae ss" EXACT []
 synonym: "S form" EXACT []
 xref: MIRO:40003829
