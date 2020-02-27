@@ -8217,6 +8217,24 @@ def: "Geolocation estimated by curator using a local landmark or street address 
 is_a: VBcv:0001158 ! estimated from administrative region 2 information or better
 
 [Term]
+id: VBcv:0001160
+name: Powell lab and collaborators
+def: "A loose network of researchers using microsatellite markers for Aedes aegypti population genetics." []
+is_a: VBcv:0001114 ! academic network
+
+[Term]
+id: VBcv:0001161
+name: Florida Keys Mosquito Control District
+def: "A mosquito control division that works to protect the public health of Florida Keys residents by reducing and eradicating nuisance and disease transmitting mosquito populations" []
+is_a: VBcv:0001082 ! mosquito abatement district
+
+[Term]
+id: VBcv:0001162
+name: half gravid
+def: "Representing a mid-point in blood digestion and ovarian development" []
+is_a: VBcv:0000837 ! reproductive status of mosquito
+
+[Term]
 id: VBcv:0003922
 name: Ashfaq et al. (2014) COI
 def: "Oligonucleotide primer set for COI locus from Ashfaq (2014).\nCocktail of the following primers:\nLepF1 5'-ATTCAACCAATCATAAAGATATTGG-3'\nLCO1490 5'-GGTCAACAAATCATAAAGATATTGG-3'  \nLepR1 5'-TAAACTTCTGGATGTCCAAAAAATCA-3'\nHCO2198 5'-TAAACTTCAGGGTGACCAAAAAATCA-3'" []
