@@ -8235,6 +8235,12 @@ def: "Representing a mid-point in blood digestion and ovarian development" []
 is_a: VBcv:0000837 ! reproductive status of mosquito
 
 [Term]
+id: VBcv:0001163
+name: Illinois Natural History Survey
+def: "Since 1858, the Illinois Natural History Survey has been the guardian and recorder of the biological resources of Illinois—the state’s biological memory." []
+is_a: VBcv:0001083 ! academic institution
+
+[Term]
 id: VBcv:0003922
 name: Ashfaq et al. (2014) COI
 def: "Oligonucleotide primer set for COI locus from Ashfaq (2014).\nCocktail of the following primers:\nLepF1 5'-ATTCAACCAATCATAAAGATATTGG-3'\nLCO1490 5'-GGTCAACAAATCATAAAGATATTGG-3'  \nLepR1 5'-TAAACTTCTGGATGTCCAAAAAATCA-3'\nHCO2198 5'-TAAACTTCAGGGTGACCAAAAAATCA-3'" []
