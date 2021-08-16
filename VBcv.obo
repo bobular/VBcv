@@ -27965,10 +27965,10 @@ id: VBsp:0002263
 name: Anopheles dirus
 alt_id: MIRO:40002263
 alt_id: NCBITaxon:7168
-def: "A species of subgenus Cellia." [Walter_Reed:taxonomy]
+def: "A subgroup of sibling species in the Anopheles dirus complex." [Walter_Reed:taxonomy]
 xref: MIRO:40002263
 xref: NCBITaxon:7168
-is_a: VBsp:0002217 ! Cellia
+is_a: VBsp:0600009 ! dirus species complex
 
 [Term]
 id: VBsp:0002264
@@ -43407,6 +43407,18 @@ is_a: VBsp:0003933 ! canidae
 id: VBsp:0004055
 name: pig
 is_a: VBsp:0003921 ! ungulate
+
+[Term]
+id: VBsp:0600009
+name: dirus species complex
+def: "A species complex of subgenus Cellia." []
+is_a: VBsp:0002217 ! Cellia
+
+[Term]
+id: VBsp:0600010
+name: Anopheles baimaii
+def: "A species of subgenus Cellia." []
+is_a: VBsp:0002217 ! Cellia
 
 [Typedef]
 id: is_a
