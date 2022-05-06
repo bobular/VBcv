@@ -8402,6 +8402,11 @@ synonym: "Kyoto stock center" RELATED []
 is_obsolete: true
 
 [Term]
+id: VBcv:0600060
+name: nymph
+is_a: VBcv:0000927 ! developmental stage
+
+[Term]
 id: VBsp:0000000
 name: genus Bironella
 alt_id: MIRO:40000000
@@ -43421,200 +43426,195 @@ def: "A species of subgenus Cellia." []
 is_a: VBsp:0002217 ! Cellia
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBcv:0600060
-name: nymph
-is_a: VBcv:0000927 ! developmental stage
-
-[Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600019
+id: VBsp:0600019
 name: Ixodes pacificus
 is_a: VBsp:0004045 ! genus Ixodes
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600020
+id: VBsp:0600020
 name: genus Rhipicephalus
-is_a: http://purl.obolibrary.org/obo/VBsp:0600027 ! Rhipicephalinae
+is_a: VBsp:0600027 ! Rhipicephalinae
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600021
+id: VBsp:0600021
 name: Rhipicephalus sanguineus
-is_a: http://purl.obolibrary.org/obo/VBsp:0600020 ! genus Rhipicephalus
+is_a: VBsp:0600020 ! genus Rhipicephalus
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600022
+id: VBsp:0600022
 name: genus Amblyomma
-is_a: http://purl.obolibrary.org/obo/VBsp:0600026 ! Amblyomminae
+is_a: VBsp:0600026 ! Amblyomminae
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600023
+id: VBsp:0600023
 name: Amblyomma americanum
-is_a: http://purl.obolibrary.org/obo/VBsp:0600022 ! genus Amblyomma
+is_a: VBsp:0600022 ! genus Amblyomma
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600024
+id: VBsp:0600024
 name: Amblyomma maculatum
-is_a: http://purl.obolibrary.org/obo/VBsp:0600022 ! genus Amblyomma
+is_a: VBsp:0600022 ! genus Amblyomma
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600025
+id: VBsp:0600025
 name: Amblyomma cajennense
-is_a: http://purl.obolibrary.org/obo/VBsp:0600022 ! genus Amblyomma
+is_a: VBsp:0600022 ! genus Amblyomma
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600026
+id: VBsp:0600026
 name: Amblyomminae
 is_a: VBsp:0004043 ! Ixodidae
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600027
+id: VBsp:0600027
 name: Rhipicephalinae
 is_a: VBsp:0004043 ! Ixodidae
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600028
+id: VBsp:0600028
 name: genus Dermacentor
-is_a: http://purl.obolibrary.org/obo/VBsp:0600027 ! Rhipicephalinae
+is_a: VBsp:0600027 ! Rhipicephalinae
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600029
+id: VBsp:0600029
 name: Dermacentor variabilis
-is_a: http://purl.obolibrary.org/obo/VBsp:0600028 ! genus Dermacentor
+is_a: VBsp:0600028 ! genus Dermacentor
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600030
+id: VBsp:0600030
 name: Dermacentor occidentalis
-is_a: http://purl.obolibrary.org/obo/VBsp:0600028 ! genus Dermacentor
+is_a: VBsp:0600028 ! genus Dermacentor
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600031
+id: VBsp:0600031
 name: Dermacentor andersoni
-is_a: http://purl.obolibrary.org/obo/VBsp:0600028 ! genus Dermacentor
+is_a: VBsp:0600028 ! genus Dermacentor
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600032
+id: VBsp:0600032
 name: Bacteria
 is_a: VBcv:0000981 ! VectorBase species descriptor
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600033
+id: VBsp:0600033
 name: Spirochaetes
-is_a: http://purl.obolibrary.org/obo/VBsp:0600032 ! Bacteria
+is_a: VBsp:0600032 ! Bacteria
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600034
+id: VBsp:0600034
 name: Spirochaetia
-is_a: http://purl.obolibrary.org/obo/VBsp:0600033 ! Spirochaetes
+is_a: VBsp:0600033 ! Spirochaetes
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600035
+id: VBsp:0600035
 name: Spirochaetales
-is_a: http://purl.obolibrary.org/obo/VBsp:0600034 ! Spirochaetia
+is_a: VBsp:0600034 ! Spirochaetia
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600036
+id: VBsp:0600036
 name: Borreliaceae
-is_a: http://purl.obolibrary.org/obo/VBsp:0600035 ! Spirochaetales
+is_a: VBsp:0600035 ! Spirochaetales
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600037
+id: VBsp:0600037
 name: Borreliella burgdorferi
 synonym: "Borrelia burgdorferi" EXACT []
-is_a: http://purl.obolibrary.org/obo/VBsp:0600038 ! Borreliella
+is_a: VBsp:0600038 ! Borreliella
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600038
+id: VBsp:0600038
 name: Borreliella
-is_a: http://purl.obolibrary.org/obo/VBsp:0600036 ! Borreliaceae
+is_a: VBsp:0600036 ! Borreliaceae
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600039
+id: VBsp:0600039
 name: Borrelia
-is_a: http://purl.obolibrary.org/obo/VBsp:0600036 ! Borreliaceae
+is_a: VBsp:0600036 ! Borreliaceae
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600040
+id: VBsp:0600040
 name: Borrelia miyamotoi
-is_a: http://purl.obolibrary.org/obo/VBsp:0600039 ! Borrelia
+is_a: VBsp:0600039 ! Borrelia
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600041
+id: VBsp:0600041
 name: Proteobacteria
-is_a: http://purl.obolibrary.org/obo/VBsp:0600032 ! Bacteria
+is_a: VBsp:0600032 ! Bacteria
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600042
+id: VBsp:0600042
 name: Alphaproteobacteria
-is_a: http://purl.obolibrary.org/obo/VBsp:0600041 ! Proteobacteria
+is_a: VBsp:0600041 ! Proteobacteria
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600043
+id: VBsp:0600043
 name: Rickettsiales
-is_a: http://purl.obolibrary.org/obo/VBsp:0600042 ! Alphaproteobacteria
+is_a: VBsp:0600042 ! Alphaproteobacteria
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600044
+id: VBsp:0600044
 name: Anaplasmataceae
-is_a: http://purl.obolibrary.org/obo/VBsp:0600043 ! Rickettsiales
+is_a: VBsp:0600043 ! Rickettsiales
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600045
+id: VBsp:0600045
 name: Anaplasma
-is_a: http://purl.obolibrary.org/obo/VBsp:0600044 ! Anaplasmataceae
+is_a: VBsp:0600044 ! Anaplasmataceae
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600046
+id: VBsp:0600046
 name: phagocytophilum group
-is_a: http://purl.obolibrary.org/obo/VBsp:0600045 ! Anaplasma
+is_a: VBsp:0600045 ! Anaplasma
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600047
+id: VBsp:0600047
 name: Anaplasma phagocytophilum
-is_a: http://purl.obolibrary.org/obo/VBsp:0600046 ! phagocytophilum group
+is_a: VBsp:0600046 ! phagocytophilum group
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600048
+id: VBsp:0600048
 name: Eukaryota
 is_a: VBcv:0000981 ! VectorBase species descriptor
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600049
+id: VBsp:0600049
 name: Sar
-is_a: http://purl.obolibrary.org/obo/VBsp:0600048 ! Eukaryota
+is_a: VBsp:0600048 ! Eukaryota
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600050
+id: VBsp:0600050
 name: Alveolata
-is_a: http://purl.obolibrary.org/obo/VBsp:0600049 ! Sar
+is_a: VBsp:0600049 ! Sar
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600051
+id: VBsp:0600051
 name: Apicomplexa
-is_a: http://purl.obolibrary.org/obo/VBsp:0600050 ! Alveolata
+is_a: VBsp:0600050 ! Alveolata
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600052
+id: VBsp:0600052
 name: Aconoidasida
-is_a: http://purl.obolibrary.org/obo/VBsp:0600051 ! Apicomplexa
+is_a: VBsp:0600051 ! Apicomplexa
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600053
+id: VBsp:0600053
 name: Piroplasmida
-is_a: http://purl.obolibrary.org/obo/VBsp:0600052 ! Aconoidasida
+is_a: VBsp:0600052 ! Aconoidasida
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600054
+id: VBsp:0600054
 name: Babesiidae
-is_a: http://purl.obolibrary.org/obo/VBsp:0600053 ! Piroplasmida
+is_a: VBsp:0600053 ! Piroplasmida
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600055
+id: VBsp:0600055
 name: Babesia
-is_a: http://purl.obolibrary.org/obo/VBsp:0600054 ! Babesiidae
+is_a: VBsp:0600054 ! Babesiidae
 
 [Term]
-id: http://purl.obolibrary.org/obo/VBsp:0600056
+id: VBsp:0600056
 name: Babesia microti
-is_a: http://purl.obolibrary.org/obo/VBsp:0600055 ! Babesia
+is_a: VBsp:0600055 ! Babesia
 
 [Typedef]
 id: is_a
