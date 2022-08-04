@@ -43616,6 +43616,56 @@ id: VBsp:0600056
 name: Babesia microti
 is_a: VBsp:0600055 ! Babesia
 
+[Term]
+id: VBsp:0600062
+name: Dermacentor reticulatus
+is_a: VBsp:0600028 ! genus Dermacentor
+
+[Term]
+id: VBsp:0600063
+name: Ixodes ricinus
+is_a: VBsp:0004045 ! genus Ixodes
+
+[Term]
+id: VBsp:0600064
+name: Rickettsiaceae
+is_a: VBsp:0600043 ! Rickettsiales
+
+[Term]
+id: VBsp:0600065
+name: Rickettsieae
+is_a: VBsp:0600064 ! Rickettsiaceae
+
+[Term]
+id: VBsp:0600066
+name: Rickettsia
+is_a: VBsp:0600065 ! Rickettsieae
+
+[Term]
+id: VBsp:0600068
+name: Ixodes cookei
+is_a: VBsp:0004045 ! genus Ixodes
+
+[Term]
+id: VBsp:0600070
+name: Haemaphysalinae
+is_a: VBsp:0004043 ! Ixodidae
+
+[Term]
+id: VBsp:0600071
+name: Haemaphysalis
+is_a: VBsp:0600070 ! Haemaphysalinae
+
+[Term]
+id: VBsp:0600072
+name: Haemaphysalis longicornis
+is_a: VBsp:0600071 ! Haemaphysalis
+
+[Term]
+id: VBsp:0600073
+name: Babesia divergens
+is_a: VBsp:0600055 ! Babesia
+
 [Typedef]
 id: is_a
 
