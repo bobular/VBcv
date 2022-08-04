@@ -8412,7 +8412,7 @@ name: established population
 is_a: VBcv:0000846 ! sample descriptor
 
 [Term]
-id: VBscv:0600077
+id: VBcv:0600077
 name: reported population
 is_a: VBcv:0000846 ! sample descriptor
 
