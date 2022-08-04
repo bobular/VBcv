@@ -8407,6 +8407,16 @@ name: nymph
 is_a: VBcv:0000927 ! developmental stage
 
 [Term]
+id: VBcv:0600076
+name: established population
+is_a: VBcv:0000846 ! sample descriptor
+
+[Term]
+id: VBscv:0600077
+name: reported population
+is_a: VBcv:0000846 ! sample descriptor
+
+[Term]
 id: VBsp:0000000
 name: genus Bironella
 alt_id: MIRO:40000000
