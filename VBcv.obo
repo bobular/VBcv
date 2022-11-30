@@ -8417,6 +8417,11 @@ name: reported population
 is_a: VBcv:0000846 ! sample descriptor
 
 [Term]
+id: VBcv:0600082
+name: status of population endemicity
+is_a: VBcv:0000846 ! sample descriptor
+
+[Term]
 id: VBsp:0000000
 name: genus Bironella
 alt_id: MIRO:40000000
