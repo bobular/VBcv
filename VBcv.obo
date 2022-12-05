@@ -9978,7 +9978,7 @@ is_a: VBsp:0000070 ! Nyssorhynchus
 
 [Term]
 id: VBsp:0000165
-name: Anopheles nuneztovari
+name: Anopheles nuneztovari sensu lato
 alt_id: MIRO:40000165
 alt_id: NCBITaxon:30067
 def: "A species of subgenus Nyssorhynchus." [Walter_Reed:taxonomy]
@@ -43680,6 +43680,11 @@ is_a: VBsp:0600071 ! Haemaphysalis
 id: VBsp:0600073
 name: Babesia divergens
 is_a: VBsp:0600055 ! Babesia
+
+[Term]
+id: VBsp:0600083
+name: Anopheles nuneztovari
+is_a: VBsp:0000165 ! Anopheles nuneztovari sensu lato
 
 [Typedef]
 id: is_a
