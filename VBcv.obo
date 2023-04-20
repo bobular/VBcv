@@ -43761,6 +43761,21 @@ id: VBsp:0600104
 name: Borrelia afzelii
 is_a: VBsp:0600039 ! Borrelia
 
+[Term]
+id: VBsp:0600106
+name: Heartland virus
+is_a: VBcv:0000981 ! VectorBase species descriptor
+
+[Term]
+id: VBsp:0600107
+name: Powassan virus
+is_a: VBcv:0000981 ! VectorBase species descriptor
+
+[Term]
+id: VBsp:0600108
+name: Anopheles benarrochi B
+is_a: VBsp:0000153 ! Anopheles benarrochi
+
 [Typedef]
 id: is_a
 
