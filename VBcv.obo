@@ -43776,6 +43776,11 @@ id: VBsp:0600108
 name: Anopheles benarrochi B
 is_a: VBsp:0000153 ! Anopheles benarrochi
 
+[Term]
+id: VBsp:0600117
+name: Ixodes marxi
+is_a: VBsp:0004045 ! genus Ixodes
+
 [Typedef]
 id: is_a
 
