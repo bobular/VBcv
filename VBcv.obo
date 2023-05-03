@@ -43781,6 +43781,21 @@ id: VBsp:0600117
 name: Ixodes marxi
 is_a: VBsp:0004045 ! genus Ixodes
 
+[Term]
+id: VBsp:0600118
+name: Rickettsia rickettsii
+is_a: VBsp:0600066 ! Rickettsia
+
+[Term]
+id: VBsp:0600119
+name: Francisella tularensis
+is_a: VBsp:0600032 ! Bacteria
+
+[Term]
+id: VBsp:0600120
+name: Ehrlichia
+is_a: VBsp:0600044 ! Anaplasmataceae
+
 [Typedef]
 id: is_a
 
