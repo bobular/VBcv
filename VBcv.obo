@@ -8,7 +8,6 @@ subsetdef: deprecated "warning of impending obsoletion"
 default-namespace: VectorBase miscellaneous CV
 remark: from VectorBase cv $Revision: 0.16 $
 ontology: TEMP
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace>))\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000915> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000915> \"VBcv:0000915\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000915> \"Deprecated alt_id\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000917> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000917> \"VBcv:0000917\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000917> \"Deprecated alt_id 2\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000928> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000928> \"VBcv:0000928\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000928> \"Deprecated alt_id 3\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000929> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000929> \"VBcv:0000929\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000929> \"Deprecated alt_id 4\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000930> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000930> \"VBcv:0000930\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000930> \"Deprecated alt_id 5\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000931> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000931> \"VBcv:0000931\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000931> \"Deprecated alt_id 6\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000932> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000932> \"VBcv:0000932\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000932> \"Deprecated alt_id 7\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000956> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000956> \"VBcv:0000956\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000956> \"Deprecated alt_id 8\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000957> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000957> \"VBcv:0000957\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000957> \"Deprecated alt_id 9\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000959> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000959> \"VBcv:0000959\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000959> \"Deprecated alt_id 10\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000960> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000960> \"VBcv:0000960\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000960> \"Deprecated alt_id 11\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000964> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000964> \"VBcv:0000964\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000964> \"Deprecated alt_id 12\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000967> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000967> \"VBcv:0000967\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000967> \"Deprecated alt_id 13\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000969> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000969> \"VBcv:0000969\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000969> \"Deprecated alt_id 14\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBsp_0000066> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBsp_0000066> \"VBsp:0000066\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBsp_0000066> \"Deprecated VBsp alt_id 1\"^^xsd:string)\n)
 
 [Term]
 id: VBcv:0000000
@@ -6597,7 +6596,9 @@ creation_date: 2013-04-30T11:21:29Z
 
 [Term]
 id: VBcv:0000915
+name: Deprecated alt_id
 is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
 
 [Term]
 id: VBcv:0000916
@@ -6609,7 +6610,9 @@ creation_date: 2013-04-30T11:21:29Z
 
 [Term]
 id: VBcv:0000917
+name: Deprecated alt_id 2
 is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
 
 [Term]
 id: VBcv:0000918
@@ -6693,23 +6696,33 @@ creation_date: 2013-04-30T11:21:29Z
 
 [Term]
 id: VBcv:0000928
+name: Deprecated alt_id 3
 is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
 
 [Term]
 id: VBcv:0000929
+name: Deprecated alt_id 4
 is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
 
 [Term]
 id: VBcv:0000930
+name: Deprecated alt_id 5
 is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
 
 [Term]
 id: VBcv:0000931
+name: Deprecated alt_id 6
 is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
 
 [Term]
 id: VBcv:0000932
+name: Deprecated alt_id 7
 is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
 
 [Term]
 id: VBcv:0000933
@@ -6909,11 +6922,15 @@ creation_date: 2013-04-30T11:34:53Z
 
 [Term]
 id: VBcv:0000956
+name: Deprecated alt_id 8
 is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
 
 [Term]
 id: VBcv:0000957
+name: Deprecated alt_id 9
 is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
 
 [Term]
 id: VBcv:0000958
@@ -6929,11 +6946,15 @@ creation_date: 2013-04-30T11:34:53Z
 
 [Term]
 id: VBcv:0000959
+name: Deprecated alt_id 10
 is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
 
 [Term]
 id: VBcv:0000960
+name: Deprecated alt_id 11
 is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
 
 [Term]
 id: VBcv:0000961
@@ -6962,7 +6983,9 @@ creation_date: 2013-04-30T11:34:53Z
 
 [Term]
 id: VBcv:0000964
+name: Deprecated alt_id 12
 is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
 
 [Term]
 id: VBcv:0000965
@@ -6992,7 +7015,9 @@ creation_date: 2013-04-30T11:37:48Z
 
 [Term]
 id: VBcv:0000967
+name: Deprecated alt_id 13
 is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
 
 [Term]
 id: VBcv:0000968
@@ -7009,7 +7034,9 @@ creation_date: 2013-04-30T11:37:48Z
 
 [Term]
 id: VBcv:0000969
+name: Deprecated alt_id 14
 is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
 
 [Term]
 id: VBcv:0000970
@@ -8395,6 +8422,11 @@ name: status of population endemicity
 is_a: VBcv:0000846 ! sample descriptor
 
 [Term]
+id: VBcv:0600152
+name: Saint Joseph County Department of Health
+is_a: VBcv:0001102 ! government health or environmental agency
+
+[Term]
 id: VBsp:0000000
 name: genus Bironella
 alt_id: MIRO:40000000
@@ -9002,7 +9034,9 @@ is_a: VBsp:0000016 ! Anopheles
 
 [Term]
 id: VBsp:0000066
+name: Deprecated VBsp alt_id 1
 is_a: VBcv:0000138 ! Deprecated alt_ids
+is_obsolete: true
 
 [Term]
 id: VBsp:0000067
@@ -43423,7 +43457,7 @@ is_a: VBsp:0600027 ! Rhipicephalinae
 
 [Term]
 id: VBsp:0600021
-name: Rhipicephalus sanguineus
+name: Rhipicephalus sanguineus sensu lato
 is_a: VBsp:0600020 ! genus Rhipicephalus
 
 [Term]
@@ -43766,6 +43800,161 @@ is_a: VBsp:0600032 ! Bacteria
 id: VBsp:0600120
 name: Ehrlichia
 is_a: VBsp:0600044 ! Anaplasmataceae
+
+[Term]
+id: VBsp:0600121
+name: Ixodes arboricola
+is_a: VBsp:0004045 ! genus Ixodes
+
+[Term]
+id: VBsp:0600122
+name: Dermacentor marginatus
+is_a: VBsp:0600028 ! genus Dermacentor
+
+[Term]
+id: VBsp:0600123
+name: Hyalomminae
+is_a: VBsp:0004043 ! Ixodidae
+
+[Term]
+id: VBsp:0600124
+name: genus Hyalomma
+is_a: VBsp:0600123 ! Hyalomminae
+
+[Term]
+id: VBsp:0600125
+name: Hyalomma marginatum
+is_a: VBsp:0600124 ! genus Hyalomma
+
+[Term]
+id: VBsp:0600126
+name: Ixodes acuminatus
+is_a: VBsp:0004045 ! genus Ixodes
+
+[Term]
+id: VBsp:0600127
+name: Ixodes frontalis
+is_a: VBsp:0004045 ! genus Ixodes
+
+[Term]
+id: VBsp:0600128
+name: Haemaphysalis punctata
+is_a: VBsp:0600071 ! Haemaphysalis
+
+[Term]
+id: VBsp:0600129
+name: Rhipicephalus sanguineus sensu stricto
+is_a: VBsp:0600021 ! Rhipicephalus sanguineus sensu lato
+
+[Term]
+id: VBsp:0600130
+name: Haemaphysalis inermis
+is_a: VBsp:0600071 ! Haemaphysalis
+
+[Term]
+id: VBsp:0600131
+name: Haemaphysalis concinna
+is_a: VBsp:0600071 ! Haemaphysalis
+
+[Term]
+id: VBsp:0600132
+name: Ixodes lividus
+is_a: VBsp:0004045 ! genus Ixodes
+
+[Term]
+id: VBsp:0600133
+name: Hyalomma aegyptium
+is_a: VBsp:0600124 ! genus Hyalomma
+
+[Term]
+id: VBsp:0600134
+name: Hyalomma asiaticum
+is_a: VBsp:0600124 ! genus Hyalomma
+
+[Term]
+id: VBsp:0600135
+name: Hyalomma excavatum
+is_a: VBsp:0600124 ! genus Hyalomma
+
+[Term]
+id: VBsp:0600136
+name: Haemaphisalis sulcata
+is_a: VBsp:0600071 ! Haemaphysalis
+
+[Term]
+id: VBsp:0600137
+name: Rhipicephalus bursa
+is_a: VBsp:0600020 ! genus Rhipicephalus
+
+[Term]
+id: VBsp:0600138
+name: Rhipicephalus turanicus
+is_a: VBsp:0600020 ! genus Rhipicephalus
+
+[Term]
+id: VBsp:0600139
+name: Ixodes ariadnae
+is_a: VBsp:0004045 ! genus Ixodes
+
+[Term]
+id: VBsp:0600140
+name: Ixodes persulcatus
+is_a: VBsp:0004045 ! genus Ixodes
+
+[Term]
+id: VBsp:0600141
+name: Hyalomma rufipes
+is_a: VBsp:0600124 ! genus Hyalomma
+
+[Term]
+id: VBsp:0600142
+name: Ixodes gibbosus
+is_a: VBsp:0004045 ! genus Ixodes
+
+[Term]
+id: VBsp:0600143
+name: Rhipicephalus pusillus
+is_a: VBsp:0600020 ! genus Rhipicephalus
+
+[Term]
+id: VBsp:0600144
+name: Hyalomma dromedarii
+is_a: VBsp:0600124 ! genus Hyalomma
+
+[Term]
+id: VBsp:0600145
+name: Hyalomma impeltatum
+is_a: VBsp:0600124 ! genus Hyalomma
+
+[Term]
+id: VBsp:0600146
+name: Hyalomma truncatum
+is_a: VBsp:0600124 ! genus Hyalomma
+
+[Term]
+id: VBsp:0600147
+name: Rhipicephalus annulatus
+is_a: VBsp:0600020 ! genus Rhipicephalus
+
+[Term]
+id: VBsp:0600148
+name: Rhipicephalus pulchellus
+is_a: VBsp:0600020 ! genus Rhipicephalus
+
+[Term]
+id: VBsp:0600149
+name: Ixodes ventalloi
+is_a: VBsp:0004045 ! genus Ixodes
+
+[Term]
+id: VBsp:0600150
+name: Hyalomma lusitanicum
+is_a: VBsp:0600124 ! genus Hyalomma
+
+[Term]
+id: VBsp:0600151
+name: Ixodes inopinatus
+is_a: VBsp:0004045 ! genus Ixodes
 
 [Typedef]
 id: is_a
