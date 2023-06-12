@@ -8,6 +8,7 @@ subsetdef: deprecated "warning of impending obsoletion"
 default-namespace: VectorBase miscellaneous CV
 remark: from VectorBase cv $Revision: 0.16 $
 ontology: TEMP
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace>))\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000915> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000915> \"VBcv:0000915\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000915> \"Deprecated alt_id\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000917> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000917> \"VBcv:0000917\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000917> \"Deprecated alt_id 2\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000928> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000928> \"VBcv:0000928\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000928> \"Deprecated alt_id 3\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000929> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000929> \"VBcv:0000929\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000929> \"Deprecated alt_id 4\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000930> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000930> \"VBcv:0000930\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000930> \"Deprecated alt_id 5\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000931> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000931> \"VBcv:0000931\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000931> \"Deprecated alt_id 6\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000932> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000932> \"VBcv:0000932\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000932> \"Deprecated alt_id 7\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000956> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000956> \"VBcv:0000956\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000956> \"Deprecated alt_id 8\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000957> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000957> \"VBcv:0000957\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000957> \"Deprecated alt_id 9\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000959> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000959> \"VBcv:0000959\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000959> \"Deprecated alt_id 10\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000960> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000960> \"VBcv:0000960\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000960> \"Deprecated alt_id 11\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000964> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000964> \"VBcv:0000964\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000964> \"Deprecated alt_id 12\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000967> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000967> \"VBcv:0000967\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000967> \"Deprecated alt_id 13\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBcv_0000969> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBcv_0000969> \"VBcv:0000969\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBcv_0000969> \"Deprecated alt_id 14\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/VBsp_0000066> \"VectorBase miscellaneous CV\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/VBsp_0000066> \"VBsp:0000066\"^^xsd:string)\nAnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/VBsp_0000066> \"Deprecated VBsp alt_id 1\"^^xsd:string)\n)
 
 [Term]
 id: VBcv:0000000
@@ -6596,9 +6597,7 @@ creation_date: 2013-04-30T11:21:29Z
 
 [Term]
 id: VBcv:0000915
-name: Deprecated alt_id
 is_a: VBcv:0000138 ! Deprecated alt_ids
-is_obsolete: true
 
 [Term]
 id: VBcv:0000916
@@ -6610,9 +6609,7 @@ creation_date: 2013-04-30T11:21:29Z
 
 [Term]
 id: VBcv:0000917
-name: Deprecated alt_id 2
 is_a: VBcv:0000138 ! Deprecated alt_ids
-is_obsolete: true
 
 [Term]
 id: VBcv:0000918
@@ -6696,33 +6693,23 @@ creation_date: 2013-04-30T11:21:29Z
 
 [Term]
 id: VBcv:0000928
-name: Deprecated alt_id 3
 is_a: VBcv:0000138 ! Deprecated alt_ids
-is_obsolete: true
 
 [Term]
 id: VBcv:0000929
-name: Deprecated alt_id 4
 is_a: VBcv:0000138 ! Deprecated alt_ids
-is_obsolete: true
 
 [Term]
 id: VBcv:0000930
-name: Deprecated alt_id 5
 is_a: VBcv:0000138 ! Deprecated alt_ids
-is_obsolete: true
 
 [Term]
 id: VBcv:0000931
-name: Deprecated alt_id 6
 is_a: VBcv:0000138 ! Deprecated alt_ids
-is_obsolete: true
 
 [Term]
 id: VBcv:0000932
-name: Deprecated alt_id 7
 is_a: VBcv:0000138 ! Deprecated alt_ids
-is_obsolete: true
 
 [Term]
 id: VBcv:0000933
@@ -6922,15 +6909,11 @@ creation_date: 2013-04-30T11:34:53Z
 
 [Term]
 id: VBcv:0000956
-name: Deprecated alt_id 8
 is_a: VBcv:0000138 ! Deprecated alt_ids
-is_obsolete: true
 
 [Term]
 id: VBcv:0000957
-name: Deprecated alt_id 9
 is_a: VBcv:0000138 ! Deprecated alt_ids
-is_obsolete: true
 
 [Term]
 id: VBcv:0000958
@@ -6946,15 +6929,11 @@ creation_date: 2013-04-30T11:34:53Z
 
 [Term]
 id: VBcv:0000959
-name: Deprecated alt_id 10
 is_a: VBcv:0000138 ! Deprecated alt_ids
-is_obsolete: true
 
 [Term]
 id: VBcv:0000960
-name: Deprecated alt_id 11
 is_a: VBcv:0000138 ! Deprecated alt_ids
-is_obsolete: true
 
 [Term]
 id: VBcv:0000961
@@ -6983,9 +6962,7 @@ creation_date: 2013-04-30T11:34:53Z
 
 [Term]
 id: VBcv:0000964
-name: Deprecated alt_id 12
 is_a: VBcv:0000138 ! Deprecated alt_ids
-is_obsolete: true
 
 [Term]
 id: VBcv:0000965
@@ -7015,9 +6992,7 @@ creation_date: 2013-04-30T11:37:48Z
 
 [Term]
 id: VBcv:0000967
-name: Deprecated alt_id 13
 is_a: VBcv:0000138 ! Deprecated alt_ids
-is_obsolete: true
 
 [Term]
 id: VBcv:0000968
@@ -7034,9 +7009,7 @@ creation_date: 2013-04-30T11:37:48Z
 
 [Term]
 id: VBcv:0000969
-name: Deprecated alt_id 14
 is_a: VBcv:0000138 ! Deprecated alt_ids
-is_obsolete: true
 
 [Term]
 id: VBcv:0000970
@@ -9029,9 +9002,7 @@ is_a: VBsp:0000016 ! Anopheles
 
 [Term]
 id: VBsp:0000066
-name: Deprecated VBsp alt_id 1
 is_a: VBcv:0000138 ! Deprecated alt_ids
-is_obsolete: true
 
 [Term]
 id: VBsp:0000067
